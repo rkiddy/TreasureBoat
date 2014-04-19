@@ -7,6 +7,8 @@ TreasureBoat v.0.1 (MileStone 1)
 * WOLips (under Development)
 * Maven Project (FluffyBunny is Legacy)
 
+※ for more Information see [Wiki](https://github.com/rkiddy/TreasureBoat/wiki).
+
 ###Contact
 * [Mailing list](https://groups.google.com/d/forum/treasureboat)
 * [Google +](https://plus.google.com/u/0/communities/107985167507976376896)
