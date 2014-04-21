@@ -1,0 +1,45 @@
+<project name="TreasureBoat" default="jar" basedir=".">
+
+    <description>
+        TreasureBoat - the new thing.
+    </description>
+
+    <property name="src" location="Sources" />
+    <property name="build" location="build" />
+    <property name="dist"  location="dist" />
+
+    <!-- Yes, this dir should be put into a property. Will do. -->
+
+    <path id="class.path">
+        <fileset dir="/Library/WebObjects/Versions/WebObjects543/Library/Frameworks">
+            <include name="JavaEOControl.framework/Resources/Java/javaeocontrol.jar" />
+            <include name="JavaWebObjects.framework/Resources/Java/javawebobjects.jar" />
+            <include name="JavaEOProject.framework/Resources/Java/javaeoproject.jar" />
+            <include name="JavaXML.framework/Resources/Java/javaxml.jar" />
+            <include name="JavaJDBCAdaptor.framework/Resources/Java/javajdbcadaptor.jar" />
+            <include name="JavaFoundation.framework/Resources/Java/javafoundation.jar" />
+            <include name="JavaEOAccess.framework/Resources/Java/javaeoaccess.jar" />
+            <include name="JavaWOExtensions.framework/Resources/Java/javawoextensions.jar" />
+        </fileset>
+    </path>
+
+    <target name="init">
+        <tstamp/>
+        <mkdir dir="${build}" />
+    </target>
+
+    <target name="compile" depends="init">
+        <javac srcdir="${src}" destdir="${build}" classpathref="class.path" includeantruntime="true" debug="true" />
+    </target>
+
+    <!-- was using: manifest="manifest.txt" on jar task -->
+
+    <target name="jar" depends="compile">
+        <jar jarfile="${dist}/TreasureBoat.jar" basedir="${build}" manifest="manifest.txt" />
+    </target>
+
+    <target name="clean">
+        <delete dir="${build}" />
+        <delete dir="${dist}" />
+    </target>
+</project>

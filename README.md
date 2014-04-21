@@ -1,6 +1,10 @@
 TreasureBoat v.0.1 (MileStone 1)
 ============
 
+Initial source for a WOString replacement and a java agent are here in Sources. These
+class-overriding that we want is not yet working. After this works, the code will be
+moved around into a more extensible arrangement, with multiple frameworks and so on.
+
 ###Important
 * Eclipse 4.3.2
 * Java 8
