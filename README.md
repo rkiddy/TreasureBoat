@@ -26,12 +26,32 @@ Until we decide on a license, see above. -rrk
 * [GitHub](https://github.com/rkiddy/TreasureBoat)
 * Skype Channel : TresureBoat
 
-###To Do
+###Frameworks for TreasureBoat
+
+* JavaWebObjects,  JavaEOAccess, JavaEOControl, JavaFoundation, JavaJDBCAdaptor, JavaXML (???)
+
+###Frameworks for TreasureMap 1
+
+* TBWebCore (we have the Name now, after some testing and decisions the empty Framework will be created)  
+* TBFoundation (more about that in upcoming Mail, Ken will create an example)  
+* TBLibrary (more about that in upcoming Mail, Ken will create an example)  
+
+###To Do - TreasureBoat
+
 * decide on which license to use.
 * write a "Contributor's Agreement" and get signed copies before commits occur.
 * get WOLips to use the frameworks in $TB_PROJECT/dist instead of the legacy frameworks.
   (For example, this would enable getting rid of the HelloBoatExe script.)
 * finish the classes and the resources in the JavaWebObjects framework and then move on to
-  the frameworks: JavaEOAccess, JavaEOControl, JavaFoundation, JavaJDBCAdaptor, JavaXML (???)
+  the other frameworks.
 * would it not be nice to have a smarter way to package auxiliary resources than JavaXML.jar?
+
+###To Do - TreasureMap
+
+* create Sample (working on that Ray & Ken)
+* move/create TBLibrary, TBFoundation, TBContentDelivery (working on that Ken)
+* think about Licenses like CDL v.3 ??
+* create RoadMap MileStone 2
+* add WOInjection to TB
+* start delegate work
 
