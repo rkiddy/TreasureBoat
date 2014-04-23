@@ -21,12 +21,20 @@ moved around into a more extensible arrangement, with multiple frameworks and so
 * [GitHub](https://github.com/rkiddy/TreasureBoat)
 * Skype Channel : TresureBoat
 
+###Frameworks for TreasureMap 1
+
+* TBWebCore (we have the Name now, after some testing and decisions the empty Framework will be created)  
+* TBFoundation (more about that in upcoming Mail, Ken will create an example)  
+* TBLibrary (more about that in upcoming Mail, Ken will create an example)  
+
+
+
+
 ###To Do
-* define Name for JavaWebObjects replacement
+* create Sample (working on that Ray & Ken)
+* move/create TBLibrary, TBFoundation, TBContentDelivery (working on that Ken)
+
 * think about Licenses like CDL v.3 ??
 * create RoadMap MileStone 2
-* create Sample
-* move/create TBLibrary, TBFoundation, TBContentDelivery
 * add WOInjection to TB
-* create Icon’s and Images
 * start delegate work
