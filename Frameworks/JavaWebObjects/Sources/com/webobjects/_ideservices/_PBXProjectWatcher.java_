@@ -1,0 +1,15 @@
+Compiled from "_PBXProjectWatcher.java"
+public class com.webobjects._ideservices._PBXProjectWatcher {
+  public com.webobjects._ideservices._PBXProjectWatcher();
+  public static com.webobjects.foundation.NSArray openProjectsAppropriateForFile(java.lang.String);
+  public static com.webobjects.foundation.NSArray targetsInProjectContainingFile(java.lang.String, java.lang.String);
+  public static com.webobjects.foundation.NSArray<java.lang.String> targetsInProject(java.lang.String);
+  public static java.lang.String nameOfProject(java.lang.String);
+  public static void addFilesToProjectNearFilePreferredInsertionGroupNameAddToTargetsCopyIntoGroupFolderCreateGroupsRecursively(com.webobjects.foundation.NSArray, java.lang.String, java.lang.String, java.lang.String, com.webobjects.foundation.NSArray, boolean, boolean);
+  public static com.webobjects.foundation.NSArray<java.lang.String> filesOfTypesInTargetOfProject(com.webobjects.foundation.NSArray<java.lang.String>, java.lang.String, java.lang.String);
+  public static java.lang.String nameOfTargetInProject(java.lang.String, java.lang.String);
+  public static void openFile(java.lang.String, int, java.lang.String);
+  public static void addGroup(java.lang.String, java.lang.String, java.lang.String, java.lang.String);
+  public static void addGroupToPreferredInsertionGroup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String);
+  static {};
+}

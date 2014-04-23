@@ -1,0 +1,15 @@
+Compiled from "WOAdaptor.java"
+public abstract class com.webobjects.appserver.WOAdaptor {
+  protected static final int DefaultListenQueueSize;
+  protected static final java.lang.Class[] _ConstructorParametersTypes;
+  protected int _port;
+  public com.webobjects.appserver.WOAdaptor(java.lang.String, com.webobjects.foundation.NSDictionary);
+  public void runOnce();
+  public boolean doesBusyRunOnce();
+  public boolean dispatchesRequestsConcurrently();
+  public int port();
+  public abstract void registerForEvents();
+  public abstract void unregisterForEvents();
+  public java.lang.String toString();
+  static {};
+}

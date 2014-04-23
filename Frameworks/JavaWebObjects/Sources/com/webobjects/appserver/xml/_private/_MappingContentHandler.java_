@@ -1,0 +1,19 @@
+Compiled from "_MappingContentHandler.java"
+public class com.webobjects.appserver.xml._private._MappingContentHandler extends com.webobjects.appserver.xml._private._DecodingContentHandler {
+  protected int _currentSize;
+  protected char[] _currentChars;
+  protected int _parsedObjectIndex;
+  protected java.lang.String[] _parsedTags;
+  protected boolean[] _parsedObjectHadAttributes;
+  protected com.webobjects.foundation.NSMutableDictionary<java.lang.String, java.lang.Object>[] _contentsContainer;
+  protected int _currentLength;
+  public com.webobjects.appserver.xml._private._MappingContentHandler(com.webobjects.appserver.xml._private._WOXMLMappingDecoder);
+  public com.webobjects.appserver.xml._private._WOXMLMappingDecoder decoder();
+  protected void addValueToKeyInContainer(java.lang.Object, java.lang.String, com.webobjects.foundation.NSMutableDictionary<java.lang.String, java.lang.Object>);
+  protected void addValueToXMLTagInContainer(java.lang.Object, java.lang.String, java.lang.String, com.webobjects.foundation.NSMutableDictionary<java.lang.String, java.lang.Object>);
+  protected void addValueToContents(java.lang.Object, java.lang.String, com.webobjects.foundation.NSMutableDictionary<java.lang.String, java.lang.Object>);
+  public void startElement(java.lang.String, java.lang.String, java.lang.String, org.xml.sax.Attributes) throws org.xml.sax.SAXException;
+  public void endElement(java.lang.String, java.lang.String, java.lang.String) throws org.xml.sax.SAXException;
+  public void characters(char[], int, int);
+  public java.lang.Object root();
+}

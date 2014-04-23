@@ -1,0 +1,7 @@
+Compiled from "WOSize.java"
+public class com.webobjects.appserver._private.WOSize {
+  int width;
+  int height;
+  protected com.webobjects.appserver._private.WOSize(int, int);
+  public java.lang.String toString();
+}

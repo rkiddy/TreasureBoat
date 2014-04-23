@@ -1,0 +1,15 @@
+Compiled from "WOEvent.java"
+public class com.webobjects.appserver.WOEvent extends com.webobjects.eocontrol.EOEvent {
+  protected java.lang.String _componentName;
+  protected java.lang.String _pageName;
+  public static final int ComponentSignature;
+  public static final int PageSignature;
+  public static final int AssociationSignature;
+  public com.webobjects.appserver.WOEvent();
+  public void setComponentName(java.lang.String);
+  public void setPageName(java.lang.String);
+  public java.lang.String title();
+  public java.lang.String comment();
+  public java.lang.String signatureOfType(int);
+  public java.lang.String toString();
+}

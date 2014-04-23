@@ -1,0 +1,112 @@
+#!/bin/sh
+
+# Created an empty project called "HelloBoat" and used this script in the
+# HelloBoat.woa directory to launch the app.
+
+# If you are going to use this, you will obviously need to set the variables
+# here to reasonable values.
+
+TB_PROJECT="/home/ray/Projects/TreasureBoat"
+HB_PROJECT="/home/ray/Projects/HelloBoat"
+WO_FRAMEWORKS="/Library/WebObjects/Versions/WebObjects543/Library/Frameworks"
+WOWO_FRAMEWORKS="/Library/WebObjects/Versions/WebObjects543/Local/Library/Frameworks"
+fRJ="framework/Resources/Java"
+
+CP="$HB_PROJECT/build/HelloBoat.woa/Contents/Resources/Java"
+CP="$CP:$WOWO_FRAMEWORKS/ERExtensions.$fRJ/ERExtensions.jar"
+CP="$CP:$WOWO_FRAMEWORKS/ERJars.$fRJ/ERJars.jar"
+CP="$CP:$WOWO_FRAMEWORKS/ERJars.$fRJ/ERFoundation.jar"
+CP="$CP:$WOWO_FRAMEWORKS/ERJars.$fRJ/ERWebObjects.jar"
+CP="$CP:$WOWO_FRAMEWORKS/ERJars.$fRJ/commons-cli-1.2.jar"
+CP="$CP:$WOWO_FRAMEWORKS/ERJars.$fRJ/commons-codec-1.6.jar"
+CP="$CP:$WOWO_FRAMEWORKS/ERJars.$fRJ/commons-io-2.2.jar"
+CP="$CP:$WOWO_FRAMEWORKS/ERJars.$fRJ/commons-lang-2.6.jar"
+CP="$CP:$WOWO_FRAMEWORKS/ERJars.$fRJ/commons-logging-1.1.3.jar"
+CP="$CP:$WOWO_FRAMEWORKS/ERJars.$fRJ/erxservletadaptor.jar"
+CP="$CP:$WOWO_FRAMEWORKS/ERJars.$fRJ/fluent-hc-4.3.1.jar"
+CP="$CP:$WOWO_FRAMEWORKS/ERJars.$fRJ/httpclient-4.3.1.jar"
+CP="$CP:$WOWO_FRAMEWORKS/ERJars.$fRJ/httpclient-cache-4.3.1.jar"
+CP="$CP:$WOWO_FRAMEWORKS/ERJars.$fRJ/httpcore-4.3.jar"
+CP="$CP:$WOWO_FRAMEWORKS/ERJars.$fRJ/httpmime-4.3.1.jar"
+CP="$CP:$WOWO_FRAMEWORKS/ERJars.$fRJ/icu4j-3_8_1.jar"
+CP="$CP:$WOWO_FRAMEWORKS/ERJars.$fRJ/joda-time-2.3.jar"
+CP="$CP:$WOWO_FRAMEWORKS/ERJars.$fRJ/junit-4.10.jar"
+CP="$CP:$WOWO_FRAMEWORKS/ERJars.$fRJ/log4j-1.2.17.jar"
+CP="$CP:$WOWO_FRAMEWORKS/ERJars.$fRJ/ognl-2.6.7.jar"
+CP="$CP:$WOWO_FRAMEWORKS/ERJars.$fRJ/slf4j-api-1.7.5.jar"
+CP="$CP:$WOWO_FRAMEWORKS/ERJars.$fRJ/slf4j-log4j12-1.7.5.jar"
+CP="$CP:$WOWO_FRAMEWORKS/ERPrototypes.$fRJ/ERPrototypes.jar"
+CP="$CP:$WOWO_FRAMEWORKS/JavaWOExtensions.$fRJ/JavaWOExtensions.jar"
+CP="$CP:$WOWO_FRAMEWORKS/WOOgnl.$fRJ/WOOgnl.jar"
+CP="$CP:$WO_FRAMEWORKS/JavaEOAccess.$fRJ/javaeoaccess.jar"
+CP="$CP:$WO_FRAMEWORKS/JavaEOControl.$fRJ/javaeocontrol.jar"
+CP="$CP:$WO_FRAMEWORKS/JavaFoundation.$fRJ/javafoundation.jar"
+CP="$CP:$WO_FRAMEWORKS/JavaJDBCAdaptor.$fRJ/javajdbcadaptor.jar"
+CP="$CP:$TB_PROJECT/dist/JavaWebObjects.$fRJ/javawebobjects.jar"
+CP="$CP:$WO_FRAMEWORKS/JavaXML.$fRJ/javaxml.jar"
+
+# WAS: CP="$CP:$WO_FRAMEWORKS/JavaWebObjects.$fRJ/javawebobjects.jar"
+
+# CP="$CP:$TB_PROJECT/dist/TreasureBoat.jar"
+
+#
+# -javaagent:$TB_PROJECT/dist/TreasureBoat.jar
+#
+
+/usr/lib/jvm/java-6-openjdk-amd64/bin/java \
+  -DWORoot=/System \
+  -DWORootDirectory=/System \
+  -DWOUserDirectory=$HB_PROJECT/build/HelloBoat.woa \
+  -DNSProjectSearchPath='(..,../..)' \
+  -DNSProjectBundleEnabled=true \
+  -Dfile.encoding=UTF-8 \
+  -classpath $CP \
+  org.boat.Application \
+  -WOPort 55555 \
+  -DWORoot=/System \
+  -DWORootDirectory=/System \
+  -DWOUserDirectory=/home/ray/Projects/HelloBoat/build/HelloBoat.woa \
+  -EOAdaptorDebugEnabled false \
+  -DNSProjectSearchPath '(..,../..)' \
+  -WOAcceptMalformedCookies false \
+  -WOAdaptorURL http://127.0.0.1/cgi-bin/WebObjects \
+  -WOAdditionalAdaptors '()' \
+  -WOAllowRapidTurnaround true \
+  -WOAllowsCacheControlHeader true \
+  -WOAllowsConcurrentRequestHandling false \
+  -WOAutoOpenClientApplication true \
+  -WOAutoOpenInBrowser true \
+  -WOApplicationBaseURL /WebObjects \
+  -WOApplicationClassName org.boat.Application \
+  -WOCachingEnabled false \
+  -WOContextClassName WOContext \
+  -WODebuggingEnabled true \
+  -WOAdaptor WODefaultAdaptor \
+  -WODefaultUndoStackLimit 10 \
+  -WODirectConnectEnabled true \
+  -WODisplayExceptionPages true \
+  -WOHost 127.0.0.1 \
+  -WOIDE WOLips \
+  -NSOpenProjectIDE WOLips \
+  -WOFrameworksBaseURL /WebObjects/Frameworks \
+  -WOGenerateWSDL true \
+  -WOIncludeCommentsInResponse false \
+  -WOLifebeatDestinationPort 1085 \
+  -WOLifebeatEnabled true \
+  -WOLifebeatInterval 30 \
+  -WOListenQueueSize 128 \
+  -WOMaxHeaders 200 \
+  -WOMaxIOBufferSize 8196 
+  -WOMaxSocketIdleTime 180000 \
+  -WOMissingResourceSearchEnabled true \
+  -WOMonitorEnabled false \
+  -WOSessionTimeOut 3600 \
+  -WOSessionStoreClassName WOServerSessionStore \
+  -WOSMTPHost smtp \
+  -WOSocketCacheSize 100 \
+  -WOSocketMonitorSleepTime 50 \
+  -WOWorkerThreadCount 8 \
+  -WOWorkerThreadCountMin 16 \
+  -WOWorkerThreadCountMax 256 \
+  -DNSProjectBundleEnabled true
+

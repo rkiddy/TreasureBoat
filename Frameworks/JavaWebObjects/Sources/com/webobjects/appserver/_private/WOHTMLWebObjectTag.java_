@@ -1,0 +1,5 @@
+Compiled from "WOHTMLWebObjectTag.java"
+public class com.webobjects.appserver._private.WOHTMLWebObjectTag extends com.webobjects.appserver.parser.WOHTMLWebObjectTag {
+  public com.webobjects.appserver._private.WOHTMLWebObjectTag();
+  public com.webobjects.appserver._private.WOHTMLWebObjectTag(java.lang.String, com.webobjects.appserver._private.WOHTMLWebObjectTag) throws com.webobjects.appserver.parser.WOHTMLFormatException;
+}

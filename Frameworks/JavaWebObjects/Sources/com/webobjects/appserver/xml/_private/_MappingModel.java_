@@ -1,0 +1,39 @@
+Compiled from "_MappingModel.java"
+public class com.webobjects.appserver.xml._private._MappingModel implements com.webobjects.foundation.NSKeyValueCoding {
+  public static final int OUTPUT_CLASS_TAG;
+  public static final int OUTPUT_PROPERTY_TAG;
+  public static final int OUTPUT_BOTH_TAGS;
+  public static final int OUTPUT_NEITHER_TAG;
+  static final java.lang.String OUTPUT_CLASS_TAG_STRING;
+  static final java.lang.String OUTPUT_PROPERTY_TAG_STRING;
+  static final java.lang.String OUTPUT_BOTH_TAG_STRING;
+  static final java.lang.String OUTPUT_NEITHER_TAG_STRING;
+  public com.webobjects.appserver.xml._private._MappingModel();
+  public static com.webobjects.appserver.xml._private._WOXMLMappingDecoder mappingModelDecoder();
+  public void registerDescriptor(com.webobjects.appserver.xml._private._MappingModel$EntityMappingDescriptor);
+  public void setDescriptors(com.webobjects.foundation.NSArray);
+  public com.webobjects.foundation.NSArray descriptors();
+  protected java.lang.String classNameForXMLTag(java.lang.String);
+  public boolean hasMappingForXMLTag(java.lang.String);
+  protected java.lang.String propertyKeyForXMLTag(java.lang.String, java.lang.String);
+  public java.lang.String xmlTagForClassNamed(java.lang.String);
+  protected com.webobjects.appserver.xml._private._MappingModel$KeyMappingDescriptor keyMappingDescriptor(java.lang.String, java.lang.String);
+  public java.lang.String xmlTagForPropertyKey(java.lang.String, java.lang.String);
+  protected boolean forceListForPropertyKey(java.lang.String, java.lang.String);
+  protected boolean reportEmptyValuesForPropertyKey(java.lang.String, java.lang.String);
+  public boolean codeBasedOnClassForPropertyKey(java.lang.String, java.lang.String);
+  public int outputTagsForPropertyKey(java.lang.String, java.lang.String);
+  public java.lang.String xmlTagForPropertyKeyInXMLTag(java.lang.String, java.lang.String);
+  public java.util.Enumeration attributeKeysForClassNamed(java.lang.String);
+  public java.util.Enumeration attributeKeysForXMLTag(java.lang.String);
+  public java.util.Enumeration contentsKeysForClassNamed(java.lang.String);
+  public java.util.Enumeration contentsKeysForXMLTag(java.lang.String);
+  protected java.lang.String unmappedTagsKeyForXMLTag(java.lang.String);
+  protected java.lang.String contentsKeyForXMLTag(java.lang.String);
+  protected boolean ignoreUnmappedTagsForXMLTag(java.lang.String);
+  public static com.webobjects.appserver.xml._private._MappingModel mappingModelWithXMLFile(java.lang.String);
+  public static com.webobjects.appserver.xml._private._MappingModel mappingModelWithXMLFileUsingParser(java.lang.String);
+  public static com.webobjects.appserver.xml._private._MappingModel mappingModelWithXMLFileUsingXMLReader(java.lang.String);
+  public java.lang.Object valueForKey(java.lang.String);
+  public void takeValueForKey(java.lang.Object, java.lang.String);
+}

@@ -1,0 +1,21 @@
+Compiled from "_WOXMLMappingDecoder.java"
+public class com.webobjects.appserver.xml._private._WOXMLMappingDecoder extends com.webobjects.appserver.xml.WOXMLDecoder {
+  static final java.lang.Object UNMAPPED_KEY;
+  static final java.lang.Object CONTENTS_KEY;
+  protected com.webobjects.foundation.NSMutableDictionary _collectedValues;
+  static final java.lang.Class[] _xmlDecodingConstructorArg;
+  protected java.lang.String classNameForXMLTag(java.lang.String);
+  protected java.lang.String propertyKeyForXMLTag(java.lang.String, java.lang.String);
+  protected boolean forceListForPropertyKey(java.lang.String, java.lang.String);
+  protected boolean reportEmptyValuesForPropertyKey(java.lang.String, java.lang.String);
+  protected boolean ignoreUnmappedTagsForXMLTag(java.lang.String);
+  protected java.lang.String contentsKeyForXMLTag(java.lang.String);
+  protected com.webobjects.appserver.xml._private._DecodingHandler handler();
+  protected com.webobjects.appserver.xml._private._DecodingContentHandler contentHandler();
+  protected java.lang.Class classForXMLTag(java.lang.String);
+  java.lang.Object newInstance(java.lang.String, com.webobjects.foundation.NSMutableDictionary);
+  public com.webobjects.appserver.xml._private._WOXMLMappingDecoder(com.webobjects.appserver.xml._private._MappingModel);
+  public com.webobjects.appserver.xml._private._WOXMLMappingDecoder(java.lang.String);
+  public java.lang.Object decodeObjectForKey(java.lang.String);
+  static {};
+}

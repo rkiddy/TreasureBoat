@@ -1,0 +1,7 @@
+Compiled from "WOResourceURL.java"
+public class com.webobjects.appserver._private.WOResourceURL extends com.webobjects.appserver._private.WOHTMLURLValuedElement {
+  public com.webobjects.appserver._private.WOResourceURL(java.lang.String, com.webobjects.foundation.NSDictionary<java.lang.String, com.webobjects.appserver.WOAssociation>, com.webobjects.appserver.WOElement);
+  public java.lang.String urlAttributeName();
+  public java.lang.String valueAttributeName();
+  public void appendToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+}

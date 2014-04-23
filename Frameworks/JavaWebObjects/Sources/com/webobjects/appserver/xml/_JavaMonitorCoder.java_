@@ -1,0 +1,10 @@
+Compiled from "_JavaMonitorCoder.java"
+public class com.webobjects.appserver.xml._JavaMonitorCoder extends com.webobjects.appserver.xml.WOXMLCoder {
+  static com.webobjects.foundation.NSTimestampFormatter dateFormatter;
+  protected void appendAttribute(java.lang.String, java.lang.String);
+  protected void encodeStringInTag(java.lang.String, java.lang.String, java.lang.String);
+  public com.webobjects.appserver.xml._JavaMonitorCoder();
+  public void encodeObjectForKey(java.lang.Object, java.lang.String);
+  protected void appendTypeAndObjectID(java.lang.String);
+  static {};
+}

@@ -1,0 +1,8 @@
+Compiled from "WOHTMLBareStringReabable.java"
+public class com.webobjects.appserver.parser.woml.WOHTMLBareStringReabable extends com.webobjects.appserver._private.WOHTMLBareString {
+  public com.webobjects.appserver.parser.woml.WOHTMLBareStringReabable(java.lang.String);
+  public java.lang.String getString();
+  public void setString(java.lang.String);
+  public void appendString(java.lang.String);
+  public void appendToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+}

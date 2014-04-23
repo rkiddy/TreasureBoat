@@ -1,0 +1,7 @@
+Compiled from "WOMLNamespaceProvider.java"
+public interface com.webobjects.appserver.parser.woml.WOMLNamespaceProvider {
+  public abstract com.webobjects.appserver.parser.woml.WOMLNamespace getDefaultNamespace();
+  public abstract com.webobjects.appserver.parser.woml.WOMLNamespace getNamespace(java.lang.String);
+  public abstract java.util.Collection<com.webobjects.appserver.parser.woml.WOMLNamespace> getNamespaces();
+  public abstract java.lang.String getNamespaceId(com.webobjects.appserver.parser.woml.WOMLNamespace);
+}

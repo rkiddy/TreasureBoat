@@ -1,0 +1,9 @@
+Compiled from "WOMLNamespaced.java"
+public class com.webobjects.appserver.parser.woml.WOMLNamespaced {
+  public com.webobjects.appserver.parser.woml.WOMLNamespaced(java.util.Map<java.lang.String, java.lang.String>, java.lang.String, java.lang.String, java.lang.String);
+  public boolean hasNamespace();
+  public boolean isNamespace(java.lang.String);
+  public java.lang.String getNamespace();
+  public java.lang.String getName();
+  public java.lang.String getQName();
+}

@@ -1,0 +1,11 @@
+Compiled from "WORecording.java"
+public class com.webobjects.appserver._private.WORecording {
+  public java.lang.String toString();
+  public com.webobjects.appserver._private.WORecording() throws java.io.IOException;
+  public void saveRequest(com.webobjects.appserver.WORequest) throws java.io.IOException;
+  public java.lang.String _stringByReplacingInString(java.lang.String, java.lang.String, java.lang.String);
+  public void saveResponse(com.webobjects.appserver.WOResponse) throws java.io.IOException;
+  public void applicationWillDispatchRequest(com.webobjects.foundation.NSNotification);
+  public void applicationDidDispatchRequest(com.webobjects.foundation.NSNotification);
+  static {};
+}

@@ -1,0 +1,13 @@
+Compiled from "WOStatelessComponentParent.java"
+public class com.webobjects.appserver._private.WOStatelessComponentParent extends com.webobjects.appserver.WOComponent {
+  static final long serialVersionUID;
+  public com.webobjects.appserver._private.WOStatelessComponentParent(com.webobjects.appserver.WOContext);
+  public boolean synchronizesVariablesWithBindings();
+  public com.webobjects.foundation.NSArray<java.lang.String> bindingKeys();
+  public com.webobjects.appserver.WOAssociation _associationWithName(java.lang.String);
+  public boolean canGetValueForBinding(java.lang.String);
+  public boolean canSetValueForBinding(java.lang.String);
+  public boolean hasBinding(java.lang.String);
+  public java.lang.Object valueForBinding(java.lang.String);
+  public void setValueForBinding(java.lang.Object, java.lang.String);
+}

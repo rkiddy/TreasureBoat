@@ -1,0 +1,6 @@
+Compiled from "WOArchiveSupport.java"
+public class com.webobjects.appserver._private.WOArchiveSupport {
+  public com.webobjects.appserver._private.WOArchiveSupport();
+  public static void initializeObjectFromArchive(java.lang.Object, com.webobjects.foundation.NSDictionary);
+  public static com.webobjects.foundation.NSDictionary parseArchiveAtPathURL(com.webobjects.foundation.NSDictionary, java.net.URL, boolean);
+}

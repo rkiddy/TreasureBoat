@@ -1,0 +1,9 @@
+Compiled from "WODefaultExceptions.java"
+public class com.webobjects.appserver._private.WODefaultExceptions {
+  public com.webobjects.appserver._private.WODefaultExceptions();
+  public static final com.webobjects.appserver.WOResponse defaultWOSessionCreationError(java.lang.Exception);
+  public static final com.webobjects.appserver.WOResponse defaultWOSessionRestorationError(java.lang.Exception);
+  public static final com.webobjects.appserver.WOResponse defaultWOPageRestorationError(java.lang.Exception);
+  public static final com.webobjects.appserver.WOResponse defaultWOExceptionPage(java.lang.Exception);
+  public java.lang.String toString();
+}

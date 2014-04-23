@@ -1,0 +1,12 @@
+Compiled from "WOMLElementNode.java"
+public class com.webobjects.appserver.parser.woml.WOMLElementNode extends com.webobjects.appserver.parser.woml.WOMLParentNode {
+  public com.webobjects.appserver.parser.woml.WOMLElementNode(com.webobjects.appserver.parser.woml.WOMLPosition, com.webobjects.appserver.parser.woml.WOMLElement);
+  public com.webobjects.appserver.parser.woml.WOMLElement getElement();
+  public java.lang.String getName();
+  public com.webobjects.appserver.parser.woml.WOMLAttributeMap getAttributes();
+  public boolean getHasDynamicAttributes();
+  public boolean getHasNamespaces();
+  public java.lang.String getTagStartText();
+  public java.lang.String getTagEndText();
+  public java.lang.String toString();
+}

@@ -1,0 +1,11 @@
+Compiled from "WOURLEncoder.java"
+public class com.webobjects.appserver._private.WOURLEncoder {
+  public static final java.lang.String PARAM_WOURLENCODING;
+  public static java.lang.String WO_URL_ENCODING;
+  public com.webobjects.appserver._private.WOURLEncoder();
+  public static java.lang.String encode(java.lang.String);
+  public static java.lang.String encode(java.lang.String, java.lang.String);
+  public static java.lang.String encodeAsCGIFormValues(com.webobjects.foundation.NSDictionary<java.lang.String, java.lang.Object>);
+  public static java.lang.String encodeAsCGIFormValues(com.webobjects.foundation.NSDictionary<java.lang.String, java.lang.Object>, boolean);
+  static {};
+}

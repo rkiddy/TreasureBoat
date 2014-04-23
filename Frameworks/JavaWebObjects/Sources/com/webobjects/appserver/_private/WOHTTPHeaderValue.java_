@@ -1,0 +1,15 @@
+Compiled from "WOHTTPHeaderValue.java"
+public class com.webobjects.appserver._private.WOHTTPHeaderValue implements com.webobjects.foundation.NSDisposable {
+  public com.webobjects.appserver._private.WOHTTPHeaderValue();
+  public com.webobjects.appserver._private.WOHTTPHeaderValue(java.lang.String);
+  public void dispose();
+  public void set(byte[], int, int);
+  public com.webobjects.foundation.NSData _data();
+  protected boolean equals(com.webobjects.appserver._private.WOHTTPHeaderValue);
+  public boolean equals(java.lang.Object);
+  protected char[] uppercase();
+  protected char[] lowercase();
+  public boolean equalsIgnoreCase(com.webobjects.appserver._private.WOHTTPHeaderValue);
+  public java.lang.String toString();
+  public java.lang.String description();
+}

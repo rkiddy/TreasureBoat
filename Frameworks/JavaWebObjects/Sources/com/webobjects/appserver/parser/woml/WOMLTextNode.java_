@@ -1,0 +1,9 @@
+Compiled from "WOMLTextNode.java"
+public class com.webobjects.appserver.parser.woml.WOMLTextNode extends com.webobjects.appserver.parser.woml.WOMLNode {
+  public com.webobjects.appserver.parser.woml.WOMLTextNode(com.webobjects.appserver.parser.woml.WOMLPosition);
+  public java.lang.StringBuilder getBuffer();
+  public java.lang.String getText();
+  public void setText(java.lang.String);
+  public java.lang.String getOutputText();
+  public java.lang.String toString();
+}

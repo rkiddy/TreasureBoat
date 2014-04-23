@@ -1,0 +1,7 @@
+Compiled from "_JavaMonitorDecoder.java"
+public class com.webobjects.appserver.xml._JavaMonitorDecoder extends com.webobjects.appserver.xml.WOXMLDecoder {
+  public com.webobjects.appserver.xml._JavaMonitorDecoder();
+  protected java.lang.String getChildNodeType(com.webobjects.appserver.xml._private._DecodingNode);
+  protected java.lang.Object _decodeString(com.webobjects.appserver.xml._private._DecodingNode, java.lang.Class);
+  protected void addObjectToCache(com.webobjects.appserver.xml._private._DecodingNode, java.lang.Object);
+}

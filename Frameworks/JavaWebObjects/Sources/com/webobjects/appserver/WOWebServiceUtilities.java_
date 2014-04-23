@@ -1,0 +1,15 @@
+Compiled from "WOWebServiceUtilities.java"
+public class com.webobjects.appserver.WOWebServiceUtilities {
+  public static final java.lang.String WebServiceOperationAttributesKey;
+  public com.webobjects.appserver.WOWebServiceUtilities();
+  public static void _setEngine(org.apache.axis.AxisEngine);
+  public static com.webobjects.appserver.WOContext currentWOContext();
+  public static javax.xml.namespace.QName qNameForType(java.lang.Class, java.lang.String);
+  public static java.lang.String qNameStringForType(java.lang.Class, java.lang.String);
+  public static java.lang.String qNameLocalPartStringForType(java.lang.Class, java.lang.String);
+  public static java.lang.String qNameNamespaceURIStringForType(java.lang.Class, java.lang.String);
+  public static java.lang.Class typeForQName(javax.xml.namespace.QName, java.lang.String);
+  public static java.lang.String _localPartForQName(java.lang.Object);
+  public static java.lang.String _namespaceURIForQName(java.lang.Object);
+  public static javax.xml.namespace.QName _qNameForParts(java.lang.String, java.lang.String);
+}

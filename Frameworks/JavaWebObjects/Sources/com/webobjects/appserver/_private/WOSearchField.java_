@@ -1,0 +1,5 @@
+Compiled from "WOSearchField.java"
+public class com.webobjects.appserver._private.WOSearchField extends com.webobjects.appserver._private.WOTextField {
+  public com.webobjects.appserver._private.WOSearchField(java.lang.String, com.webobjects.foundation.NSDictionary<java.lang.String, com.webobjects.appserver.WOAssociation>, com.webobjects.appserver.WOElement);
+  protected java.lang.String type();
+}

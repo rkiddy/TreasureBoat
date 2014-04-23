@@ -1,0 +1,9 @@
+Compiled from "WOFileCacheManager.java"
+public class com.webobjects.appserver._private.WOFileCacheManager {
+  public com.webobjects.appserver._private.WOFileCacheManager();
+  public java.lang.String toString();
+  public static com.webobjects.appserver._private.WOFileCacheManager manager();
+  public void pathURLWasRead(java.net.URL, java.lang.Object);
+  public boolean hasPathURLBeenModified(java.net.URL, java.lang.Object);
+  static {};
+}

@@ -1,0 +1,21 @@
+Compiled from "WOURLValuedElementData.java"
+public class com.webobjects.appserver._private.WOURLValuedElementData {
+  java.lang.String _key;
+  java.lang.String _mimeType;
+  com.webobjects.foundation.NSData _data;
+  boolean _temporaryKey;
+  static java.util.Random _random;
+  public com.webobjects.appserver._private.WOURLValuedElementData(com.webobjects.foundation.NSData, java.lang.String, java.lang.String);
+  public java.lang.String key();
+  public java.lang.String type();
+  public com.webobjects.foundation.NSData data();
+  public boolean isTemporary();
+  public java.lang.String toString();
+  public void appendToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+  public java.lang.String dataURL(com.webobjects.appserver.WOContext);
+  protected static com.webobjects.foundation.NSData _dataValueInComponent(com.webobjects.appserver.WOAssociation, com.webobjects.appserver.WOComponent);
+  public static java.lang.Object _uvedInComponent(com.webobjects.appserver.WOAssociation, com.webobjects.appserver.WOAssociation, com.webobjects.appserver.WOAssociation, com.webobjects.appserver.WOComponent);
+  protected static java.lang.String _dataURL(com.webobjects.appserver.WOContext, com.webobjects.appserver.WOAssociation, com.webobjects.appserver.WOAssociation, com.webobjects.appserver.WOAssociation, com.webobjects.appserver.WOComponent);
+  public static void _appendDataURLAttributeToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext, com.webobjects.appserver.WOAssociation, com.webobjects.appserver.WOAssociation, com.webobjects.appserver.WOAssociation, java.lang.String, com.webobjects.appserver.WOComponent);
+  static {};
+}

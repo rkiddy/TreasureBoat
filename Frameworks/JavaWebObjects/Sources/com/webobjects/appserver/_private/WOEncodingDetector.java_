@@ -1,0 +1,26 @@
+Compiled from "WOEncodingDetector.java"
+public class com.webobjects.appserver._private.WOEncodingDetector {
+  protected static com.webobjects.appserver._private.WOEncodingDetector WOEncodingDetectorInstance;
+  protected java.lang.String fallbackEncoding;
+  protected com.webobjects.foundation._NSDelegate delegate;
+  protected static boolean is7bitString(byte[], int, int);
+  protected static boolean isISOSequence(byte[], int, boolean);
+  protected static boolean isISO2022JPString(byte[], int, int);
+  protected static boolean isUnicodeString(byte[], int, int);
+  protected static boolean isShiftJISString(byte[], int, int);
+  protected static boolean isJapaneseEUCString(byte[], int, int);
+  protected static boolean isUTF8String(byte[], int, int);
+  public static synchronized com.webobjects.appserver._private.WOEncodingDetector sharedInstance();
+  public com.webobjects.appserver._private.WOEncodingDetector();
+  public java.lang.String fallbackEncoding();
+  public void setFallbackEncoding(java.lang.String);
+  public java.lang.Object delegate();
+  public void setDelegate(java.lang.Object);
+  public java.lang.String guessEncodingForData(com.webobjects.foundation.NSData);
+  public java.lang.String guessEncodingForData(com.webobjects.foundation.NSData, java.lang.String);
+  public java.lang.String guessEncodingForData(byte[]);
+  public java.lang.String guessEncodingForData(byte[], java.lang.String);
+  public boolean couldBeUTF16(byte[], int);
+  public static java.lang.String detectEncodingWithDefaultEncoding(com.webobjects.foundation.NSData, java.lang.String);
+  static {};
+}

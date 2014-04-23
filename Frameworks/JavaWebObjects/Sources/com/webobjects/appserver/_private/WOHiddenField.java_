@@ -1,0 +1,5 @@
+Compiled from "WOHiddenField.java"
+public class com.webobjects.appserver._private.WOHiddenField extends com.webobjects.appserver._private.WOInput {
+  public com.webobjects.appserver._private.WOHiddenField(java.lang.String, com.webobjects.foundation.NSDictionary<java.lang.String, com.webobjects.appserver.WOAssociation>, com.webobjects.appserver.WOElement);
+  protected java.lang.String type();
+}

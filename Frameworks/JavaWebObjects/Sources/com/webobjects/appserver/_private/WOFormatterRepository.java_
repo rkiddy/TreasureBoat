@@ -1,0 +1,12 @@
+Compiled from "WOFormatterRepository.java"
+public class com.webobjects.appserver._private.WOFormatterRepository {
+  public static final java.lang.String DefaultDateFormat;
+  public static final java.lang.String DefaultNumberFormat;
+  public static final java.lang.String DefaultDecimalNumberFormat;
+  public com.webobjects.appserver._private.WOFormatterRepository();
+  public static com.webobjects.foundation.NSNumberFormatter numberFormatterForFormatString(java.lang.String);
+  public static com.webobjects.foundation.NSTimestampFormatter dateFormatterForFormatString(java.lang.String);
+  public static java.text.Format formatterForComponent(com.webobjects.appserver.WOComponent, com.webobjects.appserver.WOAssociation, com.webobjects.appserver.WOAssociation, com.webobjects.appserver.WOAssociation);
+  public static java.text.Format formatterForInstance(java.lang.Object, com.webobjects.appserver.WOComponent, com.webobjects.appserver.WOAssociation, com.webobjects.appserver.WOAssociation, com.webobjects.appserver.WOAssociation);
+  static {};
+}

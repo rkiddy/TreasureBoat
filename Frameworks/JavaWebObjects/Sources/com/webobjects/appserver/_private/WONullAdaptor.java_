@@ -1,0 +1,8 @@
+Compiled from "WONullAdaptor.java"
+public class com.webobjects.appserver._private.WONullAdaptor extends com.webobjects.appserver.WOAdaptor {
+  public com.webobjects.appserver._private.WONullAdaptor(java.lang.String, com.webobjects.foundation.NSDictionary);
+  public boolean dispatchesRequestsConcurrently();
+  public int port();
+  public void registerForEvents();
+  public void unregisterForEvents();
+}

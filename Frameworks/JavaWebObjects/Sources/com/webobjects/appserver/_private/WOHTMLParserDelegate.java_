@@ -1,0 +1,3 @@
+Compiled from "WOHTMLParserDelegate.java"
+public interface com.webobjects.appserver._private.WOHTMLParserDelegate extends com.webobjects.appserver.parser.WOHTMLParserDelegate {
+}

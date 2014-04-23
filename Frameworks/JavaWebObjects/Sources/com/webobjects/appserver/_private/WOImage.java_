@@ -1,0 +1,9 @@
+Compiled from "WOImage.java"
+public class com.webobjects.appserver._private.WOImage extends com.webobjects.appserver._private.WOHTMLURLValuedElement {
+  public com.webobjects.appserver._private.WOImage(java.lang.String, com.webobjects.foundation.NSDictionary<java.lang.String, com.webobjects.appserver.WOAssociation>, com.webobjects.appserver.WOElement);
+  static void _appendFilenameToResponseInContext(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext, com.webobjects.appserver.WOAssociation, com.webobjects.appserver.WOAssociation, com.webobjects.appserver.WOAssociation, com.webobjects.appserver.WOAssociation);
+  static void _appendImageSizetoResponseInContext(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext, com.webobjects.appserver.WOAssociation, com.webobjects.appserver.WOAssociation);
+  protected boolean hasContent();
+  protected void _appendFilenameToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+  public java.lang.String toString();
+}

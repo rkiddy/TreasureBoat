@@ -1,0 +1,19 @@
+Compiled from "WOTimer.java"
+public class com.webobjects.appserver.WOTimer {
+  public static com.webobjects.appserver.WOTimer scheduledTimer(long, java.lang.Object, java.lang.String, java.lang.Object, boolean);
+  public static com.webobjects.appserver.WOTimer scheduledTimer(long, java.lang.Object, java.lang.String, java.lang.Object, java.lang.Class, boolean);
+  public com.webobjects.appserver.WOTimer(long, java.lang.Object, java.lang.String, java.lang.Object, java.lang.Class, boolean);
+  public com.webobjects.appserver.WOTimer(com.webobjects.foundation.NSTimestamp, long, java.lang.Object, java.lang.String, java.lang.Object, java.lang.Class, boolean);
+  public void fire();
+  public com.webobjects.foundation.NSTimestamp fireDate();
+  public double timeInterval();
+  public void invalidate();
+  public boolean isValid();
+  public java.lang.Object userInfo();
+  public java.lang.Object target();
+  public com.webobjects.foundation.NSSelector selector();
+  public void schedule();
+  public java.lang.String toString();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+}

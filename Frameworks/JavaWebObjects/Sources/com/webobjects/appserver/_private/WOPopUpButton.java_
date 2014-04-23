@@ -1,0 +1,14 @@
+Compiled from "WOPopUpButton.java"
+public class com.webobjects.appserver._private.WOPopUpButton extends com.webobjects.appserver._private.WOInputList {
+  protected com.webobjects.appserver.WOAssociation _selection;
+  protected com.webobjects.appserver.WOAssociation _selectedValue;
+  protected com.webobjects.appserver.WOAssociation _noSelectionString;
+  public static final java.lang.String WONoSelectionString;
+  public com.webobjects.appserver._private.WOPopUpButton(java.lang.String, com.webobjects.foundation.NSDictionary<java.lang.String, com.webobjects.appserver.WOAssociation>, com.webobjects.appserver.WOElement);
+  protected boolean hasContent();
+  public java.lang.String toString();
+  public void takeValuesFromRequest(com.webobjects.appserver.WORequest, com.webobjects.appserver.WOContext);
+  public void appendChildrenToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+  protected java.lang.Object selectedInContext(com.webobjects.appserver.WOContext);
+  protected java.lang.String noSelectionStringInContext(com.webobjects.appserver.WOContext);
+}

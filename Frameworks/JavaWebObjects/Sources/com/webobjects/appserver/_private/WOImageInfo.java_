@@ -1,0 +1,15 @@
+Compiled from "WOImageInfo.java"
+public class com.webobjects.appserver._private.WOImageInfo {
+  static com.webobjects.appserver._private.WOCaseInsensitiveDictionary<java.lang.String, java.lang.Class> theSubclassPerExtensionDictionary;
+  public static final com.webobjects.appserver._private.WOImageInfo ImageInfoNotFoundMarker;
+  public com.webobjects.appserver._private.WOImageInfo(java.net.URL) throws java.io.IOException, java.io.FileNotFoundException;
+  public static com.webobjects.foundation.NSArray getSupportedExtensions();
+  public static boolean isSupportedExtension(java.lang.String);
+  public static boolean pathHasSupportedExtension(java.lang.String);
+  public int width();
+  public int height();
+  public java.lang.String widthString();
+  public java.lang.String heightString();
+  public java.lang.String toString();
+  static {};
+}

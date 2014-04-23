@@ -1,0 +1,7 @@
+Compiled from "WOUniqueIDGenerator.java"
+public class com.webobjects.appserver._private.WOUniqueIDGenerator {
+  public static com.webobjects.appserver._private.WOUniqueIDGenerator sharedInstance();
+  public java.lang.String longUniqueID();
+  public java.lang.String longUniqueID(long);
+  static {};
+}

@@ -1,0 +1,6 @@
+Compiled from "_CookieParser.java"
+final class com.webobjects.appserver._CookieParser {
+  com.webobjects.appserver._CookieParser();
+  public static void _parse(java.lang.String, com.webobjects.foundation.NSMutableDictionary<java.lang.String, com.webobjects.foundation.NSMutableArray<java.lang.String>>);
+  public static com.webobjects.foundation.NSDictionary<java.lang.String, com.webobjects.foundation.NSArray<java.lang.String>> parse(java.lang.String);
+}

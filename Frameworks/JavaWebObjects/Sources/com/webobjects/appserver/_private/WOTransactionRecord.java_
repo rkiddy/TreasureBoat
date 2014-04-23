@@ -1,0 +1,19 @@
+Compiled from "WOTransactionRecord.java"
+public class com.webobjects.appserver._private.WOTransactionRecord implements java.io.Serializable {
+  static final long serialVersionUID;
+  protected static long _bounceTimeOut;
+  protected static final long DefaultBounceTimeOut;
+  public com.webobjects.appserver._private.WOTransactionRecord(com.webobjects.appserver.WOComponent, com.webobjects.appserver.WOContext, java.lang.String);
+  public com.webobjects.appserver._private.WOTransactionRecord(com.webobjects.appserver.WOComponent, com.webobjects.appserver.WOContext);
+  public void touch();
+  public boolean isExpired();
+  public java.lang.String key();
+  public com.webobjects.appserver.WOComponent responsePage();
+  public void setResponsePage(com.webobjects.appserver.WOComponent);
+  public boolean isMatchingIDs(com.webobjects.appserver.WOContext);
+  public void setOldPage();
+  public boolean isOldPage();
+  public static void setBounceTimeOut(long);
+  public static long bounceTimeOut();
+  public java.lang.String toString();
+}

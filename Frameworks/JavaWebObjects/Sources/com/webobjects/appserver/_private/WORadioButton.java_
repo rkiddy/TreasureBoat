@@ -1,0 +1,11 @@
+Compiled from "WORadioButton.java"
+public class com.webobjects.appserver._private.WORadioButton extends com.webobjects.appserver._private.WOInput {
+  com.webobjects.appserver.WOAssociation _checked;
+  com.webobjects.appserver.WOAssociation _selection;
+  public com.webobjects.appserver._private.WORadioButton(java.lang.String, com.webobjects.foundation.NSDictionary<java.lang.String, com.webobjects.appserver.WOAssociation>, com.webobjects.appserver.WOElement);
+  protected java.lang.String type();
+  public java.lang.String toString();
+  public void takeValuesFromRequest(com.webobjects.appserver.WORequest, com.webobjects.appserver.WOContext);
+  public void appendAttributesToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+  protected boolean checkedInContext(com.webobjects.appserver.WOContext);
+}

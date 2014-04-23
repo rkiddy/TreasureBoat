@@ -1,0 +1,5 @@
+Compiled from "WOActionURL.java"
+public class com.webobjects.appserver._private.WOActionURL extends com.webobjects.appserver._private.WOHyperlink {
+  public com.webobjects.appserver._private.WOActionURL(java.lang.String, com.webobjects.foundation.NSDictionary<java.lang.String, com.webobjects.appserver.WOAssociation>, com.webobjects.appserver.WOElement);
+  public void appendToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+}

@@ -1,0 +1,34 @@
+Compiled from "WOAssociation.java"
+public abstract class com.webobjects.appserver.WOAssociation implements java.lang.Cloneable {
+  protected boolean _debugEnabled;
+  protected static char _BINDING_KEYPATH_PREFIX;
+  protected static boolean _IsEventLoggingEnabled;
+  public static final java.lang.String ValueForKeyPathEvent;
+  public static final java.lang.String TakeValueForKeyPathEvent;
+  protected com.webobjects.appserver.WOAssociation();
+  public java.lang.Object valueInComponent(com.webobjects.appserver.WOComponent);
+  public boolean booleanValueInComponent(com.webobjects.appserver.WOComponent);
+  public void setValue(java.lang.Object, com.webobjects.appserver.WOComponent);
+  public void _setValueNoValidation(java.lang.Object, com.webobjects.appserver.WOComponent);
+  public boolean isValueSettable();
+  public boolean isValueConstant();
+  public boolean isValueSettableInComponent(com.webobjects.appserver.WOComponent);
+  public boolean isValueConstantInComponent(com.webobjects.appserver.WOComponent);
+  public void setDebugEnabledForBinding(java.lang.String, java.lang.String, java.lang.String);
+  protected java.lang.String _debugDescription();
+  protected void _logPullValue(java.lang.Object, com.webobjects.appserver.WOComponent);
+  protected void _logPushValue(java.lang.Object, com.webobjects.appserver.WOComponent);
+  public abstract java.lang.String keyPath();
+  public abstract java.lang.String bindingInComponent(com.webobjects.appserver.WOComponent);
+  public static com.webobjects.appserver.WOAssociation associationWithValue(java.lang.Object);
+  public static com.webobjects.appserver.WOAssociation associationWithKeyPath(java.lang.String);
+  public boolean _isImplementedForComponent(com.webobjects.appserver.WOComponent);
+  protected boolean _hasBindingInParent(com.webobjects.appserver.WOComponent);
+  public void _setDebuggingEnabled(boolean);
+  public java.lang.String _bindingName();
+  public java.lang.String _declarationName();
+  public java.lang.String _declarationType();
+  protected com.webobjects.appserver.WOAssociation$Event _markStartOfEventIfNeeded(java.lang.String, java.lang.String, com.webobjects.appserver.WOComponent);
+  public java.lang.String toString();
+  static {};
+}

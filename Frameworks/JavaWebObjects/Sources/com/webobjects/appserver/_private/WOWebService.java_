@@ -1,0 +1,29 @@
+Compiled from "WOWebService.java"
+public class com.webobjects.appserver._private.WOWebService extends com.webobjects.appserver.WOAction {
+  static com.webobjects.webservices.support.WOXMLProvider provider;
+  static org.apache.axis.server.AxisServer engine;
+  static boolean typeMappingRegistered;
+  static com.webobjects.foundation._NSReadReentrantReaderWriterLock engineLock;
+  static boolean showWSDL;
+  static javax.xml.transform.TransformerFactory transformerFactory;
+  static com.webobjects.foundation.NSMutableDictionary<java.lang.String, com.webobjects.foundation.NSMutableDictionary<java.lang.String, javax.xml.transform.Transformer>> transformerDict;
+  static javax.xml.transform.Transformer nullTransformer;
+  protected static java.lang.Class<?> D2WSClass;
+  protected static java.lang.reflect.Method D2WSWSDLMethod;
+  static org.w3c.dom.Document getDeploymentDocument();
+  public static void initServer();
+  public static void initTypeMapping();
+  static void initD2WSWSDLStuff();
+  public static void registerService(org.apache.axis.deployment.wsdd.WSDDService);
+  public static void registerTypeMapping(org.apache.axis.deployment.wsdd.WSDDTypeMapping);
+  public static void deregisterServiceWithName(java.lang.String);
+  public static void registerSerializerAndDeserializerFactoriesForClassWithQName(javax.xml.rpc.encoding.SerializerFactory, javax.xml.rpc.encoding.DeserializerFactory, java.lang.Class<?>, javax.xml.namespace.QName);
+  public static void setSecurityDelegate(java.lang.Object);
+  public boolean isServiceD2WebService(java.lang.String) throws org.apache.axis.ConfigurationException;
+  public com.webobjects.appserver._private.WOWebService(com.webobjects.appserver.WORequest);
+  protected java.lang.String defaultActionClassName();
+  public java.lang.String getSessionIDForRequest(com.webobjects.appserver.WORequest);
+  public com.webobjects.appserver.WOActionResults performActionNamed(java.lang.String);
+  public static void registerTransformerForSourceServiceAndOperation(javax.xml.transform.Source, java.lang.String, java.lang.String);
+  static {};
+}

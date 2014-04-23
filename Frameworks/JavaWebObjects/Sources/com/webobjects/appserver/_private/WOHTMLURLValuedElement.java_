@@ -1,0 +1,23 @@
+Compiled from "WOHTMLURLValuedElement.java"
+public abstract class com.webobjects.appserver._private.WOHTMLURLValuedElement extends com.webobjects.appserver._private.WOHTMLDynamicElement {
+  com.webobjects.appserver.WOAssociation _src;
+  com.webobjects.appserver.WOAssociation _value;
+  com.webobjects.appserver.WOAssociation _pageName;
+  com.webobjects.appserver.WOAssociation _filename;
+  com.webobjects.appserver.WOAssociation _framework;
+  com.webobjects.appserver.WOAssociation _data;
+  com.webobjects.appserver.WOAssociation _mimeType;
+  com.webobjects.appserver.WOAssociation _key;
+  com.webobjects.appserver.WOAssociation _queryDictionary;
+  com.webobjects.appserver.WOAssociation _actionClass;
+  com.webobjects.appserver.WOAssociation _directActionName;
+  com.webobjects.foundation.NSDictionary<java.lang.String, com.webobjects.appserver.WOAssociation> _otherQueryAssociations;
+  protected java.lang.String urlAttributeName();
+  protected java.lang.String valueAttributeName();
+  protected com.webobjects.appserver._private.WOHTMLURLValuedElement(java.lang.String, com.webobjects.foundation.NSDictionary<java.lang.String, com.webobjects.appserver.WOAssociation>, com.webobjects.appserver.WOElement);
+  public java.lang.String toString();
+  public com.webobjects.appserver.WOActionResults invokeAction(com.webobjects.appserver.WORequest, com.webobjects.appserver.WOContext);
+  protected java.lang.String _imageURL(com.webobjects.appserver.WOContext);
+  protected void _appendFilenameToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+  public void appendAttributesToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+}

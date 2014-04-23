@@ -1,0 +1,17 @@
+Compiled from "WORepetition.java"
+public class com.webobjects.appserver._private.WORepetition extends com.webobjects.appserver._private.WODynamicGroup {
+  com.webobjects.appserver.WOAssociation _list;
+  com.webobjects.appserver.WOAssociation _item;
+  com.webobjects.appserver.WOAssociation _count;
+  com.webobjects.appserver.WOAssociation _index;
+  public com.webobjects.appserver._private.WORepetition(java.lang.String, com.webobjects.foundation.NSDictionary, com.webobjects.appserver.WOElement);
+  public java.lang.String toString();
+  public void _prepareForIterationWithIndex(int, int, com.webobjects.foundation.NSArray, java.util.List, com.webobjects.appserver.WOContext, com.webobjects.appserver.WOComponent);
+  public void _cleanupAfterIteration(com.webobjects.appserver.WOContext, com.webobjects.appserver.WOComponent, int);
+  public int count(com.webobjects.foundation.NSArray, java.util.List);
+  public void takeValuesFromRequest(com.webobjects.appserver.WORequest, com.webobjects.appserver.WOContext);
+  static java.lang.String _indexStringForSenderAndElement(java.lang.String, java.lang.String);
+  static java.lang.String _indexOfChosenItemForRequestInContext(com.webobjects.appserver.WORequest, com.webobjects.appserver.WOContext);
+  public com.webobjects.appserver.WOActionResults invokeAction(com.webobjects.appserver.WORequest, com.webobjects.appserver.WOContext);
+  public void appendToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+}

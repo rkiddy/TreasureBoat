@@ -1,0 +1,6 @@
+Compiled from "WOBundle.java"
+public class com.webobjects.appserver._private.WOBundle {
+  public static java.lang.Class classForComponentNamedInBundle(java.lang.String, com.webobjects.foundation.NSBundle);
+  public static boolean hasWOComponents(com.webobjects.foundation.NSBundle);
+  public static java.lang.Class lookForClassInAllBundles(java.lang.String);
+}

@@ -1,0 +1,5 @@
+Compiled from "WOHTMLCommentString.java"
+public class com.webobjects.appserver._private.WOHTMLCommentString extends com.webobjects.appserver._private.WOHTMLBareString {
+  public com.webobjects.appserver._private.WOHTMLCommentString(java.lang.String);
+  public void appendToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+}

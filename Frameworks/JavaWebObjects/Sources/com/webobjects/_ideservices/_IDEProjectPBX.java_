@@ -1,0 +1,37 @@
+Compiled from "_IDEProjectPBX.java"
+public class com.webobjects._ideservices._IDEProjectPBX implements com.webobjects._ideservices._IDEProject {
+  public static com.webobjects._ideservices._IDEProjectPBX pbxProjectAtPath(java.lang.String);
+  public com.webobjects._ideservices._IDEProjectPBX(java.lang.String, java.lang.String);
+  public void createTargetList();
+  public java.lang.String projectDir();
+  public java.lang.String projectDirNotNormalized();
+  public java.lang.String projectName();
+  public java.lang.String languageDir();
+  public java.lang.String projectTypeName();
+  public java.lang.String languageName();
+  public void addComponent(java.lang.String, java.lang.String);
+  public java.lang.String pathToBucket(java.lang.String);
+  public void addFileKey(java.lang.String, java.lang.String);
+  public void openFile(java.lang.String, int, java.lang.String);
+  public java.lang.String pathForFrameworkNamed(java.lang.String);
+  public void setPathForFramework(java.lang.String, java.lang.String);
+  public boolean isPureJavaProject();
+  public java.lang.String ideApplicationName();
+  public java.lang.String ideProjectPath();
+  public com.webobjects.foundation.NSArray<java.lang.String> _filesOfTypes(com.webobjects.foundation.NSArray<java.lang.String>);
+  public void extractFilesIntoWOProject(com.webobjects._ideservices._WOProject);
+  public void extractModelsIntoWOProject(com.webobjects._ideservices._WOProject);
+  public void extractFrameworksIntoWOProject(com.webobjects._ideservices._WOProject);
+  public com.webobjects.foundation.NSArray frameworkBundlePaths();
+  public com.webobjects.foundation.NSArray frameworkBundlePathURLs();
+  public void addFilenameExtensionToListOfKnowns(java.lang.String);
+  public void extractResourcesIntoWOProject(com.webobjects._ideservices._WOProject);
+  public void _projectFileObserverNotification(com.webobjects.foundation.NSNotification);
+  public void _openProjectObserverNotification(com.webobjects.foundation.NSNotification);
+  public void _targetObserverNotification(com.webobjects.foundation.NSNotification);
+  public void _targetFileObserverNotification(com.webobjects.foundation.NSNotification);
+  public void refreshUnderlyingProjectCache();
+  public java.lang.String bundlePath();
+  public java.net.URL bundlePathURL();
+  static {};
+}

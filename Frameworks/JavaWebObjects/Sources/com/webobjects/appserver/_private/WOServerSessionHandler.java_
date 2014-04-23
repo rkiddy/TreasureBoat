@@ -1,0 +1,10 @@
+Compiled from "WOServerSessionHandler.java"
+public class com.webobjects.appserver._private.WOServerSessionHandler extends org.apache.axis.handlers.BasicHandler {
+  public static final javax.xml.namespace.QName sessionHeaderQName;
+  public static final javax.xml.namespace.QName instanceHeaderQName;
+  public com.webobjects.appserver._private.WOServerSessionHandler();
+  public void invoke(org.apache.axis.MessageContext) throws org.apache.axis.AxisFault;
+  public void doServer(org.apache.axis.MessageContext) throws org.apache.axis.AxisFault;
+  public void onFault(org.apache.axis.MessageContext);
+  static {};
+}

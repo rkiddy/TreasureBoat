@@ -1,0 +1,17 @@
+Compiled from "WOMLAttributeMap.java"
+public class com.webobjects.appserver.parser.woml.WOMLAttributeMap {
+  public com.webobjects.appserver.parser.woml.WOMLAttributeMap(java.util.Map<java.lang.String, java.util.Map<java.lang.String, com.webobjects.appserver.parser.woml.WOMLAttribute>>, java.util.Map<java.lang.String, java.util.Map<java.lang.String, com.webobjects.appserver.WOAssociation>>);
+  public java.util.Collection<java.lang.String> getNamespaces();
+  public boolean containsNamespace(java.lang.String);
+  public boolean containsAttribute(java.lang.String, java.lang.String);
+  public boolean containsAttribute(java.lang.String, java.lang.String, boolean);
+  public com.webobjects.appserver.parser.woml.WOMLAttribute getAttribute(java.lang.String, java.lang.String);
+  public com.webobjects.appserver.parser.woml.WOMLAttribute getAttribute(java.lang.String, java.lang.String, boolean);
+  public void setAttribute(java.lang.String, java.lang.String, com.webobjects.appserver.parser.woml.WOMLAttribute);
+  public java.util.Map<java.lang.String, com.webobjects.appserver.parser.woml.WOMLAttribute> getAttributes(java.lang.String);
+  public java.util.Map<java.lang.String, com.webobjects.appserver.WOAssociation> getAssociations(java.lang.String);
+  public com.webobjects.appserver.WOAssociation getAssociation(java.lang.String, java.lang.String);
+  public void setAssociation(java.lang.String, java.lang.String, com.webobjects.appserver.WOAssociation);
+  public com.webobjects.appserver.WOAssociation getAssociation(java.lang.String, java.lang.String, boolean);
+  public java.lang.String toString();
+}

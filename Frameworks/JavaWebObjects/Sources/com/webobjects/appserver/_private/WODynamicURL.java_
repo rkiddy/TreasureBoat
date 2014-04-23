@@ -1,0 +1,5 @@
+Compiled from "WODynamicURL.java"
+public class com.webobjects.appserver._private.WODynamicURL extends com.webobjects.appserver.WODynamicURL {
+  public com.webobjects.appserver._private.WODynamicURL();
+  public com.webobjects.appserver._private.WODynamicURL(java.lang.String);
+}

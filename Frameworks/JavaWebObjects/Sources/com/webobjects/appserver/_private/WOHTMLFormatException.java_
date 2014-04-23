@@ -1,0 +1,4 @@
+Compiled from "WOHTMLFormatException.java"
+public class com.webobjects.appserver._private.WOHTMLFormatException extends com.webobjects.appserver.parser.WOHTMLFormatException {
+  public com.webobjects.appserver._private.WOHTMLFormatException(java.lang.String);
+}

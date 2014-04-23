@@ -1,0 +1,5 @@
+Compiled from "WOXMLCoding.java"
+public interface com.webobjects.appserver.xml.WOXMLCoding {
+  public abstract void encodeWithWOXMLCoder(com.webobjects.appserver.xml.WOXMLCoder);
+  public abstract java.lang.Class classForCoder();
+}

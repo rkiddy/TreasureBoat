@@ -1,0 +1,27 @@
+Compiled from "WOComponentTemplateParser.java"
+public abstract class com.webobjects.appserver.parser.WOComponentTemplateParser {
+  protected java.lang.String _referenceName;
+  protected java.lang.String _declarationString;
+  protected java.lang.String _HTMLString;
+  protected com.webobjects.foundation.NSArray<java.lang.String> _languages;
+  protected com.webobjects.appserver.WOAssociationFactory _associationFactory;
+  protected com.webobjects.appserver.parser.woml.WOMLNamespaceProvider _namespaceProvider;
+  public com.webobjects.appserver.parser.WOComponentTemplateParser(java.lang.String, java.lang.String, java.lang.String, com.webobjects.foundation.NSArray<java.lang.String>, com.webobjects.appserver.WOAssociationFactory, com.webobjects.appserver.parser.woml.WOMLNamespaceProvider);
+  public abstract com.webobjects.appserver.WOElement parse() throws java.lang.ClassNotFoundException, com.webobjects.appserver.parser.declaration.WODeclarationFormatException, com.webobjects.appserver.parser.WOHTMLFormatException;
+  public java.lang.String referenceName();
+  public java.lang.String htmlString();
+  public void setHtmlString(java.lang.String);
+  public java.lang.String declarationString();
+  public void setDeclarationString(java.lang.String);
+  public com.webobjects.foundation.NSArray<java.lang.String> languages();
+  public void setLanguages(com.webobjects.foundation.NSArray<java.lang.String>);
+  public com.webobjects.appserver.WOAssociationFactory associationFactory();
+  public com.webobjects.appserver.parser.woml.WOMLNamespaceProvider namespaceProvider();
+  protected boolean shouldThrowException();
+  public java.lang.String toString();
+  public static void setWOHTMLTemplateParserClassName(java.lang.String);
+  public static com.webobjects.appserver.WOElement templateWithHTMLAndDeclaration(java.lang.String, java.lang.String, com.webobjects.foundation.NSArray<java.lang.String>) throws com.webobjects.appserver.parser.declaration.WODeclarationFormatException, com.webobjects.appserver.parser.WOHTMLFormatException, java.lang.ClassNotFoundException;
+  public static com.webobjects.appserver.WOElement templateWithHTMLAndDeclaration(java.lang.String, java.lang.String, java.lang.String, com.webobjects.foundation.NSArray<java.lang.String>, com.webobjects.appserver.WOAssociationFactory, com.webobjects.appserver.parser.woml.WOMLNamespaceProvider) throws com.webobjects.appserver.parser.declaration.WODeclarationFormatException, com.webobjects.appserver.parser.WOHTMLFormatException, java.lang.ClassNotFoundException;
+  public static com.webobjects.appserver.WOElement templateWithHTMLAndDeclaration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, com.webobjects.foundation.NSArray<java.lang.String>, com.webobjects.appserver.WOAssociationFactory, com.webobjects.appserver.parser.woml.WOMLNamespaceProvider) throws com.webobjects.appserver.parser.declaration.WODeclarationFormatException, com.webobjects.appserver.parser.WOHTMLFormatException, java.lang.ClassNotFoundException;
+  static {};
+}

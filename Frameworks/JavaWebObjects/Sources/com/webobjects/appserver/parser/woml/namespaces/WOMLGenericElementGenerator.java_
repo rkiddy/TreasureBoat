@@ -1,0 +1,9 @@
+Compiled from "WOMLGenericElementGenerator.java"
+public class com.webobjects.appserver.parser.woml.namespaces.WOMLGenericElementGenerator implements com.webobjects.appserver.parser.woml.namespaces.WOMLAbstractNamespace$WOMLElementGenerator {
+  public static final java.lang.String ELEMENT_NAME_ASSOCIATION;
+  public com.webobjects.appserver.parser.woml.namespaces.WOMLGenericElementGenerator();
+  protected java.util.Map<java.lang.String, com.webobjects.appserver.WOAssociation> getElementAssociationsForContribution(com.webobjects.appserver.parser.woml.namespaces.WOMLAbstractNamespace, com.webobjects.appserver.parser.woml.WOMLElement, com.webobjects.appserver.WOAssociationFactory);
+  protected boolean shouldContributeAssociation(com.webobjects.appserver.parser.woml.namespaces.WOMLAbstractNamespace, com.webobjects.appserver.parser.woml.WOMLElement, com.webobjects.appserver._private.WOMutableDeclaration, com.webobjects.foundation.NSArray<java.lang.String>, java.lang.String, com.webobjects.appserver.WOAssociation);
+  public com.webobjects.appserver.WOElement generateElement(com.webobjects.appserver.parser.woml.namespaces.WOMLAbstractNamespace, com.webobjects.appserver.parser.woml.WOMLElement, com.webobjects.appserver.WOElement, com.webobjects.appserver._private.WOMutableDeclaration, com.webobjects.foundation.NSArray<java.lang.String>, com.webobjects.appserver.WOAssociationFactory) throws com.webobjects.appserver.parser.woml.WOMLElementGenerationException;
+  public void contributeToDeclaration(com.webobjects.appserver.parser.woml.namespaces.WOMLAbstractNamespace, com.webobjects.appserver.parser.woml.WOMLElement, com.webobjects.appserver._private.WOMutableDeclaration, com.webobjects.foundation.NSArray<java.lang.String>, com.webobjects.appserver.WOAssociationFactory) throws com.webobjects.appserver.parser.woml.WOMLElementGenerationException;
+}

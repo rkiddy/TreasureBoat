@@ -1,0 +1,27 @@
+Compiled from "_IDEProjectWOLips.java"
+public class com.webobjects._ideservices._IDEProjectWOLips implements com.webobjects._ideservices._IDEProject {
+  public com.webobjects._ideservices._IDEProjectWOLips(com.webobjects._ideservices._WOLipsProject);
+  public static com.webobjects._ideservices._WOLipsProject wolipsProjectFromEclipseProject(java.lang.String);
+  public static com.webobjects._ideservices._IDEProjectWOLips wolipsProjectAtPath(java.lang.String);
+  public void addComponent(java.lang.String, java.lang.String);
+  public void addFileKey(java.lang.String, java.lang.String);
+  public void addFilenameExtensionToListOfKnowns(java.lang.String);
+  public java.lang.String bundlePath();
+  public java.net.URL bundlePathURL();
+  public void extractFilesIntoWOProject(com.webobjects._ideservices._WOProject);
+  public com.webobjects.foundation.NSArray<java.net.URL> frameworkBundlePathURLs();
+  public com.webobjects.foundation.NSArray<java.lang.String> frameworkBundlePaths();
+  public java.lang.String ideApplicationName();
+  public java.lang.String ideProjectPath();
+  public java.lang.String languageDir();
+  public java.lang.String languageName();
+  public void openFile(java.lang.String, int, java.lang.String);
+  public java.lang.String pathForFrameworkNamed(java.lang.String);
+  public java.lang.String pathToBucket(java.lang.String);
+  public java.lang.String projectDir();
+  public java.lang.String projectDirNotNormalized();
+  public java.lang.String projectName();
+  public java.lang.String projectTypeName();
+  public void refreshUnderlyingProjectCache();
+  public void setPathForFramework(java.lang.String, java.lang.String);
+}

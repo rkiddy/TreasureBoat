@@ -1,0 +1,10 @@
+Compiled from "WOMLPosition.java"
+public class com.webobjects.appserver.parser.woml.WOMLPosition {
+  public int startLineNumber;
+  public int endLineNumber;
+  public int startColumnNumber;
+  public int endColumnNumber;
+  public com.webobjects.appserver.parser.woml.WOMLPosition(int, int);
+  public com.webobjects.appserver.parser.woml.WOMLPosition(int, int, int, int);
+  public java.lang.String toString();
+}

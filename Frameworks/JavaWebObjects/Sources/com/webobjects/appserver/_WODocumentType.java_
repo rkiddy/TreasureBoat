@@ -1,0 +1,7 @@
+Compiled from "_WODocumentType.java"
+public class com.webobjects.appserver._WODocumentType extends org.apache.xerces.dom.DocumentTypeImpl {
+  java.lang.String dtdString;
+  public com.webobjects.appserver._WODocumentType(org.apache.xerces.dom.DocumentImpl, java.lang.String);
+  protected void setDTDString(java.lang.String);
+  protected java.lang.String dtdString();
+}

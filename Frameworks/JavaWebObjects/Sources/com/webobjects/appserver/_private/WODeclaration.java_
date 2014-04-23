@@ -1,0 +1,12 @@
+Compiled from "WODeclaration.java"
+public class com.webobjects.appserver._private.WODeclaration {
+  java.lang.String _name;
+  java.lang.String _type;
+  com.webobjects.foundation.NSMutableDictionary<java.lang.String, com.webobjects.appserver.WOAssociation> _associations;
+  public com.webobjects.appserver._private.WODeclaration(java.lang.String, java.lang.String, com.webobjects.foundation.NSDictionary<java.lang.String, com.webobjects.appserver.WOAssociation>);
+  public java.lang.String name();
+  public java.lang.String type();
+  public com.webobjects.foundation.NSDictionary<java.lang.String, com.webobjects.appserver.WOAssociation> associations();
+  public java.lang.String toString();
+  public java.lang.String stringRepresentation();
+}

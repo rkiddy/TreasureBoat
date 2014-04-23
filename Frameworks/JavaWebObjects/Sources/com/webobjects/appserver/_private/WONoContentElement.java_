@@ -1,0 +1,8 @@
+Compiled from "WONoContentElement.java"
+public class com.webobjects.appserver._private.WONoContentElement extends com.webobjects.appserver.WOElement implements com.webobjects.appserver.WOActionResults {
+  public com.webobjects.appserver._private.WONoContentElement();
+  public void takeValuesFromRequest(com.webobjects.appserver.WORequest, com.webobjects.appserver.WOContext);
+  public com.webobjects.appserver.WOActionResults invokeAction(com.webobjects.appserver.WORequest, com.webobjects.appserver.WOContext);
+  public void appendToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+  public com.webobjects.appserver.WOResponse generateResponse();
+}

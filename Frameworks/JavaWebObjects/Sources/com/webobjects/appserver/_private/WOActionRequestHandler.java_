@@ -1,0 +1,31 @@
+Compiled from "WOActionRequestHandler.java"
+public abstract class com.webobjects.appserver._private.WOActionRequestHandler extends com.webobjects.appserver.WORequestHandler {
+  protected java.lang.String actionClassName;
+  protected java.lang.String defaultActionName;
+  protected boolean shouldAddToStatistics;
+  protected java.lang.Class actionClassClass;
+  public static final java.lang.String INSTANTIATION;
+  public static final java.lang.String INVOCATION;
+  public static final java.lang.String CLASS_NOT_FOUND;
+  public static final java.lang.String INVALID_PATH;
+  protected abstract java.lang.String defaultActionClassName();
+  protected java.lang.String defaultDefaultActionName();
+  protected boolean defaultShouldAddToStatistics();
+  public static java.lang.Class _actionClassForName(java.lang.String);
+  public static com.webobjects.appserver.WORequestHandler handler();
+  protected com.webobjects.appserver._private.WOActionRequestHandler();
+  public com.webobjects.appserver._private.WOActionRequestHandler(java.lang.String, java.lang.String, boolean);
+  public abstract com.webobjects.appserver.WOResponse nullResponse();
+  public abstract void registerWillHandleActionRequest();
+  public abstract void registerDidHandleActionRequestWithActionNamed(java.lang.String);
+  protected boolean isSessionIDInRequest(com.webobjects.appserver.WORequest);
+  public com.webobjects.appserver.WOResponse handleRequest(com.webobjects.appserver.WORequest);
+  public java.lang.String toString();
+  public com.webobjects.appserver.WOAction getActionInstance(java.lang.Class, java.lang.Class[], java.lang.Object[]);
+  public com.webobjects.appserver.WOResponse _handleRequest(com.webobjects.appserver.WORequest);
+  public abstract com.webobjects.foundation.NSArray<java.lang.String> getRequestHandlerPathForRequest(com.webobjects.appserver.WORequest);
+  public java.lang.Object[] getRequestActionClassAndNameForPath(com.webobjects.foundation.NSArray<java.lang.String>);
+  public void _putComponentsToSleepInContext(com.webobjects.appserver.WOContext);
+  public abstract com.webobjects.appserver.WOResponse generateRequestRefusal(com.webobjects.appserver.WORequest);
+  public abstract com.webobjects.appserver.WOResponse generateErrorResponse(java.lang.Exception, com.webobjects.appserver.WOContext);
+}

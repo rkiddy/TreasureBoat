@@ -1,0 +1,13 @@
+Compiled from "WOMLTemplateExtensions.java"
+public class com.webobjects.appserver.parser.woml.WOMLTemplateExtensions {
+  public static final java.lang.String DYNAMIC_ATTRIBUTE_PREFIX;
+  public static final java.lang.String DYNAMIC_ATTRIBUTE_SUFFIX;
+  public static com.webobjects.appserver.parser.woml.WOMLTemplateExtensions instance();
+  public java.util.List<java.lang.String> combinedTemplateFileExtensions();
+  public void setCombinedTemplateFileExtensions(java.util.List<java.lang.String>);
+  public java.lang.String dynamicAttributePrefix();
+  public void setDynamicAttributePrefix(java.lang.String);
+  public java.lang.String dynamicAttributeSuffix();
+  public void setDynamicAttributeSuffix(java.lang.String);
+  static {};
+}

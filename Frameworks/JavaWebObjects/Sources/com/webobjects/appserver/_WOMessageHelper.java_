@@ -1,0 +1,9 @@
+Compiled from "_WOMessageHelper.java"
+public class com.webobjects.appserver._WOMessageHelper {
+  com.webobjects.appserver.WOMessage woMessage;
+  java.lang.StringBuffer xmlString;
+  public com.webobjects.appserver._WOMessageHelper(com.webobjects.appserver.WOMessage);
+  protected org.w3c.dom.Document contentAsDOMDocument() throws com.webobjects.appserver.WODOMParserException;
+  protected void appendContentDOMDocumentFragment(org.w3c.dom.DocumentFragment);
+  protected void setContentDOMDocument(org.w3c.dom.Document);
+}

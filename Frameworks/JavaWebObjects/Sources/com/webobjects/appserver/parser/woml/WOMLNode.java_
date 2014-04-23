@@ -1,0 +1,8 @@
+Compiled from "WOMLNode.java"
+public abstract class com.webobjects.appserver.parser.woml.WOMLNode {
+  public com.webobjects.appserver.parser.woml.WOMLNode(com.webobjects.appserver.parser.woml.WOMLPosition);
+  public com.webobjects.appserver.parser.woml.WOMLPosition getPosition();
+  public void setPosition(com.webobjects.appserver.parser.woml.WOMLPosition);
+  public com.webobjects.appserver.WOElement getWOElement();
+  public void setWOElement(com.webobjects.appserver.WOElement);
+}

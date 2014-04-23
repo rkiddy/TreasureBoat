@@ -1,0 +1,23 @@
+Compiled from "WOInputList.java"
+public abstract class com.webobjects.appserver._private.WOInputList extends com.webobjects.appserver._private.WOInput {
+  protected com.webobjects.appserver.WOAssociation _list;
+  protected com.webobjects.appserver.WOAssociation _item;
+  protected com.webobjects.appserver.WOAssociation _index;
+  protected com.webobjects.appserver.WOAssociation _displayString;
+  protected com.webobjects.appserver.WOAssociation _selections;
+  protected com.webobjects.appserver.WOAssociation _selectedValues;
+  protected com.webobjects.appserver.WOAssociation _optionDisabled;
+  protected boolean _loggedSlow;
+  public com.webobjects.appserver._private.WOInputList(java.lang.String, com.webobjects.foundation.NSDictionary<java.lang.String, com.webobjects.appserver.WOAssociation>, com.webobjects.appserver.WOElement);
+  protected boolean defaultEscapeHTML();
+  public java.lang.String toString();
+  protected java.util.List listInContext(com.webobjects.appserver.WOContext);
+  protected java.lang.Class listClassInContext(com.webobjects.appserver.WOContext);
+  protected void setItemValueInContext(com.webobjects.appserver.WOContext, java.lang.Object);
+  protected void setIndexValueInContext(com.webobjects.appserver.WOContext, int);
+  protected java.lang.String displayStringInContext(com.webobjects.appserver.WOContext);
+  protected java.lang.String optionStringInContext(com.webobjects.appserver.WOContext, java.lang.Object, int);
+  protected java.util.List selectedListInContext(com.webobjects.appserver.WOContext);
+  protected void setSelectionListInContext(com.webobjects.appserver.WOContext, java.util.List);
+  protected boolean optionDisabledInContext(com.webobjects.appserver.WOContext);
+}

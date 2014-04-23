@@ -1,0 +1,8 @@
+Compiled from "_WOLaunchServices.java"
+public class com.webobjects._ideservices._WOLaunchServices {
+  public com.webobjects._ideservices._WOLaunchServices();
+  public static com.webobjects.appserver.WOApplication application();
+  public static void _debugString(java.lang.String);
+  public void _openInitialURL();
+  static {};
+}

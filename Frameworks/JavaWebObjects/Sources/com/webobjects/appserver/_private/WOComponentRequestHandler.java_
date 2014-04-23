@@ -1,0 +1,7 @@
+Compiled from "WOComponentRequestHandler.java"
+public class com.webobjects.appserver._private.WOComponentRequestHandler extends com.webobjects.appserver.WORequestHandler {
+  public com.webobjects.appserver._private.WOComponentRequestHandler();
+  public static com.webobjects.foundation.NSDictionary requestHandlerValuesForRequest(com.webobjects.appserver.WORequest);
+  com.webobjects.appserver.WOResponse _handleRequest(com.webobjects.appserver.WORequest);
+  public com.webobjects.appserver.WOResponse handleRequest(com.webobjects.appserver.WORequest);
+}

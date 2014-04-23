@@ -1,0 +1,12 @@
+Compiled from "WOMLDefaultNamespaceProvider.java"
+public class com.webobjects.appserver.parser.woml.WOMLDefaultNamespaceProvider implements com.webobjects.appserver.parser.woml.WOMLNamespaceProvider {
+  public com.webobjects.appserver.parser.woml.WOMLDefaultNamespaceProvider();
+  public boolean containsNamespace(java.lang.String);
+  public java.util.Map<java.lang.String, com.webobjects.appserver.parser.woml.WOMLNamespace> getNamespacesById();
+  public void setDefaultNamespace(com.webobjects.appserver.parser.woml.WOMLNamespace);
+  public void addNamespace(com.webobjects.appserver.parser.woml.WOMLNamespace);
+  public com.webobjects.appserver.parser.woml.WOMLNamespace getDefaultNamespace();
+  public com.webobjects.appserver.parser.woml.WOMLNamespace getNamespace(java.lang.String);
+  public java.lang.String getNamespaceId(com.webobjects.appserver.parser.woml.WOMLNamespace);
+  public java.util.Collection<com.webobjects.appserver.parser.woml.WOMLNamespace> getNamespaces();
+}

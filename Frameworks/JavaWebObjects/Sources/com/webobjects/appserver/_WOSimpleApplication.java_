@@ -1,0 +1,7 @@
+Compiled from "_WOSimpleApplication.java"
+public class com.webobjects.appserver._WOSimpleApplication extends com.webobjects.appserver.WOApplication {
+  public static void _primeSimpleApplication();
+  static com.webobjects.appserver.WOSession _singletonSession();
+  public com.webobjects.appserver.WOSession createSessionForRequest(com.webobjects.appserver.WORequest);
+  static {};
+}

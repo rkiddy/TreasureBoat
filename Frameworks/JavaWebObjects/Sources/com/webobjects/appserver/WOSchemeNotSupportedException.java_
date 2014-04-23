@@ -1,0 +1,7 @@
+Compiled from "WOSchemeNotSupportedException.java"
+public class com.webobjects.appserver.WOSchemeNotSupportedException extends java.lang.RuntimeException {
+  public com.webobjects.appserver.WOSchemeNotSupportedException();
+  public com.webobjects.appserver.WOSchemeNotSupportedException(java.lang.String, java.lang.Throwable);
+  public com.webobjects.appserver.WOSchemeNotSupportedException(java.lang.String);
+  public com.webobjects.appserver.WOSchemeNotSupportedException(java.lang.Throwable);
+}

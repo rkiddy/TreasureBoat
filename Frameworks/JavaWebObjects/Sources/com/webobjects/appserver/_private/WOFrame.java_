@@ -1,0 +1,4 @@
+Compiled from "WOFrame.java"
+public class com.webobjects.appserver._private.WOFrame extends com.webobjects.appserver._private.WOHTMLURLValuedElement {
+  public com.webobjects.appserver._private.WOFrame(java.lang.String, com.webobjects.foundation.NSDictionary<java.lang.String, com.webobjects.appserver.WOAssociation>, com.webobjects.appserver.WOElement);
+}

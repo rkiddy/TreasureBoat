@@ -1,0 +1,6 @@
+Compiled from "WOResetButton.java"
+public class com.webobjects.appserver._private.WOResetButton extends com.webobjects.appserver._private.WOInput {
+  public com.webobjects.appserver._private.WOResetButton(java.lang.String, com.webobjects.foundation.NSDictionary<java.lang.String, com.webobjects.appserver.WOAssociation>, com.webobjects.appserver.WOElement);
+  protected java.lang.String type();
+  public void takeValuesFromRequest(com.webobjects.appserver.WORequest, com.webobjects.appserver.WOContext);
+}

@@ -1,0 +1,18 @@
+Compiled from "WOCGIFormValues.java"
+public class com.webobjects.appserver._private.WOCGIFormValues {
+  protected java.lang.String _woURLEncoding;
+  protected static com.webobjects.appserver._private.WOCGIFormValues _instance;
+  public static final java.lang.String WOURLEncoding;
+  protected com.webobjects.appserver._private.WOCGIFormValues();
+  public static com.webobjects.appserver._private.WOCGIFormValues getInstance();
+  public com.webobjects.appserver._private.WOCGIFormValues$Encoder encoder();
+  public com.webobjects.appserver._private.WOCGIFormValues$Decoder decoder();
+  public java.lang.String encodeAsCGIFormValues(java.util.Map<java.lang.String, java.lang.Object>);
+  public java.lang.String encodeAsCGIFormValues(java.util.Map<java.lang.String, java.lang.Object>, boolean);
+  public com.webobjects.foundation.NSDictionary decodeCGIFormValues(java.lang.String);
+  public com.webobjects.foundation.NSDictionary decodeCGIFormValues(java.lang.String, java.lang.String);
+  public com.webobjects.foundation.NSDictionary decodeDataFormValues(java.lang.String, java.lang.String);
+  public java.lang.String getWOURLEncoding(java.lang.String);
+  public void setUrlEncoding(java.lang.String);
+  public java.lang.String urlEncoding();
+}

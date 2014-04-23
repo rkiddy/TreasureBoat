@@ -1,0 +1,5 @@
+Compiled from "WOUnarchiverDelegate.java"
+public class com.webobjects.appserver._private.WOUnarchiverDelegate implements com.webobjects.eocontrol.EOKeyValueUnarchiver$Delegate {
+  public com.webobjects.appserver._private.WOUnarchiverDelegate(java.lang.Object);
+  public java.lang.Object unarchiverObjectForReference(com.webobjects.eocontrol.EOKeyValueUnarchiver, java.lang.Object);
+}

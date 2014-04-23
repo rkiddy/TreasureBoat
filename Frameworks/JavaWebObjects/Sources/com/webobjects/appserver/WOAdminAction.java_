@@ -1,0 +1,8 @@
+Compiled from "WOAdminAction.java"
+public class com.webobjects.appserver.WOAdminAction extends com.webobjects.appserver.WODirectAction {
+  public com.webobjects.appserver.WOAdminAction(com.webobjects.appserver.WORequest);
+  public com.webobjects.appserver.WOActionResults pingAction();
+  public com.webobjects.appserver.WOActionResults instanceRequestAction();
+  public java.lang.String toString();
+  static {};
+}

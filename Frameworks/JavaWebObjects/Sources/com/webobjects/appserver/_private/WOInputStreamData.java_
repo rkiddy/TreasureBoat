@@ -1,0 +1,31 @@
+Compiled from "WOInputStreamData.java"
+public class com.webobjects.appserver._private.WOInputStreamData extends com.webobjects.foundation.NSMutableData {
+  static final long serialVersionUID;
+  protected java.io.InputStream _stream;
+  protected int _streamLength;
+  protected boolean _shouldClose;
+  protected boolean _hasAccessedStream;
+  public com.webobjects.appserver._private.WOInputStreamData(com.webobjects.foundation.NSData);
+  public com.webobjects.appserver._private.WOInputStreamData(java.io.InputStream, int);
+  protected void _initInputStream(java.io.InputStream, int, boolean);
+  protected void _extractBytesFromInputStream();
+  protected byte[] bytesNoCopy();
+  protected com.webobjects.foundation.NSRange rangeNoCopy();
+  public boolean isEqualToData(com.webobjects.foundation.NSData);
+  public java.io.InputStream inputStream();
+  public int streamLength();
+  public boolean hasStreamBeenAccessed();
+  public java.io.InputStream _stream();
+  public java.lang.Class classForCoder();
+  public static java.lang.Object decodeObject(com.webobjects.foundation.NSCoder);
+  public int hashCode();
+  public java.lang.String toString();
+  protected java.lang.Object writeReplace() throws java.io.ObjectStreamException;
+  protected com.webobjects.foundation.NSRange immutableRange();
+  public void setLength(int);
+  public void setData(com.webobjects.foundation.NSData);
+  public void resetBytesInRange(com.webobjects.foundation.NSRange);
+  public void appendByte(byte);
+  public void appendBytes(byte[], com.webobjects.foundation.NSRange);
+  public java.lang.Object clone();
+}

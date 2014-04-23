@@ -1,0 +1,39 @@
+Compiled from "WODeclarationParser.java"
+public class com.webobjects.appserver.parser.declaration.WODeclarationParser implements com.webobjects.appserver.parser.declaration.WODeclarationParserConstants {
+  public com.webobjects.appserver.parser.declaration.WODeclarationParserTokenManager token_source;
+  com.webobjects.appserver.parser.declaration.JavaCharStream jj_input_stream;
+  public com.webobjects.appserver.parser.declaration.Token token;
+  public com.webobjects.appserver.parser.declaration.Token jj_nt;
+  public static com.webobjects.foundation.NSDictionary declarationsWithString(java.lang.String, java.lang.String, com.webobjects.appserver.WOAssociationFactory) throws com.webobjects.appserver.parser.declaration.WODeclarationFormatException;
+  public static com.webobjects.appserver.WOAssociation associationWithString(java.lang.String, java.lang.String, com.webobjects.appserver.WOAssociationFactory) throws com.webobjects.appserver.parser.declaration.WODeclarationFormatException;
+  public static java.lang.Number makeInt(java.lang.String);
+  public static java.lang.Number makeFloat(java.lang.String);
+  public static int countNumericEscapeSequence(char[], int, int);
+  public static java.lang.String replaceEscapeSequencesWithRealChars(java.lang.String) throws java.lang.IllegalArgumentException;
+  public com.webobjects.appserver.parser.declaration.WODeclarationParser(java.lang.String, java.io.Reader, com.webobjects.appserver.WOAssociationFactory);
+  public com.webobjects.appserver.WOAssociationFactory associationFactory();
+  public java.lang.String getReferenceName();
+  public com.webobjects.appserver.parser.woml.WOMLPosition getPosition(com.webobjects.appserver.parser.declaration.Token);
+  public com.webobjects.appserver.parser.woml.WOMLPosition getCurrentPosition();
+  public final com.webobjects.foundation.NSDictionary declarations() throws com.webobjects.appserver.parser.declaration.ParseException;
+  public final com.webobjects.foundation.NSDictionary associations() throws com.webobjects.appserver.parser.declaration.ParseException;
+  public final java.lang.String associationKey() throws com.webobjects.appserver.parser.declaration.ParseException;
+  public final com.webobjects.appserver.WOAssociation associationRoot() throws com.webobjects.appserver.parser.declaration.ParseException;
+  public final com.webobjects.appserver.WOAssociation association() throws com.webobjects.appserver.parser.declaration.ParseException;
+  public final java.lang.String quotedString() throws com.webobjects.appserver.parser.declaration.ParseException;
+  public final java.lang.Number number() throws com.webobjects.appserver.parser.declaration.ParseException;
+  public com.webobjects.appserver.parser.declaration.WODeclarationParser(java.io.InputStream);
+  public com.webobjects.appserver.parser.declaration.WODeclarationParser(java.io.InputStream, java.lang.String);
+  public void ReInit(java.io.InputStream);
+  public void ReInit(java.io.InputStream, java.lang.String);
+  public com.webobjects.appserver.parser.declaration.WODeclarationParser(java.io.Reader);
+  public void ReInit(java.io.Reader);
+  public com.webobjects.appserver.parser.declaration.WODeclarationParser(com.webobjects.appserver.parser.declaration.WODeclarationParserTokenManager);
+  public void ReInit(com.webobjects.appserver.parser.declaration.WODeclarationParserTokenManager);
+  public final com.webobjects.appserver.parser.declaration.Token getNextToken();
+  public final com.webobjects.appserver.parser.declaration.Token getToken(int);
+  public com.webobjects.appserver.parser.declaration.ParseException generateParseException();
+  public final void enable_tracing();
+  public final void disable_tracing();
+  static {};
+}

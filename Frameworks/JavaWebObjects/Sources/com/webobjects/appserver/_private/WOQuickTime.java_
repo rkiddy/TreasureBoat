@@ -1,0 +1,25 @@
+Compiled from "WOQuickTime.java"
+public class com.webobjects.appserver._private.WOQuickTime extends com.webobjects.appserver.WODynamicElement {
+  protected com.webobjects.foundation.NSMutableDictionary<java.lang.String, com.webobjects.appserver.WOAssociation> _associations;
+  protected com.webobjects.appserver.WOAssociation _src;
+  protected com.webobjects.appserver.WOAssociation _qtsrc;
+  protected com.webobjects.appserver.WOAssociation _filename;
+  protected com.webobjects.appserver.WOAssociation _hotspotList;
+  protected com.webobjects.appserver.WOAssociation _qtnextList;
+  protected com.webobjects.appserver.WOAssociation _qtnextAction;
+  protected com.webobjects.appserver.WOAssociation _framework;
+  protected com.webobjects.appserver.WOAssociation _width;
+  protected com.webobjects.appserver.WOAssociation _height;
+  protected com.webobjects.appserver.WOAssociation _action;
+  protected com.webobjects.appserver.WOAssociation _selection;
+  protected com.webobjects.appserver.WOAssociation _pluginsPageName;
+  protected com.webobjects.appserver.WOAssociation _pluginsPage;
+  protected com.webobjects.appserver.WOAssociation _href;
+  protected com.webobjects.appserver.WOAssociation _pageName;
+  protected com.webobjects.appserver.WOAssociation _otherTagString;
+  protected com.webobjects.foundation.NSMutableDictionary _booleanAssociations;
+  public com.webobjects.appserver._private.WOQuickTime(java.lang.String, com.webobjects.foundation.NSDictionary<java.lang.String, com.webobjects.appserver.WOAssociation>, com.webobjects.appserver.WOElement);
+  public void appendToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+  public com.webobjects.appserver.WOActionResults invokeAction(com.webobjects.appserver.WORequest, com.webobjects.appserver.WOContext);
+  public java.lang.String toString();
+}

@@ -1,0 +1,6 @@
+Compiled from "WOMLParentNode.java"
+public abstract class com.webobjects.appserver.parser.woml.WOMLParentNode extends com.webobjects.appserver.parser.woml.WOMLNode {
+  public com.webobjects.appserver.parser.woml.WOMLParentNode(com.webobjects.appserver.parser.woml.WOMLPosition);
+  public java.util.List<com.webobjects.appserver.parser.woml.WOMLNode> getChildNodes();
+  public java.util.List<com.webobjects.appserver.WOElement> getChildElements();
+}

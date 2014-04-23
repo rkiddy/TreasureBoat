@@ -1,0 +1,7 @@
+Compiled from "WOHTMLParserDelegate.java"
+public interface com.webobjects.appserver.parser.WOHTMLParserDelegate {
+  public abstract void didParseOpeningWebObjectTag(java.lang.String, com.webobjects.appserver.parser.WOHTMLParser) throws com.webobjects.appserver.parser.WOHTMLFormatException;
+  public abstract void didParseClosingWebObjectTag(java.lang.String, com.webobjects.appserver.parser.WOHTMLParser) throws com.webobjects.appserver.parser.declaration.WODeclarationFormatException, com.webobjects.appserver.parser.WOHTMLFormatException, java.lang.ClassNotFoundException;
+  public abstract void didParseComment(java.lang.String, com.webobjects.appserver.parser.WOHTMLParser);
+  public abstract void didParseText(java.lang.String, com.webobjects.appserver.parser.WOHTMLParser);
+}

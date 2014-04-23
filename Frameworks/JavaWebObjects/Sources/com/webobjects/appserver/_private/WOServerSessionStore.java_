@@ -1,0 +1,9 @@
+Compiled from "WOServerSessionStore.java"
+public class com.webobjects.appserver._private.WOServerSessionStore extends com.webobjects.appserver.WOSessionStore {
+  public com.webobjects.appserver._private.WOServerSessionStore();
+  public com.webobjects.appserver.WOSession removeSessionWithID(java.lang.String);
+  public com.webobjects.appserver.WOSession restoreSessionWithID(java.lang.String, com.webobjects.appserver.WORequest);
+  public void saveSessionForContext(com.webobjects.appserver.WOContext);
+  public int getActiveSessionsCount();
+  public com.webobjects.foundation.NSDictionary _sessions();
+}

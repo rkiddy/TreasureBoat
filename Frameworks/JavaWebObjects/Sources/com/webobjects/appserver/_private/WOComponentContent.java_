@@ -1,0 +1,7 @@
+Compiled from "WOComponentContent.java"
+public class com.webobjects.appserver._private.WOComponentContent extends com.webobjects.appserver.WODynamicElement {
+  public com.webobjects.appserver._private.WOComponentContent(java.lang.String, com.webobjects.foundation.NSDictionary, com.webobjects.appserver.WOElement);
+  public void takeValuesFromRequest(com.webobjects.appserver.WORequest, com.webobjects.appserver.WOContext);
+  public com.webobjects.appserver.WOActionResults invokeAction(com.webobjects.appserver.WORequest, com.webobjects.appserver.WOContext);
+  public void appendToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+}

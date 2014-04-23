@@ -1,0 +1,15 @@
+Compiled from "WOHTTPHeadersDictionary.java"
+public class com.webobjects.appserver._private.WOHTTPHeadersDictionary extends com.webobjects.appserver._private.WOCaseInsensitiveDictionary implements com.webobjects.foundation.NSDisposable {
+  static final long serialVersionUID;
+  com.webobjects.appserver._private.WOHTTPHeadersDictionary$WOHTTPHeaderPool _headerPool;
+  public com.webobjects.appserver._private.WOHTTPHeadersDictionary();
+  public com.webobjects.appserver._private.WOHTTPHeadersDictionary(int);
+  public void dispose();
+  public java.util.Map<java.lang.String, ? extends java.util.List<java.lang.String>> headerDictionary();
+  public com.webobjects.appserver._private.WOHTTPHeaderValue setBufferForKey(byte[], int, int, int, int);
+  public com.webobjects.appserver._private.WOLowercaseCharArray lastInsertedKey();
+  protected java.lang.Object _objectForKey(java.lang.Object);
+  protected java.lang.Object _removeObjectForKey(java.lang.Object);
+  public java.lang.Object _realObjectForKey(java.lang.Object);
+  public java.lang.String toString();
+}

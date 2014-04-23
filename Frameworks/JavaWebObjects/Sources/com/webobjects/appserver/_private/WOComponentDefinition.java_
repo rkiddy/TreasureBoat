@@ -1,0 +1,35 @@
+Compiled from "WOComponentDefinition.java"
+public class com.webobjects.appserver._private.WOComponentDefinition {
+  public static final com.webobjects.appserver._private.WOComponentDefinition NotFound;
+  java.lang.Class _componentClass;
+  boolean _caching;
+  boolean _isAwake;
+  boolean _isCombinedComponent;
+  protected boolean _isStateless;
+  public static com.webobjects.appserver.WOContext TheTemporaryContext;
+  protected static boolean _IsEventLoggingEnabled;
+  public static java.lang.String InitEvent;
+  public java.lang.String _combinedComponentExtension(java.net.URL);
+  public com.webobjects.appserver._private.WOComponentDefinition(java.lang.String, java.net.URL, java.lang.String, java.lang.String, java.lang.String);
+  public void awake();
+  public void sleep();
+  public java.lang.String toString();
+  public java.lang.String name();
+  public java.net.URL pathURL();
+  public java.lang.String baseURL();
+  public java.lang.String frameworkName();
+  public void setCachingEnabled(boolean);
+  public boolean isCachingEnabled();
+  public synchronized com.webobjects.appserver.WOElement template();
+  public synchronized com.webobjects.foundation.NSDictionary archive();
+  public synchronized java.lang.String encoding();
+  public com.webobjects.appserver._private.WOComponentReference componentReferenceWithAssociations(com.webobjects.foundation.NSDictionary<java.lang.String, com.webobjects.appserver.WOAssociation>, com.webobjects.appserver.WOElement);
+  public java.lang.Class componentClass();
+  public boolean isStateless();
+  public boolean isCombinedComponent();
+  public void _checkInComponentInstance(com.webobjects.appserver.WOComponent);
+  public com.webobjects.appserver.WOComponent componentInstanceInContext(com.webobjects.appserver.WOContext);
+  public void finishInitializingComponent(com.webobjects.appserver.WOComponent);
+  public java.net.URL pathURLForResourceNamed(java.lang.String, java.lang.String, com.webobjects.foundation.NSArray);
+  static {};
+}

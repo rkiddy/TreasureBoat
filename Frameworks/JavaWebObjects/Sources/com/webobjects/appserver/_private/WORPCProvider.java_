@@ -1,0 +1,8 @@
+Compiled from "WORPCProvider.java"
+public class com.webobjects.appserver._private.WORPCProvider extends org.apache.axis.providers.java.JavaProvider {
+  protected static java.lang.Class D2WSClass;
+  protected static java.lang.reflect.Method D2WSMethod;
+  public com.webobjects.appserver._private.WORPCProvider();
+  public void processMessage(org.apache.axis.MessageContext, org.apache.axis.message.SOAPEnvelope, org.apache.axis.message.SOAPEnvelope, java.lang.Object) throws java.lang.Exception;
+  static {};
+}

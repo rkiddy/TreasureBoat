@@ -1,0 +1,4 @@
+Compiled from "WODWSServiceObject.java"
+public class com.webobjects.appserver._private.WODWSServiceObject {
+  public com.webobjects.appserver._private.WODWSServiceObject();
+}

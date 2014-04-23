@@ -1,0 +1,17 @@
+Compiled from "WOConstantValueAssociation.java"
+public class com.webobjects.appserver._private.WOConstantValueAssociation extends com.webobjects.appserver.WOAssociation implements java.lang.Cloneable {
+  public static final com.webobjects.appserver._private.WOConstantValueAssociation TRUE;
+  public static final com.webobjects.appserver._private.WOConstantValueAssociation FALSE;
+  public com.webobjects.appserver._private.WOConstantValueAssociation(java.lang.Object);
+  public java.lang.Object clone();
+  public java.lang.String toString();
+  public java.lang.Object valueInComponent(com.webobjects.appserver.WOComponent);
+  public void setValue(java.lang.Object, com.webobjects.appserver.WOComponent);
+  public boolean isValueSettable();
+  public boolean isValueConstant();
+  protected java.lang.String _debugDescription();
+  public java.lang.String keyPath();
+  public java.lang.String bindingInComponent(com.webobjects.appserver.WOComponent);
+  public boolean booleanValueInComponent(com.webobjects.appserver.WOComponent);
+  static {};
+}

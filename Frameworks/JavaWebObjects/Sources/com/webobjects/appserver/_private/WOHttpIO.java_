@@ -1,0 +1,21 @@
+Compiled from "WOHttpIO.java"
+public final class com.webobjects.appserver._private.WOHttpIO {
+  public static java.lang.String URIResponseString;
+  java.lang.StringBuffer _headersBuffer;
+  public boolean _socketClosed;
+  public static boolean _alwaysAppendContentLength;
+  public static void expectContentLengthHeader(boolean, int);
+  public int readLine(java.io.InputStream) throws java.io.IOException;
+  public com.webobjects.appserver._private.WOHttpIO();
+  public void resetBuffer();
+  public com.webobjects.appserver.WORequest readRequestFromSocket(java.net.Socket) throws java.io.IOException;
+  public boolean sendResponse(com.webobjects.appserver.WOResponse, java.net.Socket, com.webobjects.appserver.WORequest) throws java.io.IOException;
+  public void sendRequest(com.webobjects.appserver.WORequest, java.net.Socket) throws java.io.IOException;
+  protected boolean sendMessage(com.webobjects.appserver.WOMessage, java.net.Socket, java.lang.String, com.webobjects.appserver.WORequest) throws java.io.IOException;
+  public com.webobjects.appserver.WOResponse readResponseFromSocket(java.net.Socket) throws java.io.IOException;
+  public com.webobjects.foundation.NSDictionary headers();
+  public java.io.InputStream _readHeaders(java.io.InputStream, boolean, boolean, boolean) throws java.io.IOException;
+  protected int setSocketTimeout(java.net.Socket, int);
+  public java.lang.String toString();
+  static {};
+}

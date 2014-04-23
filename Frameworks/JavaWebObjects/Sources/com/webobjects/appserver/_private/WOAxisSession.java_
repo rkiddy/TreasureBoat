@@ -1,0 +1,14 @@
+Compiled from "WOAxisSession.java"
+public class com.webobjects.appserver._private.WOAxisSession implements org.apache.axis.session.Session {
+  com.webobjects.appserver.WOContext _woContext;
+  public com.webobjects.appserver._private.WOAxisSession(com.webobjects.appserver.WOContext);
+  public java.lang.Object get(java.lang.String);
+  public void set(java.lang.String, java.lang.Object);
+  public void remove(java.lang.String);
+  public java.util.Enumeration<java.lang.String> getKeys();
+  public void setTimeout(int);
+  public int getTimeout();
+  public void touch();
+  public synchronized java.lang.Object getLockObject();
+  public void invalidate();
+}

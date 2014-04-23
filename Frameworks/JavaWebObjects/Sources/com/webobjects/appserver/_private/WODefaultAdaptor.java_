@@ -1,0 +1,5 @@
+Compiled from "WODefaultAdaptor.java"
+public class com.webobjects.appserver._private.WODefaultAdaptor extends com.webobjects.appserver._private.WOClassicAdaptor {
+  public com.webobjects.appserver._private.WODefaultAdaptor(java.lang.String, com.webobjects.foundation.NSDictionary);
+  protected com.webobjects.appserver._private.WODefaultAdaptor(java.lang.String, com.webobjects.foundation.NSDictionary, boolean);
+}

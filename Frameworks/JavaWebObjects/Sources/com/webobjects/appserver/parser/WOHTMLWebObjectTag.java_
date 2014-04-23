@@ -1,0 +1,12 @@
+Compiled from "WOHTMLWebObjectTag.java"
+public class com.webobjects.appserver.parser.WOHTMLWebObjectTag {
+  public com.webobjects.appserver.parser.WOHTMLWebObjectTag();
+  public com.webobjects.appserver.parser.WOHTMLWebObjectTag(java.lang.String, com.webobjects.appserver.parser.WOHTMLWebObjectTag) throws com.webobjects.appserver.parser.WOHTMLFormatException;
+  public java.lang.String name();
+  public com.webobjects.appserver.parser.WOHTMLWebObjectTag parentTag();
+  public boolean isTopLevel();
+  public com.webobjects.foundation.NSArray<java.lang.Object> children();
+  public com.webobjects.appserver.WOElement template();
+  public void addChildElement(java.lang.Object);
+  public com.webobjects.appserver.WOElement dynamicElement(com.webobjects.foundation.NSDictionary, com.webobjects.foundation.NSArray<java.lang.String>) throws com.webobjects.appserver.parser.declaration.WODeclarationFormatException, java.lang.ClassNotFoundException;
+}

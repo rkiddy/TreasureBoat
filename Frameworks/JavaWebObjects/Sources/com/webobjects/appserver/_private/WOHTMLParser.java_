@@ -1,0 +1,4 @@
+Compiled from "WOHTMLParser.java"
+public class com.webobjects.appserver._private.WOHTMLParser extends com.webobjects.appserver.parser.WOHTMLParser {
+  public com.webobjects.appserver._private.WOHTMLParser(com.webobjects.appserver._private.WOHTMLParserDelegate, java.lang.String);
+}

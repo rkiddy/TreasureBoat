@@ -1,0 +1,28 @@
+Compiled from "WOJPEGHeaderScanner.java"
+public class com.webobjects.appserver._private.WOJPEGHeaderScanner extends com.webobjects.appserver._private.WOImageHeaderScanner {
+  static final int M_SOF0;
+  static final int M_SOF1;
+  static final int M_SOF2;
+  static final int M_SOF3;
+  static final int M_SOF5;
+  static final int M_SOF6;
+  static final int M_SOF7;
+  static final int M_SOF9;
+  static final int M_SOF10;
+  static final int M_SOF11;
+  static final int M_SOF13;
+  static final int M_SOF14;
+  static final int M_SOF15;
+  static final int M_SOI;
+  static final int M_EOI;
+  static final int M_SOS;
+  static final int M_COM;
+  public com.webobjects.appserver._private.WOJPEGHeaderScanner();
+  public void scan() throws java.io.IOException;
+  public int getByte() throws java.io.IOException;
+  public int getInt();
+  public int nextMarker() throws java.io.IOException;
+  public int firstMarker() throws java.io.IOException;
+  public void skipVariable() throws java.io.IOException;
+  public void processSOFn(int) throws java.io.IOException;
+}

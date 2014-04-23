@@ -1,0 +1,15 @@
+Compiled from "WOElementID.java"
+public class com.webobjects.appserver._private.WOElementID implements java.io.Serializable {
+  static final long serialVersionUID;
+  char[] _elementID;
+  transient java.lang.String _elementIDString;
+  transient int _size;
+  int _lastDot;
+  public com.webobjects.appserver._private.WOElementID(java.lang.String);
+  public java.lang.String toString();
+  public void appendElementIDComponent(java.lang.String);
+  public void appendZeroElementIDComponent();
+  public void incrementLastElementIDComponent();
+  public void deleteLastElementIDComponent();
+  public void deleteAllElementIDComponents();
+}

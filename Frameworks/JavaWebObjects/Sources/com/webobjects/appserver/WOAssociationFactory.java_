@@ -1,0 +1,4 @@
+Compiled from "WOAssociationFactory.java"
+public interface com.webobjects.appserver.WOAssociationFactory {
+  public abstract com.webobjects.appserver.WOAssociation createAssociation(java.lang.String, java.lang.Object) throws com.webobjects.appserver.WOSchemeNotSupportedException;
+}

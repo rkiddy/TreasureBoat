@@ -1,0 +1,10 @@
+Compiled from "WOPolygonRegion.java"
+public class com.webobjects.appserver._private.WOPolygonRegion extends com.webobjects.appserver._private.WOGeometricRegion {
+  int _size;
+  double[] _slopes;
+  double[] _intercepts;
+  int[][] _points;
+  public com.webobjects.appserver._private.WOPolygonRegion(java.lang.String, com.webobjects.foundation.NSMutableArray, java.lang.String);
+  public boolean hitTest(int, int);
+  protected java.lang.String _subclassDescription();
+}

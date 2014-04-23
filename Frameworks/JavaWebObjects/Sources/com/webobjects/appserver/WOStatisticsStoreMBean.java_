@@ -1,0 +1,32 @@
+Compiled from "WOStatisticsStoreMBean.java"
+public interface com.webobjects.appserver.WOStatisticsStoreMBean {
+  public abstract void setLogFile(java.lang.String, long);
+  public abstract java.lang.String logFile();
+  public abstract long logFileRotationFrequency();
+  public abstract double logFileRotationFrequencyInDays();
+  public abstract void logString(java.lang.String);
+  public abstract int getTransactionMovingAverageSampleSize();
+  public abstract void setTransactionMovingAverageSampleSize(int);
+  public abstract int sessionMovingAverageSampleSize();
+  public abstract void setSessionMovingAverageSampleSize(int);
+  public abstract long getAverageIdleTime();
+  public abstract long getAverageTransactionTime();
+  public abstract long getAverageWSTransactionTime();
+  public abstract long getAverageDATransactionTime();
+  public abstract long getAverageCATransactionTime();
+  public abstract long getMovingAverageIdleTime();
+  public abstract long getMovingAverageTransactionTime();
+  public abstract double getAverageRequestsPerSession();
+  public abstract double getMovingAverageRequestsPerSession();
+  public abstract long getMovingAverageSessionLife();
+  public abstract java.util.HashMap getAverageSessionMemory();
+  public abstract java.util.HashMap getMemoryUsage();
+  public abstract java.util.ArrayList getLastSessionStatistics();
+  public abstract java.util.HashMap getPagesStatistics();
+  public abstract java.util.HashMap getWebServiceStatistics();
+  public abstract java.util.HashMap getDirectActionStatistics();
+  public abstract java.util.HashMap getPathsStatistics();
+  public abstract int getStatisticStoreSessionMax();
+  public abstract long getApplicationlastAccessTime();
+  public abstract void setApplicationLastAccessTime(long);
+}

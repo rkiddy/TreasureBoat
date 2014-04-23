@@ -1,0 +1,7 @@
+Compiled from "WOMLElementGenerationException.java"
+public class com.webobjects.appserver.parser.woml.WOMLElementGenerationException extends java.lang.RuntimeException {
+  public com.webobjects.appserver.parser.woml.WOMLElementGenerationException();
+  public com.webobjects.appserver.parser.woml.WOMLElementGenerationException(java.lang.String, java.lang.Throwable);
+  public com.webobjects.appserver.parser.woml.WOMLElementGenerationException(java.lang.String);
+  public com.webobjects.appserver.parser.woml.WOMLElementGenerationException(java.lang.Throwable);
+}

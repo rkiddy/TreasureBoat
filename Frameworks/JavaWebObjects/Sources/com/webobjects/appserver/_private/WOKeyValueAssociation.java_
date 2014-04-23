@@ -1,0 +1,15 @@
+Compiled from "WOKeyValueAssociation.java"
+public class com.webobjects.appserver._private.WOKeyValueAssociation extends com.webobjects.appserver.WOAssociation implements java.lang.Cloneable {
+  protected java.lang.String _keyPath;
+  protected boolean _isValueSettable;
+  public com.webobjects.appserver._private.WOKeyValueAssociation(java.lang.String);
+  public java.lang.Object clone();
+  public java.lang.String toString();
+  public java.lang.Object valueInComponent(com.webobjects.appserver.WOComponent);
+  public void setValue(java.lang.Object, com.webobjects.appserver.WOComponent);
+  public void _setValueNoValidation(java.lang.Object, com.webobjects.appserver.WOComponent);
+  public boolean isValueSettable();
+  public boolean isValueConstant();
+  public java.lang.String keyPath();
+  public java.lang.String bindingInComponent(com.webobjects.appserver.WOComponent);
+}

@@ -1,0 +1,26 @@
+Compiled from "WOInput.java"
+public abstract class com.webobjects.appserver._private.WOInput extends com.webobjects.appserver._private.WOHTMLDynamicElement {
+  protected com.webobjects.appserver.WOAssociation _disabled;
+  protected com.webobjects.appserver.WOAssociation _name;
+  protected com.webobjects.appserver.WOAssociation _value;
+  protected com.webobjects.appserver.WOAssociation _escapeHTML;
+  protected com.webobjects.appserver.WOAssociation _hidden;
+  public com.webobjects.appserver._private.WOInput(java.lang.String, com.webobjects.foundation.NSDictionary<java.lang.String, com.webobjects.appserver.WOAssociation>, com.webobjects.appserver.WOElement);
+  protected java.lang.String type();
+  protected boolean hasContent();
+  protected boolean defaultEscapeHTML();
+  protected boolean isValueInInputValues(java.lang.Object, java.lang.Object);
+  public java.lang.String nameInContext(com.webobjects.appserver.WOContext);
+  protected java.lang.String nameInContext(com.webobjects.appserver.WOContext, com.webobjects.appserver.WOComponent);
+  public void takeValuesFromRequest(com.webobjects.appserver.WORequest, com.webobjects.appserver.WOContext);
+  protected java.lang.String valueStringInContext(com.webobjects.appserver.WOContext);
+  protected boolean escapeHTMLInContext(com.webobjects.appserver.WOContext);
+  protected boolean hiddenInContext(com.webobjects.appserver.WOContext);
+  protected boolean isDisabledInContext(com.webobjects.appserver.WOContext);
+  protected void _appendTypeAttributeToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+  protected void _appendNameAttributeToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+  protected void _appendValueAttributeToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+  protected void _appendDisabledAttributeToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+  public void appendAttributesToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+  public java.lang.String toString();
+}

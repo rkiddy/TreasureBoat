@@ -1,0 +1,27 @@
+Compiled from "_DecodingNode.java"
+public class com.webobjects.appserver.xml._private._DecodingNode {
+  java.lang.String _tagName;
+  java.lang.String _type;
+  java.lang.String _relationshipType;
+  java.lang.String _objectID;
+  java.lang.String _objectIDRef;
+  com.webobjects.foundation.NSMutableArray<? extends com.webobjects.appserver.xml._private._DecodingNode> _children;
+  java.lang.String _content;
+  java.lang.StringBuffer _contentStringBuffer;
+  public com.webobjects.appserver.xml._private._DecodingNode(java.lang.String);
+  public java.lang.String getTagName();
+  public void addChild(com.webobjects.appserver.xml._private._DecodingNode);
+  public com.webobjects.foundation.NSArray getChildren();
+  public java.lang.String getContent();
+  public void setContent(java.lang.String);
+  public void appendContent(char[], int, int);
+  public void setType(java.lang.String);
+  public java.lang.String getType();
+  public void setRelationshipType(java.lang.String);
+  public java.lang.String getRelationshipType();
+  public void setObjectID(java.lang.String);
+  public java.lang.String getObjectID();
+  public void setObjectIDRef(java.lang.String);
+  public java.lang.String getObjectIDRef();
+  public java.lang.String toString();
+}

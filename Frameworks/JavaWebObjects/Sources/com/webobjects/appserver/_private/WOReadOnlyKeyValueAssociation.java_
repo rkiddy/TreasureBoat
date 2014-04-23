@@ -1,0 +1,11 @@
+Compiled from "WOReadOnlyKeyValueAssociation.java"
+public class com.webobjects.appserver._private.WOReadOnlyKeyValueAssociation extends com.webobjects.appserver._private.WOKeyValueAssociation implements java.lang.Cloneable {
+  public com.webobjects.appserver._private.WOReadOnlyKeyValueAssociation(java.lang.String);
+  public java.lang.Object clone();
+  public void setValue(java.lang.Object, com.webobjects.appserver.WOComponent);
+  public boolean isValueSettable();
+  public boolean isValueConstant();
+  protected java.lang.String _debugDescription();
+  public java.lang.String keyPath();
+  public java.lang.String bindingInComponent(com.webobjects.appserver.WOComponent);
+}

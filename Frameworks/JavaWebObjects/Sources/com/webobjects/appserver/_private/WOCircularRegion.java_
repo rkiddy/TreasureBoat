@@ -1,0 +1,8 @@
+Compiled from "WOCircularRegion.java"
+public class com.webobjects.appserver._private.WOCircularRegion extends com.webobjects.appserver._private.WOGeometricRegion {
+  com.webobjects.appserver._private.WOPoint _origin;
+  com.webobjects.appserver._private.WOPoint _edgePoint;
+  public com.webobjects.appserver._private.WOCircularRegion(java.lang.String, com.webobjects.foundation.NSMutableArray, java.lang.String);
+  public boolean hitTest(int, int);
+  protected java.lang.String _subclassDescription();
+}

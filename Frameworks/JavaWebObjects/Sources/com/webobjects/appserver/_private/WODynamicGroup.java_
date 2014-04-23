@@ -1,0 +1,18 @@
+Compiled from "WODynamicGroup.java"
+public class com.webobjects.appserver._private.WODynamicGroup extends com.webobjects.appserver.WODynamicElement {
+  protected com.webobjects.foundation.NSMutableArray<com.webobjects.appserver.WOElement> _children;
+  public static com.webobjects.appserver._private.WODynamicGroup EmptyGroup();
+  public com.webobjects.appserver._private.WODynamicGroup(java.lang.String, com.webobjects.foundation.NSDictionary, com.webobjects.appserver.WOElement);
+  public com.webobjects.appserver._private.WODynamicGroup(java.lang.String, com.webobjects.foundation.NSDictionary<java.lang.String, com.webobjects.appserver.WOAssociation>, com.webobjects.foundation.NSMutableArray<com.webobjects.appserver.WOElement>);
+  public com.webobjects.foundation.NSMutableArray<com.webobjects.appserver.WOElement> childrenElements();
+  protected void addChildElement(java.lang.Object);
+  public boolean hasChildrenElements();
+  public void takeChildrenValuesFromRequest(com.webobjects.appserver.WORequest, com.webobjects.appserver.WOContext);
+  public void takeValuesFromRequest(com.webobjects.appserver.WORequest, com.webobjects.appserver.WOContext);
+  public com.webobjects.appserver.WOActionResults invokeChildrenAction(com.webobjects.appserver.WORequest, com.webobjects.appserver.WOContext);
+  public com.webobjects.appserver.WOActionResults invokeAction(com.webobjects.appserver.WORequest, com.webobjects.appserver.WOContext);
+  public void appendChildrenToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+  public void appendToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+  public java.lang.String toString();
+  static {};
+}

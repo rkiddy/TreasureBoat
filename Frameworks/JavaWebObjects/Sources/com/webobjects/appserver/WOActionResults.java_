@@ -1,0 +1,4 @@
+Compiled from "WOActionResults.java"
+public interface com.webobjects.appserver.WOActionResults {
+  public abstract com.webobjects.appserver.WOResponse generateResponse();
+}

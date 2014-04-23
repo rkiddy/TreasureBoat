@@ -1,0 +1,9 @@
+Compiled from "WOComponentSerializer.java"
+public class com.webobjects.appserver._private.WOComponentSerializer implements org.apache.axis.encoding.Serializer {
+  public com.webobjects.appserver._private.WOComponentSerializer();
+  public java.lang.String getXMLStringForComponent(com.webobjects.appserver.WOComponent);
+  public void serialize(javax.xml.namespace.QName, org.xml.sax.Attributes, java.lang.Object, org.apache.axis.encoding.SerializationContext) throws java.io.IOException;
+  public java.lang.String getMechanismType();
+  public boolean writeSchema(org.apache.axis.wsdl.fromJava.Types) throws java.lang.Exception;
+  public org.w3c.dom.Element writeSchema(java.lang.Class, org.apache.axis.wsdl.fromJava.Types) throws java.lang.Exception;
+}

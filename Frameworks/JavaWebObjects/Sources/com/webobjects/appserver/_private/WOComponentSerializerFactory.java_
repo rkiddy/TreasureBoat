@@ -1,0 +1,4 @@
+Compiled from "WOComponentSerializerFactory.java"
+public class com.webobjects.appserver._private.WOComponentSerializerFactory extends org.apache.axis.encoding.ser.BaseSerializerFactory {
+  public com.webobjects.appserver._private.WOComponentSerializerFactory(java.lang.Class, javax.xml.namespace.QName);
+}

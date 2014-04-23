@@ -1,0 +1,9 @@
+Compiled from "WOImagemapRegion.java"
+public class com.webobjects.appserver._private.WOImagemapRegion {
+  public static final char DIRECT_ACTION_DELIMITER;
+  protected com.webobjects.appserver._private.WOImagemapRegion(com.webobjects.appserver.WOAssociation, com.webobjects.appserver._private.WOGeometricRegion);
+  protected static com.webobjects.foundation.NSMutableArray imagemapRegionsWithPathURL(java.net.URL);
+  public com.webobjects.appserver.WOAssociation hitTest(com.webobjects.appserver._private.WOPoint);
+  public java.lang.String toString();
+  static {};
+}

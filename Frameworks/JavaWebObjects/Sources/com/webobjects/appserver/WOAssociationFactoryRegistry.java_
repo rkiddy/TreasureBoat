@@ -1,0 +1,10 @@
+Compiled from "WOAssociationFactoryRegistry.java"
+public class com.webobjects.appserver.WOAssociationFactoryRegistry implements com.webobjects.appserver.WOAssociationFactory {
+  public static final java.lang.String CONSTANT;
+  public static final java.lang.String KVC;
+  public static final java.lang.String VAR;
+  public com.webobjects.appserver.WOAssociationFactoryRegistry();
+  public void setAssociationFactory(java.lang.String, com.webobjects.appserver.WOAssociationFactory);
+  public com.webobjects.appserver.WOAssociationFactory getAssociationFactory(java.lang.String);
+  public com.webobjects.appserver.WOAssociation createAssociation(java.lang.String, java.lang.Object) throws com.webobjects.appserver.WOSchemeNotSupportedException;
+}

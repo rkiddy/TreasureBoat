@@ -1,0 +1,30 @@
+Compiled from "_WOAntProject.java"
+public final class com.webobjects._ideservices._WOAntProject implements com.webobjects._ideservices._IDEProject {
+  public com.webobjects._ideservices._WOAntProject(java.lang.String);
+  public static com.webobjects._ideservices._WOAntProject antProjectAtPath(java.lang.String);
+  public java.lang.String projectDir();
+  public java.lang.String projectDirNotNormalized();
+  public java.lang.String languageDir();
+  public java.lang.String projectName();
+  public java.lang.String projectTypeName();
+  public java.lang.String languageName();
+  public void addComponent(java.lang.String, java.lang.String);
+  public java.lang.String pathToBucket(java.lang.String);
+  public void addFileKey(java.lang.String, java.lang.String);
+  public void openFile(java.lang.String, int, java.lang.String);
+  public java.lang.String pathForFrameworkNamed(java.lang.String);
+  public void setPathForFramework(java.lang.String, java.lang.String);
+  public void extractFilesIntoWOProject(com.webobjects._ideservices._WOProject);
+  public void extractResourceFilesIntoWOProject(com.webobjects._ideservices._WOProject, java.io.File);
+  public java.lang.String ideApplicationName();
+  public java.lang.String ideProjectPath();
+  public com.webobjects.foundation.NSArray frameworkBundlePaths();
+  public com.webobjects.foundation.NSArray frameworkBundlePathURLs();
+  public void addFilenameExtensionToListOfKnowns(java.lang.String);
+  public void refreshUnderlyingProjectCache();
+  public java.lang.String bundlePath();
+  public java.net.URL bundlePathURL();
+  public org.w3c.dom.Document documentForFile(java.lang.String);
+  public java.lang.String extractProjectName(java.lang.String);
+  static {};
+}

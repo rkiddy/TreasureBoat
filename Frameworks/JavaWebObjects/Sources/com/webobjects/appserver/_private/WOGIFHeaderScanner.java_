@@ -1,0 +1,5 @@
+Compiled from "WOGIFHeaderScanner.java"
+public class com.webobjects.appserver._private.WOGIFHeaderScanner extends com.webobjects.appserver._private.WOImageHeaderScanner {
+  public com.webobjects.appserver._private.WOGIFHeaderScanner();
+  public void scan() throws java.io.IOException;
+}

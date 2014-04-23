@@ -1,0 +1,8 @@
+Compiled from "WORequestHandler.java"
+public abstract class com.webobjects.appserver.WORequestHandler {
+  public static java.lang.String DidHandleRequestNotification;
+  protected com.webobjects.appserver.WORequestHandler();
+  public abstract com.webobjects.appserver.WOResponse handleRequest(com.webobjects.appserver.WORequest);
+  public java.lang.String toString();
+  static {};
+}

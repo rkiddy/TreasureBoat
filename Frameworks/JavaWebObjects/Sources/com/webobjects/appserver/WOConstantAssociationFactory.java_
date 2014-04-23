@@ -1,0 +1,5 @@
+Compiled from "WOConstantAssociationFactory.java"
+public class com.webobjects.appserver.WOConstantAssociationFactory implements com.webobjects.appserver.WOAssociationFactory {
+  public com.webobjects.appserver.WOConstantAssociationFactory();
+  public com.webobjects.appserver.WOAssociation createAssociation(java.lang.String, java.lang.Object) throws com.webobjects.appserver.WOSchemeNotSupportedException;
+}

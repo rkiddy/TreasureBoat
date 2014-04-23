@@ -1,0 +1,5 @@
+Compiled from "WOHTMLParser.java"
+public class com.webobjects.appserver.parser.WOHTMLParser {
+  public com.webobjects.appserver.parser.WOHTMLParser(com.webobjects.appserver.parser.WOHTMLParserDelegate, java.lang.String);
+  public void parseHTML() throws com.webobjects.appserver.parser.WOHTMLFormatException, com.webobjects.appserver.parser.declaration.WODeclarationFormatException, java.lang.ClassNotFoundException;
+}

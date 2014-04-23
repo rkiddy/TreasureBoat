@@ -1,0 +1,40 @@
+Compiled from "WODeployedBundle.java"
+public class com.webobjects.appserver._private.WODeployedBundle {
+  protected final java.lang.String _bundlePath;
+  protected final boolean _isFramework;
+  protected final java.lang.String _projectName;
+  protected final java.lang.String _wrapperName;
+  public com.webobjects.appserver._private.WODeployedBundle(com.webobjects.foundation.NSBundle);
+  public com.webobjects.appserver._private.WODeployedBundle(java.lang.String, com.webobjects.foundation.NSBundle);
+  public static com.webobjects.appserver._private.WODeployedBundle deployedBundle();
+  protected void _newPreloadAllResourcesInSubDirectory(java.io.File, int, int, com.webobjects.foundation.NSMutableArray);
+  protected void _jarPreloadAllResourcesInSubDirectory(java.lang.String, com.webobjects.foundation.NSMutableArray<java.lang.String>);
+  public java.lang.String relativePathForResource(java.lang.String, com.webobjects.foundation.NSArray);
+  public java.lang.String relativePathForResource(java.lang.String, java.lang.String);
+  public java.lang.String _absolutePathForResource(java.lang.String, com.webobjects.foundation.NSArray);
+  public java.lang.String _absolutePathForResource(java.lang.String, java.lang.String, boolean);
+  public java.lang.String _absolutePathForResource(java.lang.String, java.lang.String);
+  public java.io.InputStream inputStreamForResourceNamed(java.lang.String, com.webobjects.foundation.NSArray);
+  public java.io.InputStream inputStreamForResourceNamed(java.lang.String, java.lang.String);
+  public java.net.URL pathURLForResourceNamed(java.lang.String, java.lang.String, boolean);
+  public java.net.URL pathURLForResourceNamed(java.lang.String, java.lang.String);
+  public java.net.URL pathURLForResourceNamed(java.lang.String, com.webobjects.foundation.NSArray);
+  public java.lang.String urlForResource(java.lang.String, com.webobjects.foundation.NSArray);
+  public java.lang.String bundlePath();
+  protected java.lang.String _initBundlePath(java.lang.String);
+  protected java.net.URL _initBundleURL(java.net.URL);
+  protected java.lang.String _initProjectName(java.lang.String);
+  public java.lang.String projectName();
+  public java.lang.String wrapperName();
+  public boolean isFramework();
+  public boolean isAggregate();
+  public boolean isJar();
+  public com.webobjects.foundation.NSBundle nsBundle();
+  public com.webobjects.appserver._private.WOProjectBundle projectBundle();
+  public static synchronized com.webobjects.appserver._private.WODeployedBundle bundleWithPath(java.lang.String);
+  public static synchronized com.webobjects.appserver._private.WODeployedBundle bundleWithNSBundle(com.webobjects.foundation.NSBundle);
+  public com.webobjects.foundation.NSArray<java.lang.String> _allResourceNamesWithExtension(java.lang.String, boolean);
+  public static synchronized com.webobjects.appserver._private.WODeployedBundle deployedBundleForFrameworkNamed(java.lang.String);
+  public java.lang.String toString();
+  static {};
+}

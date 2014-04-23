@@ -1,0 +1,23 @@
+Compiled from "WONoCopyPushbackInputStream.java"
+public class com.webobjects.appserver._private.WONoCopyPushbackInputStream extends java.io.FilterInputStream {
+  java.util.LinkedList<com.webobjects.appserver._private.WONoCopyPushbackInputStream$PushbackBuffer> buffers;
+  byte[] oneByteArray;
+  int readMax;
+  int originalReadMax;
+  boolean prematureTermination;
+  public com.webobjects.appserver._private.WONoCopyPushbackInputStream(java.io.InputStream, int);
+  public int read() throws java.io.IOException;
+  public int read(byte[]) throws java.io.IOException;
+  public int read(byte[], int, int) throws java.io.IOException;
+  public void unread(byte[], int, int) throws java.io.IOException;
+  public void unread(byte[]) throws java.io.IOException;
+  public int available() throws java.io.IOException;
+  public int theoreticallyAvailable();
+  public long skip(long) throws java.io.IOException;
+  public boolean markSupported();
+  public synchronized void close() throws java.io.IOException;
+  public void drain() throws java.io.IOException;
+  public int readMax();
+  public int originalReadMax();
+  public boolean wasPrematurelyTerminated();
+}

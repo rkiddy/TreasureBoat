@@ -1,0 +1,8 @@
+Compiled from "WOPoint.java"
+public class com.webobjects.appserver._private.WOPoint {
+  public int x;
+  public int y;
+  protected com.webobjects.appserver._private.WOPoint(int, int);
+  protected com.webobjects.appserver._private.WOPoint(java.lang.String);
+  public java.lang.String toString();
+}

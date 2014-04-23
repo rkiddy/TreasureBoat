@@ -1,0 +1,11 @@
+Compiled from "WOImageHeaderScanner.java"
+public abstract class com.webobjects.appserver._private.WOImageHeaderScanner {
+  protected java.io.DataInputStream inputStream;
+  protected int height;
+  protected int width;
+  public com.webobjects.appserver._private.WOImageHeaderScanner();
+  protected void setStream(java.io.DataInputStream);
+  public int getHeight();
+  public int getWidth();
+  public abstract void scan() throws java.io.IOException;
+}

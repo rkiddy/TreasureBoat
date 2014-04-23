@@ -1,0 +1,29 @@
+Compiled from "WOUrlConnection.java"
+public class com.webobjects.appserver._private.WOUrlConnection {
+  public static final java.lang.String CONNECTION;
+  public static final java.lang.String CLOSE;
+  public static final java.lang.String KEEPALIVE;
+  java.io.InputStream _httpIs;
+  com.webobjects.appserver._private.WOUrlConnection$UrlDataSender _urlDataSender;
+  public com.webobjects.appserver._private.WOUrlConnection(java.net.URL, int, int, int, int) throws java.io.IOException;
+  public com.webobjects.appserver._private.WOUrlConnection(java.net.URL) throws java.io.IOException;
+  public void cleanup();
+  public void reset();
+  public long connectTimeout();
+  public void setConnectTimeout(long);
+  public long sendTimeout();
+  public void setSendTimeout(long);
+  public long receiveTimeout();
+  public void setReceiveTimeout(long);
+  public long readTimeout();
+  public void setReadTimeout(long);
+  public void connect() throws java.io.IOException;
+  public void connect(long) throws java.io.IOException;
+  public void send(byte[]) throws java.io.IOException;
+  public void send(long, byte[]) throws java.io.IOException;
+  public com.webobjects.foundation.NSData receive() throws java.io.IOException;
+  public com.webobjects.foundation.NSData receive(long, long) throws java.io.IOException;
+  public java.net.URLConnection urlConnection();
+  public java.net.HttpURLConnection httpUrlConnection();
+  public com.webobjects.foundation.NSDictionary responseHeaders();
+}

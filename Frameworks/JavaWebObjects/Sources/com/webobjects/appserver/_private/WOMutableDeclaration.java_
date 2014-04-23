@@ -1,0 +1,8 @@
+Compiled from "WOMutableDeclaration.java"
+public class com.webobjects.appserver._private.WOMutableDeclaration extends com.webobjects.appserver._private.WODeclaration {
+  public com.webobjects.appserver._private.WOMutableDeclaration();
+  public com.webobjects.appserver._private.WOMutableDeclaration(java.lang.String, java.lang.String, com.webobjects.foundation.NSDictionary<java.lang.String, com.webobjects.appserver.WOAssociation>);
+  public void setName(java.lang.String);
+  public void setType(java.lang.String);
+  public com.webobjects.foundation.NSMutableDictionary<java.lang.String, com.webobjects.appserver.WOAssociation> mutableAssociations();
+}

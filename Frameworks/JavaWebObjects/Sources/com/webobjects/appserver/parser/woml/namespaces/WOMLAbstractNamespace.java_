@@ -1,0 +1,24 @@
+Compiled from "WOMLAbstractNamespace.java"
+public abstract class com.webobjects.appserver.parser.woml.namespaces.WOMLAbstractNamespace implements com.webobjects.appserver.parser.woml.WOMLNamespace {
+  public static final java.lang.String ATTRIBUTE_VALUE_REMOVE;
+  public static final java.lang.String ATTRIBUTE_VALUE_CONTENT;
+  public static final java.lang.String WOGENERIC_CONTAINER_NAME;
+  public static final java.lang.String WOGENERIC_ELEMENT_NAME;
+  public com.webobjects.appserver.parser.woml.namespaces.WOMLAbstractNamespace(java.lang.String);
+  protected java.util.Map<java.lang.String, com.webobjects.appserver.WOAssociation> getAssociations(com.webobjects.appserver.parser.woml.WOMLElement, com.webobjects.appserver.WOAssociationFactory);
+  protected boolean shouldContributeAssociation(com.webobjects.appserver.parser.woml.WOMLElement, com.webobjects.appserver._private.WOMutableDeclaration, com.webobjects.foundation.NSArray<java.lang.String>, java.lang.String, com.webobjects.appserver.WOAssociation);
+  public com.webobjects.appserver.parser.woml.namespaces.WOMLAbstractNamespace$WOMLElementGenerator getElementGenerator(java.lang.String);
+  public void setElementGenerator(java.lang.String, com.webobjects.appserver.parser.woml.namespaces.WOMLAbstractNamespace$WOMLElementGenerator);
+  public com.webobjects.appserver.parser.woml.namespaces.WOMLAbstractNamespace$WOMLElementGenerator getDefaultElementGenerator();
+  public void setDefaultElementGenerator(com.webobjects.appserver.parser.woml.namespaces.WOMLAbstractNamespace$WOMLElementGenerator);
+  public java.lang.String getAlias(java.lang.String);
+  public java.lang.String setAlias(java.lang.String, java.lang.String);
+  public abstract java.lang.String getComponentIdentifierAttributeName();
+  public java.lang.String getRawComponentType(com.webobjects.appserver.parser.woml.WOMLElement);
+  public java.lang.String getDeclaredType(com.webobjects.appserver.parser.woml.WOMLElement);
+  public java.lang.String getGenericElementType(com.webobjects.appserver.WOElement);
+  public java.lang.String getNamespaceId();
+  public boolean canGenerateElement(com.webobjects.appserver.parser.woml.WOMLElement);
+  public com.webobjects.appserver.WOElement generateElement(com.webobjects.appserver.parser.woml.WOMLElement, com.webobjects.appserver.WOElement, com.webobjects.appserver._private.WOMutableDeclaration, com.webobjects.foundation.NSArray<java.lang.String>, com.webobjects.appserver.WOAssociationFactory) throws com.webobjects.appserver.parser.woml.WOMLElementGenerationException;
+  public void contributeToDeclaration(com.webobjects.appserver.parser.woml.WOMLElement, com.webobjects.appserver._private.WOMutableDeclaration, com.webobjects.foundation.NSArray<java.lang.String>, com.webobjects.appserver.WOAssociationFactory) throws com.webobjects.appserver.parser.woml.WOMLElementGenerationException;
+}

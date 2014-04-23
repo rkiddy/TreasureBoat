@@ -1,0 +1,5 @@
+Compiled from "WOMLDefaultEntityResolver.java"
+public class com.webobjects.appserver.parser.woml.WOMLDefaultEntityResolver implements org.xml.sax.EntityResolver {
+  public com.webobjects.appserver.parser.woml.WOMLDefaultEntityResolver();
+  public org.xml.sax.InputSource resolveEntity(java.lang.String, java.lang.String) throws org.xml.sax.SAXException, java.io.IOException;
+}

@@ -1,0 +1,5 @@
+Compiled from "WOParser.java"
+public abstract class com.webobjects.appserver._private.WOParser extends com.webobjects.appserver.parser.WOComponentTemplateParser {
+  public com.webobjects.appserver._private.WOParser(java.lang.String, java.lang.String, java.lang.String, com.webobjects.foundation.NSArray<java.lang.String>, com.webobjects.appserver.WOAssociationFactory, com.webobjects.appserver.parser.woml.WOMLNamespaceProvider);
+  public abstract com.webobjects.appserver.WOElement parse() throws java.lang.ClassNotFoundException, com.webobjects.appserver.parser.declaration.WODeclarationFormatException, com.webobjects.appserver.parser.WOHTMLFormatException;
+}

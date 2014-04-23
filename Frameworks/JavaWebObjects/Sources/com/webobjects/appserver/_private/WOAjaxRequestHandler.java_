@@ -1,0 +1,5 @@
+Compiled from "WOAjaxRequestHandler.java"
+public class com.webobjects.appserver._private.WOAjaxRequestHandler extends com.webobjects.appserver._private.WOComponentRequestHandler {
+  public com.webobjects.appserver._private.WOAjaxRequestHandler();
+  public com.webobjects.appserver.WOResponse handleRequest(com.webobjects.appserver.WORequest);
+}

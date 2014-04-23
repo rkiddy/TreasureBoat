@@ -1,0 +1,19 @@
+Compiled from "WOClassicAdaptor.java"
+public class com.webobjects.appserver._private.WOClassicAdaptor extends com.webobjects.appserver.WOAdaptor {
+  protected com.webobjects.appserver._private.WOClassicAdaptor(java.lang.String, com.webobjects.foundation.NSDictionary, boolean);
+  public com.webobjects.appserver._private.WOClassicAdaptor(java.lang.String, com.webobjects.foundation.NSDictionary);
+  public synchronized void registerForEvents(boolean);
+  public synchronized void registerForEvents();
+  public synchronized void unregisterForEvents();
+  public void incrementActiveThreads();
+  public void decrementActiveThreads();
+  int _nmbOfWorkerThreads();
+  void _setNmbOfWorkerThreads(int);
+  int _nmbOfActiveThreads();
+  void _setNmbOfActiveThreads(int);
+  int _windowSize();
+  void _setWindowSize(int);
+  public int port();
+  public boolean dispatchesRequestsConcurrently();
+  public java.lang.String toString();
+}

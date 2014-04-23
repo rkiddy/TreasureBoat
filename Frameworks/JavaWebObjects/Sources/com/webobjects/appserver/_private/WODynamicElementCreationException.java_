@@ -1,0 +1,4 @@
+Compiled from "WODynamicElementCreationException.java"
+public class com.webobjects.appserver._private.WODynamicElementCreationException extends java.lang.RuntimeException {
+  public com.webobjects.appserver._private.WODynamicElementCreationException(java.lang.String);
+}

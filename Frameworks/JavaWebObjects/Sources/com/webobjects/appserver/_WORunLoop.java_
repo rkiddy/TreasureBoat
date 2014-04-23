@@ -1,0 +1,14 @@
+Compiled from "_WORunLoop.java"
+public class com.webobjects.appserver._WORunLoop {
+  com.webobjects.foundation.NSMutableArray<com.webobjects.appserver.WOTimer> _timers;
+  long _nextIntervalDate;
+  boolean _hasIntervalDate;
+  public static final long _LimitWaitInterval;
+  public static com.webobjects.appserver._WORunLoop currentRunLoop();
+  public void addTimer(com.webobjects.appserver.WOTimer);
+  protected void removeTimer(com.webobjects.appserver.WOTimer);
+  public synchronized boolean runBeforeDate(com.webobjects.foundation.NSTimestamp);
+  public synchronized void stopNow();
+  public java.lang.String toString();
+  static {};
+}

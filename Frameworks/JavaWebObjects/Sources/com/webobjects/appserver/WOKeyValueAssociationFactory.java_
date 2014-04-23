@@ -1,0 +1,5 @@
+Compiled from "WOKeyValueAssociationFactory.java"
+public class com.webobjects.appserver.WOKeyValueAssociationFactory implements com.webobjects.appserver.WOAssociationFactory {
+  public com.webobjects.appserver.WOKeyValueAssociationFactory();
+  public com.webobjects.appserver.WOAssociation createAssociation(java.lang.String, java.lang.Object);
+}

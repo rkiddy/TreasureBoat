@@ -1,0 +1,15 @@
+Compiled from "WOComponentReference.java"
+public class com.webobjects.appserver._private.WOComponentReference extends com.webobjects.appserver.WODynamicElement {
+  public java.lang.String _name;
+  public com.webobjects.appserver.WOElement _contentElement;
+  protected static boolean _IsEventLoggingEnabled;
+  public static java.lang.String PushComponentInContextEvent;
+  public com.webobjects.appserver._private.WOComponentReference(java.lang.String, com.webobjects.foundation.NSDictionary<java.lang.String, com.webobjects.appserver.WOAssociation>, com.webobjects.appserver.WOElement);
+  public java.lang.String toString();
+  public void _pushComponentInContext(com.webobjects.appserver.WOContext);
+  public void _popComponentFromContext(com.webobjects.appserver.WOContext);
+  public void takeValuesFromRequest(com.webobjects.appserver.WORequest, com.webobjects.appserver.WOContext);
+  public com.webobjects.appserver.WOActionResults invokeAction(com.webobjects.appserver.WORequest, com.webobjects.appserver.WOContext);
+  public void appendToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+  static {};
+}

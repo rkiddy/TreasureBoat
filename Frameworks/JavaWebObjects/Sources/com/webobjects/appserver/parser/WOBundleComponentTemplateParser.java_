@@ -1,0 +1,14 @@
+Compiled from "WOBundleComponentTemplateParser.java"
+public class com.webobjects.appserver.parser.WOBundleComponentTemplateParser extends com.webobjects.appserver.parser.WOComponentTemplateParser implements com.webobjects.appserver.parser.WOHTMLParserDelegate {
+  protected com.webobjects.appserver.parser.WOHTMLWebObjectTag _currentWebObjectTag;
+  protected com.webobjects.foundation.NSDictionary<java.lang.String, com.webobjects.appserver._private.WODeclaration> _declarations;
+  public com.webobjects.appserver.parser.WOBundleComponentTemplateParser(java.lang.String, java.lang.String, java.lang.String, com.webobjects.foundation.NSArray<java.lang.String>, com.webobjects.appserver.WOAssociationFactory, com.webobjects.appserver.parser.woml.WOMLNamespaceProvider);
+  public void didParseOpeningWebObjectTag(java.lang.String, com.webobjects.appserver.parser.WOHTMLParser) throws com.webobjects.appserver.parser.WOHTMLFormatException;
+  public void didParseClosingWebObjectTag(java.lang.String, com.webobjects.appserver.parser.WOHTMLParser) throws com.webobjects.appserver.parser.declaration.WODeclarationFormatException, com.webobjects.appserver.parser.WOHTMLFormatException, java.lang.ClassNotFoundException;
+  public void didParseComment(java.lang.String, com.webobjects.appserver.parser.WOHTMLParser);
+  public void didParseText(java.lang.String, com.webobjects.appserver.parser.WOHTMLParser);
+  public com.webobjects.foundation.NSDictionary<java.lang.String, com.webobjects.appserver._private.WODeclaration> declarations() throws com.webobjects.appserver.parser.declaration.WODeclarationFormatException;
+  public void setDeclarations(com.webobjects.foundation.NSDictionary<java.lang.String, com.webobjects.appserver._private.WODeclaration>);
+  public com.webobjects.appserver.WOElement parse() throws com.webobjects.appserver.parser.declaration.WODeclarationFormatException, com.webobjects.appserver.parser.WOHTMLFormatException, java.lang.ClassNotFoundException;
+  static {};
+}

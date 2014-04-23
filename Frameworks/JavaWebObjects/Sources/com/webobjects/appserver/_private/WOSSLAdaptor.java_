@@ -1,0 +1,5 @@
+Compiled from "WOSSLAdaptor.java"
+public class com.webobjects.appserver._private.WOSSLAdaptor extends com.webobjects.appserver._private.WOClassicAdaptor {
+  public com.webobjects.appserver._private.WOSSLAdaptor(java.lang.String, com.webobjects.foundation.NSDictionary);
+  public synchronized void registerForEvents();
+}

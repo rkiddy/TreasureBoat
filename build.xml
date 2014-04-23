@@ -1,4 +1,4 @@
-<project name="TreasureBoat" default="jar" basedir=".">
+<project name="TreasureBoat" default="dist" basedir=".">
 
     <description>
         TreasureBoat - the new thing.
@@ -8,34 +8,40 @@
     <property name="build" location="build" />
     <property name="dist"  location="dist" />
 
-    <!-- Yes, this dir should be put into a property. Will do. -->
+    <property name="fRJ" value="framework/Resources/Java" />
 
+    <property file="build.properties" />
+    
     <path id="class.path">
-        <fileset dir="/Library/WebObjects/Versions/WebObjects543/Library/Frameworks">
-            <include name="JavaEOControl.framework/Resources/Java/javaeocontrol.jar" />
-            <include name="JavaWebObjects.framework/Resources/Java/javawebobjects.jar" />
-            <include name="JavaEOProject.framework/Resources/Java/javaeoproject.jar" />
-            <include name="JavaXML.framework/Resources/Java/javaxml.jar" />
-            <include name="JavaJDBCAdaptor.framework/Resources/Java/javajdbcadaptor.jar" />
-            <include name="JavaFoundation.framework/Resources/Java/javafoundation.jar" />
-            <include name="JavaEOAccess.framework/Resources/Java/javaeoaccess.jar" />
-            <include name="JavaWOExtensions.framework/Resources/Java/javawoextensions.jar" />
+        <fileset dir="${WO_FWKS}">
+            <include name="JavaFoundation.${fRJ}/javafoundation.jar" />
         </fileset>
     </path>
 
     <target name="init">
         <tstamp/>
         <mkdir dir="${build}" />
+        <mkdir dir="${build}/JavaWebObjects" />
+        <mkdir dir="${dist}" />
     </target>
 
     <target name="compile" depends="init">
-        <javac srcdir="${src}" destdir="${build}" classpathref="class.path" includeantruntime="true" debug="true" />
+        <unjar src="${WO_FWKS}/JavaWebObjects.framework/Resources/Java/javawebobjects.jar" overwrite="false" dest="${build}/JavaWebObjects" />
+        <delete dir="${build}/JavaWebObjects/META-INF" />
+        <javac srcdir="Frameworks/JavaWebObjects/Sources" destdir="${build}/JavaWebObjects" includeantruntime="true" classpathref="class.path" />
     </target>
 
     <!-- was using: manifest="manifest.txt" on jar task -->
 
-    <target name="jar" depends="compile">
-        <jar jarfile="${dist}/TreasureBoat.jar" basedir="${build}" manifest="manifest.txt" />
+    <target name="dist" depends="compile">
+        <mkdir dir="${dist}/JavaWebObjects.framework/Resources" />
+        <mkdir dir="${dist}/JavaWebObjects.framework/WebServerResources" />
+        <copy todir="${dist}/JavaWebObjects.framework/Resources">
+            <fileset dir="${WO_FWKS}/JavaWebObjects.framework/Resources">
+                <exclude name="**/*.jar" />
+            </fileset>
+        </copy>
+        <jar basedir="${build}/JavaWebObjects" destfile="${dist}/JavaWebObjects.${fRJ}/javawebobjects.jar" />
     </target>
 
     <target name="clean">

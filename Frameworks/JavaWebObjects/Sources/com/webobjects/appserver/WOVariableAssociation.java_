@@ -1,0 +1,10 @@
+Compiled from "WOVariableAssociation.java"
+public class com.webobjects.appserver.WOVariableAssociation extends com.webobjects.appserver.WOAssociation {
+  public com.webobjects.appserver.WOVariableAssociation(java.lang.String);
+  public java.lang.Object valueInComponent(com.webobjects.appserver.WOComponent);
+  public void setValue(java.lang.Object, com.webobjects.appserver.WOComponent);
+  public boolean isValueSettable();
+  public boolean isValueConstant();
+  public java.lang.String bindingInComponent(com.webobjects.appserver.WOComponent);
+  public java.lang.String keyPath();
+}

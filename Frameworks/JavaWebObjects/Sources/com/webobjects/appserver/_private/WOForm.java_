@@ -1,0 +1,28 @@
+Compiled from "WOForm.java"
+public class com.webobjects.appserver._private.WOForm extends com.webobjects.appserver._private.WOHTMLDynamicElement {
+  public static final java.lang.String FORCE_FORM_SUBMITTED_KEY;
+  protected com.webobjects.appserver.WOAssociation _href;
+  protected com.webobjects.appserver.WOAssociation _actionClass;
+  protected com.webobjects.appserver.WOAssociation _directActionName;
+  protected com.webobjects.appserver.WOAssociation _addDefaultSubmitButton;
+  protected static java.lang.Boolean _addDefaultSubmitButtonDefault;
+  protected com.webobjects.appserver.WOAssociation _formName;
+  protected com.webobjects.appserver.WOAssociation _enctype;
+  public com.webobjects.appserver._private.WOForm(java.lang.String, com.webobjects.foundation.NSDictionary<java.lang.String, com.webobjects.appserver.WOAssociation>, com.webobjects.appserver.WOElement);
+  public java.lang.String toString();
+  protected boolean _enterFormInContext(com.webobjects.appserver.WOContext);
+  protected void _exitFormInContext(com.webobjects.appserver.WOContext, boolean, boolean);
+  public void takeValuesFromRequest(com.webobjects.appserver.WORequest, com.webobjects.appserver.WOContext);
+  public com.webobjects.appserver.WOActionResults invokeAction(com.webobjects.appserver.WORequest, com.webobjects.appserver.WOContext);
+  public void appendToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+  public void appendChildrenToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+  protected void _appendCGIActionToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+  public void appendAttributesToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+  protected java.lang.String getActionURL(com.webobjects.appserver.WOContext);
+  protected boolean isMultipleSubmitInContext(com.webobjects.appserver.WOContext);
+  protected boolean addDefaultSubmitButtonInContext(com.webobjects.appserver.WOContext);
+  public static void setAddDefaultSubmitButtonDefault(boolean);
+  public static boolean _addDefaultSubmitButtonDefault();
+  public java.lang.String formNameInContext(com.webobjects.appserver.WOContext);
+  public java.lang.String enctypeInContext(com.webobjects.appserver.WOContext);
+}

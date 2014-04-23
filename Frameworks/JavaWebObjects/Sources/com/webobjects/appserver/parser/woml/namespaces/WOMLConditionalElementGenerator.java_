@@ -1,0 +1,9 @@
+Compiled from "WOMLConditionalElementGenerator.java"
+public class com.webobjects.appserver.parser.woml.namespaces.WOMLConditionalElementGenerator extends com.webobjects.appserver.parser.woml.namespaces.WOMLGenericElementGenerator {
+  protected static final java.lang.String CONDITION_RESULT_PREFIX;
+  protected static int CONDITION_ID;
+  public com.webobjects.appserver.parser.woml.namespaces.WOMLConditionalElementGenerator();
+  public com.webobjects.appserver.WOElement generateElement(com.webobjects.appserver.parser.woml.namespaces.WOMLAbstractNamespace, com.webobjects.appserver.parser.woml.WOMLElement, com.webobjects.appserver.WOElement, com.webobjects.appserver._private.WOMutableDeclaration, com.webobjects.foundation.NSArray<java.lang.String>, com.webobjects.appserver.WOAssociationFactory) throws com.webobjects.appserver.parser.woml.WOMLElementGenerationException;
+  public void contributeToDeclaration(com.webobjects.appserver.parser.woml.namespaces.WOMLAbstractNamespace, com.webobjects.appserver.parser.woml.WOMLElement, com.webobjects.appserver._private.WOMutableDeclaration, com.webobjects.foundation.NSArray<java.lang.String>, com.webobjects.appserver.WOAssociationFactory) throws com.webobjects.appserver.parser.woml.WOMLElementGenerationException;
+  static {};
+}

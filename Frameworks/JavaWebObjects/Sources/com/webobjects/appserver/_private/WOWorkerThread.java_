@@ -1,0 +1,11 @@
+Compiled from "WOWorkerThread.java"
+public class com.webobjects.appserver._private.WOWorkerThread implements java.lang.Runnable {
+  volatile boolean _runFlag;
+  volatile boolean _processingRequest;
+  public com.webobjects.appserver._private.WOWorkerThread(com.webobjects.appserver._private.WOClassicAdaptor, java.net.ServerSocket, int, boolean, int);
+  public com.webobjects.appserver._private.WOWorkerThread(com.webobjects.appserver._private.WOClassicAdaptor, java.net.ServerSocket, int, int);
+  public int id();
+  public void run();
+  public java.lang.String toString();
+  static {};
+}

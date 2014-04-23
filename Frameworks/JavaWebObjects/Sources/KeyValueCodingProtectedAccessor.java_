@@ -1,0 +1,9 @@
+Compiled from "KeyValueCodingProtectedAccessor.java"
+public class KeyValueCodingProtectedAccessor extends com.webobjects.foundation.NSKeyValueCoding$ValueAccessor {
+  public KeyValueCodingProtectedAccessor();
+  public java.lang.Object fieldValue(java.lang.Object, java.lang.reflect.Field) throws java.lang.IllegalArgumentException, java.lang.IllegalAccessException;
+  public void setFieldValue(java.lang.Object, java.lang.reflect.Field, java.lang.Object) throws java.lang.IllegalArgumentException, java.lang.IllegalAccessException;
+  public java.lang.Object methodValue(java.lang.Object, java.lang.reflect.Method) throws java.lang.IllegalArgumentException, java.lang.IllegalAccessException, java.lang.reflect.InvocationTargetException;
+  public void setMethodValue(java.lang.Object, java.lang.reflect.Method, java.lang.Object) throws java.lang.IllegalArgumentException, java.lang.IllegalAccessException, java.lang.reflect.InvocationTargetException;
+  public java.lang.String toString();
+}

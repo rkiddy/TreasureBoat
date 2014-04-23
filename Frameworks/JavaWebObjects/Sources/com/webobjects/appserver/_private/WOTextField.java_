@@ -1,0 +1,12 @@
+Compiled from "WOTextField.java"
+public class com.webobjects.appserver._private.WOTextField extends com.webobjects.appserver._private.WOInput {
+  com.webobjects.appserver.WOAssociation _formatter;
+  com.webobjects.appserver.WOAssociation _dateFormat;
+  com.webobjects.appserver.WOAssociation _numberFormat;
+  com.webobjects.appserver.WOAssociation _useDecimalNumber;
+  public com.webobjects.appserver._private.WOTextField(java.lang.String, com.webobjects.foundation.NSDictionary<java.lang.String, com.webobjects.appserver.WOAssociation>, com.webobjects.appserver.WOElement);
+  protected java.lang.String type();
+  public void takeValuesFromRequest(com.webobjects.appserver.WORequest, com.webobjects.appserver.WOContext);
+  protected void _appendValueAttributeToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+  public java.lang.String toString();
+}

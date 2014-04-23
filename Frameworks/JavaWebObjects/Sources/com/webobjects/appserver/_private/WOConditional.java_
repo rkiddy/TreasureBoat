@@ -1,0 +1,13 @@
+Compiled from "WOConditional.java"
+public class com.webobjects.appserver._private.WOConditional extends com.webobjects.appserver._private.WODynamicGroup {
+  com.webobjects.appserver.WOAssociation _condition;
+  com.webobjects.appserver.WOAssociation _negate;
+  com.webobjects.appserver.WOAssociation _result;
+  public com.webobjects.appserver._private.WOConditional(java.lang.String, com.webobjects.foundation.NSDictionary, com.webobjects.appserver.WOElement);
+  protected void storeEvaluatedCondition(boolean, com.webobjects.appserver.WOContext);
+  protected boolean evaluateCondition(com.webobjects.appserver.WOContext);
+  public java.lang.String toString();
+  public void takeValuesFromRequest(com.webobjects.appserver.WORequest, com.webobjects.appserver.WOContext);
+  public com.webobjects.appserver.WOActionResults invokeAction(com.webobjects.appserver.WORequest, com.webobjects.appserver.WOContext);
+  public void appendToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+}

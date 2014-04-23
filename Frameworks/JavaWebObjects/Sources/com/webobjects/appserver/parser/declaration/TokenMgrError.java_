@@ -1,0 +1,14 @@
+Compiled from "TokenMgrError.java"
+public class com.webobjects.appserver.parser.declaration.TokenMgrError extends java.lang.Error {
+  static final int LEXICAL_ERROR;
+  static final int STATIC_LEXER_ERROR;
+  static final int INVALID_LEXICAL_STATE;
+  static final int LOOP_DETECTED;
+  int errorCode;
+  protected static final java.lang.String addEscapes(java.lang.String);
+  protected static java.lang.String LexicalError(boolean, int, int, int, java.lang.String, char);
+  public java.lang.String getMessage();
+  public com.webobjects.appserver.parser.declaration.TokenMgrError();
+  public com.webobjects.appserver.parser.declaration.TokenMgrError(java.lang.String, int);
+  public com.webobjects.appserver.parser.declaration.TokenMgrError(boolean, int, int, int, java.lang.String, char, int);
+}

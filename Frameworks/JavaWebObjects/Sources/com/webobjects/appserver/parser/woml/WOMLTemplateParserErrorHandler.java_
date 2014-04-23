@@ -1,0 +1,7 @@
+Compiled from "WOMLTemplateParserErrorHandler.java"
+public class com.webobjects.appserver.parser.woml.WOMLTemplateParserErrorHandler implements org.xml.sax.ErrorHandler {
+  public com.webobjects.appserver.parser.woml.WOMLTemplateParserErrorHandler();
+  public void error(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException;
+  public void fatalError(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException;
+  public void warning(org.xml.sax.SAXParseException) throws org.xml.sax.SAXException;
+}

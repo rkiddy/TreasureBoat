@@ -1,0 +1,16 @@
+Compiled from "WOClientSideScript.java"
+public abstract class com.webobjects.appserver._private.WOClientSideScript extends com.webobjects.appserver._private.WOHTMLDynamicElement {
+  com.webobjects.appserver.WOAssociation _scriptFile;
+  com.webobjects.appserver.WOAssociation _scriptString;
+  com.webobjects.appserver.WOAssociation _scriptSource;
+  com.webobjects.appserver.WOAssociation _hideInComment;
+  com.webobjects.appserver.WOAssociation _language;
+  com.webobjects.appserver.WOAssociation _protectInCDATA;
+  com.webobjects.appserver.WOAssociation _type;
+  public com.webobjects.appserver._private.WOClientSideScript(java.lang.String, com.webobjects.foundation.NSDictionary<java.lang.String, com.webobjects.appserver.WOAssociation>, com.webobjects.appserver.WOElement);
+  protected void setLanguage(java.lang.String);
+  protected java.lang.String language();
+  public void appendAttributesToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+  public void appendChildrenToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+  public java.lang.String toString();
+}

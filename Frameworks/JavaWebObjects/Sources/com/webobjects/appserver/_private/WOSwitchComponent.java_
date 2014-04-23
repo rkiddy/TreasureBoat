@@ -1,0 +1,14 @@
+Compiled from "WOSwitchComponent.java"
+public class com.webobjects.appserver._private.WOSwitchComponent extends com.webobjects.appserver.WODynamicElement {
+  com.webobjects.appserver.WOAssociation componentName;
+  public com.webobjects.foundation.NSMutableDictionary<java.lang.String, com.webobjects.appserver.WOAssociation> componentAttributes;
+  com.webobjects.foundation.NSMutableDictionary componentCache;
+  com.webobjects.appserver.WOElement template;
+  public com.webobjects.appserver._private.WOSwitchComponent(java.lang.String, com.webobjects.foundation.NSDictionary<java.lang.String, com.webobjects.appserver.WOAssociation>, com.webobjects.appserver.WOElement);
+  public java.lang.String toString();
+  public java.lang.String _elementNameInContext(com.webobjects.appserver.WOContext);
+  public com.webobjects.appserver.WOElement _realComponentWithName(java.lang.String, com.webobjects.appserver.WOContext);
+  public void takeValuesFromRequest(com.webobjects.appserver.WORequest, com.webobjects.appserver.WOContext);
+  public com.webobjects.appserver.WOActionResults invokeAction(com.webobjects.appserver.WORequest, com.webobjects.appserver.WOContext);
+  public void appendToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+}

@@ -1,0 +1,17 @@
+Compiled from "WOMailDelivery.java"
+public class com.webobjects.appserver.WOMailDelivery {
+  protected java.lang.Object mailSession;
+  public static final boolean SEND_NOW;
+  public static final boolean DONT_SEND;
+  public static com.webobjects.appserver.WOMailDelivery sharedInstance();
+  protected com.webobjects.appserver.WOMailDelivery();
+  public java.lang.String composePlainTextEmail(java.lang.String, com.webobjects.foundation.NSArray, com.webobjects.foundation.NSArray, java.lang.String, java.lang.String, boolean);
+  public java.lang.String composeComponentEmail(java.lang.String, com.webobjects.foundation.NSArray, com.webobjects.foundation.NSArray, java.lang.String, com.webobjects.appserver.WOComponent, boolean);
+  public void sendEmail(java.lang.String);
+  public java.lang.String toString();
+  protected java.lang.Object mailSession();
+  protected boolean hasJavaMail();
+  protected java.lang.Object newMimeMessage(java.lang.String, com.webobjects.foundation.NSArray, com.webobjects.foundation.NSArray, java.lang.String, java.lang.String, java.lang.String, boolean);
+  protected java.lang.String mimeMessageToString(java.lang.Object);
+  static {};
+}

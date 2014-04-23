@@ -1,0 +1,9 @@
+Compiled from "WOStaticResourceRequestHandler.java"
+public class com.webobjects.appserver._private.WOStaticResourceRequestHandler extends com.webobjects.appserver.WORequestHandler {
+  protected java.lang.String _documentRoot;
+  public com.webobjects.appserver._private.WOStaticResourceRequestHandler();
+  com.webobjects.appserver.WOResponse _generateResponseForInputStream(java.io.InputStream, long, java.lang.String, com.webobjects.appserver.WORequest);
+  protected java.lang.String _documentRoot();
+  public com.webobjects.appserver.WOResponse handleRequest(com.webobjects.appserver.WORequest);
+  static {};
+}

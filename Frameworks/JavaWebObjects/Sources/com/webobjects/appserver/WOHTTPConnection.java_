@@ -1,0 +1,33 @@
+Compiled from "WOHTTPConnection.java"
+public class com.webobjects.appserver.WOHTTPConnection implements com.webobjects.foundation.NSKeyValueCoding,com.webobjects.foundation.NSKeyValueCoding$ErrorHandling,com.webobjects.foundation.NSKeyValueCodingAdditions {
+  protected com.webobjects.appserver._private.WOHttpIO _httpIO;
+  protected java.net.Socket _socket;
+  public static void expectContentLengthHeader(boolean, int);
+  public com.webobjects.appserver.WOHTTPConnection(java.lang.String, int);
+  public com.webobjects.appserver.WOHTTPConnection(java.lang.String, int, int);
+  public void setReceiveTimeout(int);
+  public int receiveTimeout();
+  public boolean isConnected();
+  public void setReadTimeout(int);
+  public long readTimeout();
+  public void setSendTimeout(int);
+  public int sendTimeout();
+  public void setConnectTimeout(int);
+  public int connectTimeout();
+  public void setKeepAliveEnabled(boolean);
+  public boolean keepAliveEnabled();
+  public void setFollowRedirects(boolean);
+  public boolean followRedirects(boolean);
+  protected static java.net.Socket socketForHostAndPortAndTimeout(java.lang.String, int, int);
+  public boolean sendRequest(com.webobjects.appserver.WORequest);
+  public com.webobjects.appserver.WOResponse readResponse();
+  public java.lang.String toString();
+  public static boolean canAccessFieldsDirectly();
+  public java.lang.Object valueForKey(java.lang.String);
+  public void takeValueForKey(java.lang.Object, java.lang.String);
+  public java.lang.Object handleQueryWithUnboundKey(java.lang.String);
+  public void handleTakeValueForUnboundKey(java.lang.Object, java.lang.String);
+  public void unableToSetNullForKey(java.lang.String);
+  public java.lang.Object valueForKeyPath(java.lang.String);
+  public void takeValueForKeyPath(java.lang.Object, java.lang.String);
+}

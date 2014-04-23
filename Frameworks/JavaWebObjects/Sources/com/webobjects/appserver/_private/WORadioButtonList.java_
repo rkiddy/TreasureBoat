@@ -1,0 +1,16 @@
+Compiled from "WORadioButtonList.java"
+public class com.webobjects.appserver._private.WORadioButtonList extends com.webobjects.appserver._private.WOInputList {
+  protected com.webobjects.appserver.WOAssociation _selection;
+  protected com.webobjects.appserver.WOAssociation _selectedValue;
+  public com.webobjects.appserver._private.WORadioButtonList(java.lang.String, com.webobjects.foundation.NSDictionary<java.lang.String, com.webobjects.appserver.WOAssociation>, com.webobjects.appserver.WOElement);
+  protected java.lang.String type();
+  public java.lang.String toString();
+  public void _slowTakeValuesFromRequest(com.webobjects.appserver.WORequest, com.webobjects.appserver.WOContext);
+  public void _fastTakeValuesFromRequest(com.webobjects.appserver.WORequest, com.webobjects.appserver.WOContext);
+  public void takeValuesFromRequest(com.webobjects.appserver.WORequest, com.webobjects.appserver.WOContext);
+  public void appendToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+  protected java.lang.Object selectedInContext(com.webobjects.appserver.WOContext);
+  public boolean appendStringAtLeftWithMapping(java.lang.String, char);
+  public boolean appendStringAtRightWithMapping(java.lang.String, char);
+  public boolean compactHTMLTags();
+}

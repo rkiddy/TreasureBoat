@@ -1,0 +1,13 @@
+Compiled from "ParseException.java"
+public class com.webobjects.appserver.parser.declaration.ParseException extends java.lang.Exception {
+  protected boolean specialConstructor;
+  public com.webobjects.appserver.parser.declaration.Token currentToken;
+  public int[][] expectedTokenSequences;
+  public java.lang.String[] tokenImage;
+  protected java.lang.String eol;
+  public com.webobjects.appserver.parser.declaration.ParseException(com.webobjects.appserver.parser.declaration.Token, int[][], java.lang.String[]);
+  public com.webobjects.appserver.parser.declaration.ParseException();
+  public com.webobjects.appserver.parser.declaration.ParseException(java.lang.String);
+  public java.lang.String getMessage();
+  protected java.lang.String add_escapes(java.lang.String);
+}

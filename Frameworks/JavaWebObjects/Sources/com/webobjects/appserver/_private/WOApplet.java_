@@ -1,0 +1,13 @@
+Compiled from "WOApplet.java"
+public class com.webobjects.appserver._private.WOApplet extends com.webobjects.appserver._private.WOHTMLDynamicElement {
+  public com.webobjects.appserver._private.WOApplet(java.lang.String, com.webobjects.foundation.NSDictionary<java.lang.String, com.webobjects.appserver.WOAssociation>, com.webobjects.appserver.WOElement);
+  protected void setElementID(java.lang.String);
+  protected java.lang.String elementID();
+  protected void setURL(java.lang.String);
+  protected java.lang.String url();
+  protected void setContextID(java.lang.String);
+  protected java.lang.String contextID();
+  public void appendAttributesToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+  public void appendToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+  public java.lang.String toString();
+}

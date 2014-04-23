@@ -1,0 +1,11 @@
+Compiled from "WODirectAction.java"
+public class com.webobjects.appserver.WODirectAction extends com.webobjects.appserver.WOAction implements com.webobjects.foundation.NSKeyValueCoding,com.webobjects.foundation.NSKeyValueCoding$ErrorHandling,com.webobjects.foundation.NSKeyValueCodingAdditions,com.webobjects.foundation.NSValidation {
+  public static final java.lang.String actionText;
+  public com.webobjects.appserver.WODirectAction(com.webobjects.appserver.WORequest);
+  public java.lang.String getSessionIDForRequest(com.webobjects.appserver.WORequest);
+  public com.webobjects.appserver.WOActionResults defaultAction();
+  public com.webobjects.appserver.WOActionResults performActionNamed(java.lang.String);
+  public void takeFormValueArraysForKeyArray(com.webobjects.foundation.NSArray);
+  public void takeFormValuesForKeyArray(com.webobjects.foundation.NSArray);
+  public com.webobjects.appserver.WOActionResults _componentAction();
+}

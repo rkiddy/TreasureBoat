@@ -1,0 +1,30 @@
+Compiled from "WOResponse.java"
+public class com.webobjects.appserver.WOResponse extends com.webobjects.appserver.WOMessage implements com.webobjects.appserver.WOActionResults,java.lang.Cloneable {
+  protected java.nio.channels.FileChannel _fileChannel;
+  protected long _channelCount;
+  protected long _channelPosition;
+  protected java.io.InputStream _contentInputStream;
+  protected int _contentInputStreamBufferSize;
+  protected long _contentInputStreamLength;
+  static java.lang.String TheLoadAverageKey;
+  static java.lang.String TheRefuseSessionsKey;
+  public static final com.webobjects.appserver.WOResponse _lastDitchErrorResponse;
+  public com.webobjects.appserver.WOResponse();
+  public void disableClientCaching();
+  public boolean _isClientCachingDisabled();
+  public java.lang.Object clone();
+  public java.lang.String toString();
+  public void setStatus(int);
+  public int status();
+  public void _finalizeInContext(com.webobjects.appserver.WOContext);
+  public void _appendTagAttributeAndValue(java.lang.String, java.lang.String, boolean);
+  public static void _redirectResponse(com.webobjects.appserver.WOResponse, java.lang.String, java.lang.String);
+  public com.webobjects.appserver.WOResponse generateResponse();
+  public static com.webobjects.appserver.WOResponse _redirectionResponseForAbsoluteURL(java.lang.String, boolean);
+  public void setContentStream(java.io.InputStream, int, long);
+  public void setContentStream(java.io.InputStream, int, int);
+  public java.io.InputStream contentInputStream();
+  public int contentInputStreamBufferSize();
+  public long contentInputStreamLength();
+  static {};
+}

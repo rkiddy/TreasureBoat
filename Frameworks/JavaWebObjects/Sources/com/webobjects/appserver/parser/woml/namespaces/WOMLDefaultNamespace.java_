@@ -1,0 +1,10 @@
+Compiled from "WOMLDefaultNamespace.java"
+public class com.webobjects.appserver.parser.woml.namespaces.WOMLDefaultNamespace implements com.webobjects.appserver.parser.woml.WOMLNamespace {
+  public com.webobjects.appserver.parser.woml.namespaces.WOMLDefaultNamespace(java.lang.String);
+  public com.webobjects.appserver.parser.woml.namespaces.WOMLDefaultNamespace(java.lang.String, boolean);
+  public java.lang.String getNamespaceId();
+  public boolean getIncludeNamespaceInAttributes();
+  public boolean canGenerateElement(com.webobjects.appserver.parser.woml.WOMLElement);
+  public com.webobjects.appserver.WOElement generateElement(com.webobjects.appserver.parser.woml.WOMLElement, com.webobjects.appserver.WOElement, com.webobjects.appserver._private.WOMutableDeclaration, com.webobjects.foundation.NSArray<java.lang.String>, com.webobjects.appserver.WOAssociationFactory) throws com.webobjects.appserver.parser.woml.WOMLElementGenerationException;
+  public void contributeToDeclaration(com.webobjects.appserver.parser.woml.WOMLElement, com.webobjects.appserver.WOElement, com.webobjects.appserver._private.WOMutableDeclaration, com.webobjects.foundation.NSArray<java.lang.String>, com.webobjects.appserver.WOAssociationFactory) throws com.webobjects.appserver.parser.woml.WOMLElementGenerationException;
+}

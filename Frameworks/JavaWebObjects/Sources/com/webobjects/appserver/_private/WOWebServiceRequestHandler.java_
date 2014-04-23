@@ -1,0 +1,15 @@
+Compiled from "WOWebServiceRequestHandler.java"
+public class com.webobjects.appserver._private.WOWebServiceRequestHandler extends com.webobjects.appserver._private.WOActionRequestHandler {
+  protected java.lang.String defaultActionClassName();
+  public static com.webobjects.appserver.WORequestHandler handler();
+  public com.webobjects.appserver._private.WOWebServiceRequestHandler();
+  public com.webobjects.appserver._private.WOWebServiceRequestHandler(java.lang.String, java.lang.String, boolean);
+  public com.webobjects.appserver.WOResponse nullResponse();
+  public void registerWillHandleActionRequest();
+  public void registerDidHandleActionRequestWithActionNamed(java.lang.String);
+  public com.webobjects.foundation.NSArray<java.lang.String> getRequestHandlerPathForRequest(com.webobjects.appserver.WORequest);
+  protected boolean isSessionIDInRequest(com.webobjects.appserver.WORequest);
+  public com.webobjects.appserver.WOResponse generateRequestRefusal(com.webobjects.appserver.WORequest);
+  public com.webobjects.appserver.WOResponse generateErrorResponse(java.lang.Exception, com.webobjects.appserver.WOContext);
+  public com.webobjects.appserver.WOResponse handleRequest(com.webobjects.appserver.WORequest);
+}

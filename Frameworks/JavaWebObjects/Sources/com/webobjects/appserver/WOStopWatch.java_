@@ -1,0 +1,12 @@
+Compiled from "WOStopWatch.java"
+public class com.webobjects.appserver.WOStopWatch extends com.webobjects.eocontrol.EOEvent {
+  public com.webobjects.appserver.WOStopWatch(java.lang.String);
+  public int count();
+  public double accumulatedTime();
+  public double averageTime();
+  public double currentRunningTime();
+  public void start();
+  public void stop();
+  public void reset();
+  public java.lang.String toString();
+}

@@ -1,0 +1,5 @@
+Compiled from "WOConcatenateParamsFormater.java"
+public class com.webobjects.appserver._private.WOConcatenateParamsFormater extends java.util.logging.Formatter {
+  public com.webobjects.appserver._private.WOConcatenateParamsFormater();
+  public java.lang.String format(java.util.logging.LogRecord);
+}

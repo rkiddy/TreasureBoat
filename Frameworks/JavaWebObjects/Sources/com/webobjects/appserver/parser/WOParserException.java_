@@ -1,0 +1,13 @@
+Compiled from "WOParserException.java"
+public class com.webobjects.appserver.parser.WOParserException extends java.lang.RuntimeException {
+  public com.webobjects.appserver.parser.WOParserException(java.lang.String);
+  public com.webobjects.appserver.parser.WOParserException(java.lang.Throwable);
+  public com.webobjects.appserver.parser.WOParserException(java.lang.String, java.lang.Throwable);
+  public com.webobjects.appserver.parser.WOParserException(java.lang.String, com.webobjects.appserver.parser.woml.WOMLPosition, java.lang.Throwable);
+  public com.webobjects.appserver.parser.WOParserException(java.lang.String, com.webobjects.appserver.parser.woml.WOMLPosition, java.lang.String, java.lang.Throwable);
+  public com.webobjects.appserver.parser.WOParserException(java.lang.String, com.webobjects.appserver.parser.woml.WOMLPosition);
+  public com.webobjects.appserver.parser.WOParserException(java.lang.String, com.webobjects.appserver.parser.woml.WOMLPosition, java.lang.String);
+  public java.lang.String getReferenceName();
+  public com.webobjects.appserver.parser.woml.WOMLPosition getPosition();
+  public java.lang.String toString();
+}

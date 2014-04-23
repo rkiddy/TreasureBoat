@@ -1,0 +1,10 @@
+Compiled from "WOCheckBoxList.java"
+public class com.webobjects.appserver._private.WOCheckBoxList extends com.webobjects.appserver._private.WOInputList {
+  public com.webobjects.appserver._private.WOCheckBoxList(java.lang.String, com.webobjects.foundation.NSDictionary<java.lang.String, com.webobjects.appserver.WOAssociation>, com.webobjects.appserver.WOElement);
+  protected java.lang.String type();
+  public void takeValuesFromRequest(com.webobjects.appserver.WORequest, com.webobjects.appserver.WOContext);
+  public void appendToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+  public boolean appendStringAtLeftWithMapping(java.lang.String, char);
+  public boolean appendStringAtRightWithMapping(java.lang.String, char);
+  public boolean compactHTMLTags();
+}

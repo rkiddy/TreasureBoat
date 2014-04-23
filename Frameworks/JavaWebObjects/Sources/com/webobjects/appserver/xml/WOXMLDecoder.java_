@@ -1,0 +1,32 @@
+Compiled from "WOXMLDecoder.java"
+public class com.webobjects.appserver.xml.WOXMLDecoder implements com.webobjects.foundation.NSKeyValueCoding {
+  public java.lang.String toString();
+  public void _setDecodingStack(java.util.Stack<com.webobjects.appserver.xml._private._DecodingNode>);
+  public void _setUseTopOfStack(boolean);
+  protected void addObjectToCache(com.webobjects.appserver.xml._private._DecodingNode, java.lang.Object);
+  protected java.lang.Object _decodeString(com.webobjects.appserver.xml._private._DecodingNode, java.lang.Class);
+  protected com.webobjects.appserver.xml.WOXMLDecoder();
+  public java.lang.String parserClassName();
+  public void setParserrClassName(java.lang.String);
+  public java.lang.String xmlReaderClassName();
+  public void setXMLReaderClassName(java.lang.String);
+  public static com.webobjects.appserver.xml.WOXMLDecoder decoder();
+  public static com.webobjects.appserver.xml.WOXMLDecoder decoderWithMapping(java.lang.String);
+  protected com.webobjects.appserver.xml._private._DecodingHandler handler();
+  protected com.webobjects.appserver.xml._private._DecodingContentHandler contentHandler();
+  public org.xml.sax.Parser parser();
+  public org.xml.sax.XMLReader xmlReader();
+  public synchronized void setEncoding(java.lang.String);
+  public synchronized java.lang.String encoding();
+  public synchronized java.lang.Object decodeRootObject(java.lang.String);
+  public synchronized java.lang.Object decodeRootObject(com.webobjects.foundation.NSData);
+  public synchronized java.lang.Object decodeRootObject(org.xml.sax.InputSource);
+  protected java.lang.String getChildNodeType(com.webobjects.appserver.xml._private._DecodingNode);
+  public java.lang.Object decodeObjectForKey(java.lang.String);
+  public boolean decodeBooleanForKey(java.lang.String);
+  public int decodeIntForKey(java.lang.String);
+  public float decodeFloatForKey(java.lang.String);
+  public double decodeDoubleForKey(java.lang.String);
+  public java.lang.Object valueForKey(java.lang.String);
+  public void takeValueForKey(java.lang.Object, java.lang.String);
+}

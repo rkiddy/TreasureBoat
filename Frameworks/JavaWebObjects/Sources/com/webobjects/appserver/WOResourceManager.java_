@@ -1,0 +1,29 @@
+Compiled from "WOResourceManager.java"
+public class com.webobjects.appserver.WOResourceManager {
+  protected com.webobjects.appserver.WOResourceManager();
+  public java.lang.String toString();
+  public static java.io.InputStream __getJavaWebObjectsResourceAsStream(java.lang.String) throws java.lang.IllegalStateException;
+  public java.lang.String contentTypeForResourceNamed(java.lang.String);
+  public com.webobjects.appserver._private.WODeployedBundle _cachedBundleForFrameworkNamed(java.lang.String);
+  public com.webobjects.foundation.NSArray _frameworkProjectBundles();
+  public java.io.InputStream inputStreamForResourceNamed(java.lang.String, java.lang.String, com.webobjects.foundation.NSArray<java.lang.String>);
+  public byte[] bytesForResourceNamed(java.lang.String, java.lang.String, com.webobjects.foundation.NSArray<java.lang.String>);
+  public java.lang.String pathForResourceNamed(java.lang.String, java.lang.String, com.webobjects.foundation.NSArray<java.lang.String>);
+  public java.net.URL pathURLForResourceNamed(java.lang.String, java.lang.String, com.webobjects.foundation.NSArray<java.lang.String>);
+  public java.lang.String _completeURLForResourceNamed(java.lang.String, java.lang.String, com.webobjects.foundation.NSArray<java.lang.String>, com.webobjects.appserver.WORequest, boolean, int);
+  public java.lang.String urlForResourceNamed(java.lang.String, java.lang.String, com.webobjects.foundation.NSArray<java.lang.String>, com.webobjects.appserver.WORequest);
+  public java.lang.String errorMessageUrlForResourceNamed(java.lang.String, java.lang.String);
+  public com.webobjects.appserver._private.WOImageInfo _imageInfoForUrl(java.lang.String, java.lang.String, java.lang.String, com.webobjects.foundation.NSArray<java.lang.String>);
+  public java.lang.String stringForKey(java.lang.String, java.lang.String, java.lang.String, java.lang.String, com.webobjects.foundation.NSArray<java.lang.String>);
+  public com.webobjects.foundation.NSDictionary _contentTypesDictionary();
+  public void _cacheData(com.webobjects.appserver._private.WOURLValuedElementData);
+  public com.webobjects.appserver._private.WOURLValuedElementData _cachedDataForKey(java.lang.String);
+  public java.net.URL _pathURLForJavaClass(java.lang.String);
+  protected java.lang.String _pathForResourceNamed(java.lang.String, java.lang.String, java.lang.String, boolean);
+  protected java.net.URL _pathURLForResourceNamed(java.lang.String, java.lang.String, java.lang.String, boolean);
+  public void setData(com.webobjects.foundation.NSData, java.lang.String, java.lang.String, com.webobjects.appserver.WOSession);
+  public void removeDataForKey(java.lang.String, com.webobjects.appserver.WOSession);
+  public void flushDataCache();
+  public com.webobjects.appserver._private.WODeployedBundle _appProjectBundle();
+  static {};
+}

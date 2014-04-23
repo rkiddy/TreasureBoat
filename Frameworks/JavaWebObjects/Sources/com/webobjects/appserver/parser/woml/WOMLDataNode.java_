@@ -1,0 +1,11 @@
+Compiled from "WOMLDataNode.java"
+public abstract class com.webobjects.appserver.parser.woml.WOMLDataNode extends com.webobjects.appserver.parser.woml.WOMLTextNode {
+  public com.webobjects.appserver.parser.woml.WOMLDataNode(com.webobjects.appserver.parser.woml.WOMLPosition);
+  public boolean getShouldEmitStart();
+  public void setShouldEmitStart(boolean);
+  public boolean getShouldEmitEnd();
+  public void setShouldEmitEnd(boolean);
+  public abstract java.lang.String getOutputPrefix();
+  public abstract java.lang.String getOutputSuffix();
+  public java.lang.String getOutputText();
+}

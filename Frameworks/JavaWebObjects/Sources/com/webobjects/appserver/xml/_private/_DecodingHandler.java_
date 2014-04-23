@@ -1,0 +1,13 @@
+Compiled from "_DecodingHandler.java"
+public class com.webobjects.appserver.xml._private._DecodingHandler extends org.xml.sax.HandlerBase {
+  protected final int DEPTH;
+  protected com.webobjects.appserver.xml.WOXMLDecoder _decoder;
+  protected java.lang.Object _parsedObject;
+  protected java.util.Stack<com.webobjects.appserver.xml._private._DecodingNode> decodeNodeStack;
+  public com.webobjects.appserver.xml._private._DecodingHandler(com.webobjects.appserver.xml.WOXMLDecoder);
+  public java.lang.Object root();
+  public void startElement(java.lang.String, org.xml.sax.AttributeList) throws org.xml.sax.SAXException;
+  public void endElement(java.lang.String) throws org.xml.sax.SAXException;
+  public void characters(char[], int, int);
+  public void reset();
+}

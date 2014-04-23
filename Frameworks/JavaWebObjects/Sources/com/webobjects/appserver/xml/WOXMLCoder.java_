@@ -1,0 +1,45 @@
+Compiled from "WOXMLCoder.java"
+public class com.webobjects.appserver.xml.WOXMLCoder {
+  protected java.lang.StringBuffer _buffer;
+  protected java.lang.String xmlDeclaration;
+  protected com.webobjects.appserver.xml.WOXMLCoder$_IdentityCodeMap _idMap;
+  protected java.util.Stack<java.lang.String> _encodedClasses;
+  protected void cr();
+  protected boolean typeNeedsIndentation(java.lang.Object);
+  protected java.lang.String encodedClassName();
+  protected java.lang.String xmlTagForClassNamed(java.lang.String);
+  protected java.lang.String xmlTagForPropertyKey(java.lang.String, java.lang.String);
+  void appendAttribute(java.lang.String, java.lang.String);
+  void appendAttribute(java.lang.String, int);
+  void appendTypeAndObjectID(java.lang.String);
+  void appendAndTab(java.lang.String);
+  void beginNode(java.lang.String);
+  void endNode(java.lang.String);
+  protected void encodeObjectInTag(java.lang.String, java.lang.String, java.lang.String);
+  protected void encodeStringInTag(java.lang.String, java.lang.String, java.lang.String);
+  protected void encodeReferenceInTag(int, java.lang.String, java.lang.String);
+  protected void _encodeStringForKey(java.lang.String, java.lang.String);
+  protected java.lang.String escapeString(java.lang.String);
+  protected void _encodeArrayForKey(com.webobjects.foundation.NSArray, java.lang.String);
+  protected void _encodeDictionaryForKey(com.webobjects.foundation.NSDictionary, java.lang.String);
+  protected void _encodeDataForKey(com.webobjects.foundation.NSData, java.lang.String);
+  protected void _encodeDateForKey(com.webobjects.foundation.NSTimestamp, java.lang.String);
+  protected void _encodeNumberForKey(java.lang.Number, java.lang.String);
+  protected void _encodeBooleanForKey(java.lang.Boolean, java.lang.String);
+  protected void _encodeNullForKey(java.lang.String);
+  protected void _encodeWOXMLCodingForKey(com.webobjects.appserver.xml.WOXMLCoding, java.lang.String);
+  protected void _encodeEOEnterpriseObjectForKey(com.webobjects.eocontrol.EOEnterpriseObject, java.lang.String);
+  protected com.webobjects.appserver.xml.WOXMLCoder();
+  public static com.webobjects.appserver.xml.WOXMLCoder coder();
+  public static com.webobjects.appserver.xml.WOXMLCoder coderWithMapping(java.lang.String);
+  public java.lang.String xmlDeclaration();
+  public synchronized void setXmlDeclaration();
+  public synchronized void setXmlDeclaration(java.lang.String, java.lang.String, java.lang.String);
+  public synchronized java.lang.String encodeRootObjectForKey(java.lang.Object, java.lang.String);
+  public void encodeObjectForKey(java.lang.Object, java.lang.String);
+  public void encodeBooleanForKey(boolean, java.lang.String);
+  public void encodeIntForKey(int, java.lang.String);
+  public void encodeFloatForKey(float, java.lang.String);
+  public void encodeDoubleForKey(double, java.lang.String);
+  static {};
+}

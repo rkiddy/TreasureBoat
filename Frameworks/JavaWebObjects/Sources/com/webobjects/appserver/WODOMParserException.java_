@@ -1,0 +1,4 @@
+Compiled from "WODOMParserException.java"
+public class com.webobjects.appserver.WODOMParserException extends java.lang.RuntimeException {
+  public com.webobjects.appserver.WODOMParserException(java.lang.String);
+}

@@ -1,0 +1,6 @@
+Compiled from "WOStaticURLUtilities.java"
+public class com.webobjects.appserver._private.WOStaticURLUtilities {
+  public com.webobjects.appserver._private.WOStaticURLUtilities();
+  public static boolean isRelativeURL(java.lang.String);
+  public static boolean isFragmentURL(java.lang.String);
+}

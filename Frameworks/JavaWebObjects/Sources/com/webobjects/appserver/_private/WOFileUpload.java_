@@ -1,0 +1,31 @@
+Compiled from "WOFileUpload.java"
+public class com.webobjects.appserver._private.WOFileUpload extends com.webobjects.appserver._private.WOInput {
+  public static final java.lang.String FILENAME_SUBKEY;
+  public static final java.lang.String MIMETYPE_SUBKEY;
+  public static final java.lang.String CONTENTTYPE_KEY;
+  public static final int DEFAULT_BUFFER_SIZE;
+  com.webobjects.appserver.WOAssociation _data;
+  com.webobjects.appserver.WOAssociation _filepath;
+  com.webobjects.appserver.WOAssociation _mimeType;
+  com.webobjects.appserver.WOAssociation _copyData;
+  com.webobjects.appserver.WOAssociation _inputStream;
+  com.webobjects.appserver.WOAssociation _outputStream;
+  com.webobjects.appserver.WOAssociation _bufferSize;
+  com.webobjects.appserver.WOAssociation _streamToFilePath;
+  com.webobjects.appserver.WOAssociation _overwrite;
+  com.webobjects.appserver.WOAssociation _finalFilePath;
+  public com.webobjects.appserver._private.WOFileUpload(java.lang.String, com.webobjects.foundation.NSDictionary<java.lang.String, com.webobjects.appserver.WOAssociation>, com.webobjects.appserver.WOElement);
+  protected java.lang.String type();
+  public void takeValuesFromRequest(com.webobjects.appserver.WORequest, com.webobjects.appserver.WOContext);
+  protected java.io.File createTempFileInContext(java.lang.String, com.webobjects.appserver.WOContext);
+  protected void writeOuputStream(java.io.InputStream, java.io.OutputStream, com.webobjects.appserver.WOContext);
+  protected void renameTempFileInContext(java.io.File, java.lang.String, com.webobjects.appserver.WOContext);
+  protected boolean overwriteInContext(com.webobjects.appserver.WOContext);
+  protected boolean copyDataInContext(com.webobjects.appserver.WOContext);
+  protected java.io.OutputStream outputStreamInContext(com.webobjects.appserver.WOContext);
+  protected java.lang.String localFilePathInContext(com.webobjects.appserver.WOContext);
+  protected int bufferSizeInContext(com.webobjects.appserver.WOContext);
+  public com.webobjects.appserver.WOActionResults invokeAction(com.webobjects.appserver.WORequest, com.webobjects.appserver.WOContext);
+  protected void _appendValueAttributeToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+  public java.lang.String toString();
+}

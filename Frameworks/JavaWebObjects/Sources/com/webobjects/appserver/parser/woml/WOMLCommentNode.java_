@@ -1,0 +1,9 @@
+Compiled from "WOMLCommentNode.java"
+public class com.webobjects.appserver.parser.woml.WOMLCommentNode extends com.webobjects.appserver.parser.woml.WOMLDataNode {
+  public static final java.lang.String COMMENT_PREFIX;
+  public static final java.lang.String COMMENT_SUFFIX;
+  public com.webobjects.appserver.parser.woml.WOMLCommentNode(com.webobjects.appserver.parser.woml.WOMLPosition);
+  public java.lang.String getOutputPrefix();
+  public java.lang.String getOutputSuffix();
+  public java.lang.String toString();
+}

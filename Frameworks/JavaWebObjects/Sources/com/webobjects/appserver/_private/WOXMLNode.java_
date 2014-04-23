@@ -1,0 +1,13 @@
+Compiled from "WOXMLNode.java"
+public class com.webobjects.appserver._private.WOXMLNode extends com.webobjects.appserver.WODynamicElement {
+  com.webobjects.appserver.WOAssociation _elementName;
+  com.webobjects.foundation.NSDictionary<java.lang.String, com.webobjects.appserver.WOAssociation> _otherAssociations;
+  com.webobjects.appserver.WOElement _children;
+  public java.lang.String toString();
+  public com.webobjects.appserver._private.WOXMLNode(java.lang.String, com.webobjects.foundation.NSDictionary<java.lang.String, com.webobjects.appserver.WOAssociation>, com.webobjects.appserver.WOElement);
+  public void _appendOtherAttributesToResponseInContext(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+  public void appendToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+  public void takeValuesFromRequestInContext(com.webobjects.appserver.WORequest, com.webobjects.appserver.WOContext);
+  public com.webobjects.appserver.WOActionResults invokeAction(com.webobjects.appserver.WORequest, com.webobjects.appserver.WOContext);
+  static {};
+}

@@ -1,0 +1,16 @@
+Compiled from "WOXMLMappingCoder.java"
+class com.webobjects.appserver.xml.WOXMLMappingCoder extends com.webobjects.appserver.xml.WOXMLCoder {
+  com.webobjects.appserver.xml.WOXMLMappingCoder(java.lang.String);
+  public java.lang.String xmlTagForClassNamed(java.lang.String);
+  public java.lang.String xmlTagForPropertyKey(java.lang.String, java.lang.String);
+  protected void _encodeEO(com.webobjects.eocontrol.EOEnterpriseObject);
+  protected void encodeDictionaryWithXMLTag(com.webobjects.foundation.NSDictionary, java.lang.String);
+  protected void encodeArrayWithXMLTag(com.webobjects.foundation.NSArray, java.lang.String, boolean, int);
+  public void encodeObjectForKey(java.lang.Object, java.lang.String);
+  public void encodeObjectWithXMLTag(java.lang.Object, java.lang.String, boolean, int);
+  public void encodeBooleanForKey(boolean, java.lang.String);
+  public void encodeIntForKey(int, java.lang.String);
+  public void encodeFloatForKey(float, java.lang.String);
+  public void encodeDoubleForKey(double, java.lang.String);
+  public synchronized java.lang.String encodeRootObjectForKey(java.lang.Object, java.lang.String);
+}

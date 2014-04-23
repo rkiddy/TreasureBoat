@@ -1,0 +1,13 @@
+Compiled from "WOFileUploadSupport.java"
+public class com.webobjects.appserver._private.WOFileUploadSupport {
+  public com.webobjects.appserver._private.WOFileUploadSupport();
+  public static com.webobjects.appserver._private.WOCaseInsensitiveDictionary _parseOneHeader(java.lang.String);
+  public static com.webobjects.appserver._private.WOCaseInsensitiveDictionary _parseOneHeader(com.webobjects.foundation.NSData);
+  public static com.webobjects.foundation.NSData _dataWithAsciiString(java.lang.String);
+  public static byte[] _bytesWithAsciiString(java.lang.String);
+  public static com.webobjects.foundation.NSRange _rangeOfData(com.webobjects.foundation.NSData, com.webobjects.foundation.NSData);
+  public static com.webobjects.foundation.NSRange _rangeOfData(com.webobjects.foundation.NSData, com.webobjects.foundation.NSData, com.webobjects.foundation.NSRange);
+  public static com.webobjects.appserver._private.WOCaseInsensitiveDictionary _parseContentDispositionHeader(com.webobjects.appserver.WORequest, com.webobjects.foundation.NSMutableDictionary<java.lang.String, com.webobjects.foundation.NSMutableArray<java.lang.Object>>, com.webobjects.appserver._private.WOCaseInsensitiveDictionary, com.webobjects.foundation.NSData, com.webobjects.foundation.NSData);
+  public static java.lang.String _getFormValuesFromData(com.webobjects.appserver.WORequest, com.webobjects.foundation.NSMutableDictionary, com.webobjects.foundation.NSData, java.lang.String);
+  public static com.webobjects.foundation.NSDictionary<java.lang.String, com.webobjects.foundation.NSArray<java.lang.Object>> getFormValuesFromMultipartContent(com.webobjects.appserver.WORequest);
+}

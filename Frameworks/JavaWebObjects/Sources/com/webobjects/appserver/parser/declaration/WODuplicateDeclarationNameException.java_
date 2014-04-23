@@ -1,0 +1,10 @@
+Compiled from "WODuplicateDeclarationNameException.java"
+public class com.webobjects.appserver.parser.declaration.WODuplicateDeclarationNameException extends com.webobjects.appserver.parser.declaration.WODeclarationFormatException {
+  public com.webobjects.appserver.parser.declaration.WODuplicateDeclarationNameException(java.lang.String, java.lang.Throwable);
+  public com.webobjects.appserver.parser.declaration.WODuplicateDeclarationNameException(java.lang.String);
+  public com.webobjects.appserver.parser.declaration.WODuplicateDeclarationNameException(java.lang.Throwable);
+  public com.webobjects.appserver.parser.declaration.WODuplicateDeclarationNameException(java.lang.String, com.webobjects.appserver.parser.woml.WOMLPosition, java.lang.String, java.lang.Throwable);
+  public com.webobjects.appserver.parser.declaration.WODuplicateDeclarationNameException(java.lang.String, com.webobjects.appserver.parser.woml.WOMLPosition, java.lang.String);
+  public com.webobjects.appserver.parser.declaration.WODuplicateDeclarationNameException(java.lang.String, com.webobjects.appserver.parser.woml.WOMLPosition, java.lang.Throwable);
+  public com.webobjects.appserver.parser.declaration.WODuplicateDeclarationNameException(java.lang.String, com.webobjects.appserver.parser.woml.WOMLPosition);
+}

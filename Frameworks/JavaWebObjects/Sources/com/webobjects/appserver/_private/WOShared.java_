@@ -1,0 +1,7 @@
+Compiled from "WOShared.java"
+public class com.webobjects.appserver._private.WOShared {
+  public com.webobjects.appserver._private.WOShared();
+  public static java.lang.Integer unsignedIntNumber(int);
+  public static java.lang.String unsignedIntString(int);
+  static {};
+}

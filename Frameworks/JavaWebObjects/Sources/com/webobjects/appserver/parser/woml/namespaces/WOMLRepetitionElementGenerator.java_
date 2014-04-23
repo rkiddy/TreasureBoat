@@ -1,0 +1,9 @@
+Compiled from "WOMLRepetitionElementGenerator.java"
+public class com.webobjects.appserver.parser.woml.namespaces.WOMLRepetitionElementGenerator extends com.webobjects.appserver.parser.woml.namespaces.WOMLGenericElementGenerator {
+  public static final java.lang.String ATTRIBUTE_REPEAT_TAG;
+  public com.webobjects.appserver.parser.woml.namespaces.WOMLRepetitionElementGenerator();
+  protected java.util.Map<java.lang.String, com.webobjects.appserver.WOAssociation> getElementAssociationsForContribution(com.webobjects.appserver.parser.woml.namespaces.WOMLAbstractNamespace, com.webobjects.appserver.parser.woml.WOMLElement, com.webobjects.appserver.WOAssociationFactory);
+  public com.webobjects.appserver.WOElement generateElement(com.webobjects.appserver.parser.woml.namespaces.WOMLAbstractNamespace, com.webobjects.appserver.parser.woml.WOMLElement, com.webobjects.appserver.WOElement, com.webobjects.appserver._private.WOMutableDeclaration, com.webobjects.foundation.NSArray<java.lang.String>, com.webobjects.appserver.WOAssociationFactory) throws com.webobjects.appserver.parser.woml.WOMLElementGenerationException;
+  public void contributeToDeclaration(com.webobjects.appserver.parser.woml.namespaces.WOMLAbstractNamespace, com.webobjects.appserver.parser.woml.WOMLElement, com.webobjects.appserver._private.WOMutableDeclaration, com.webobjects.foundation.NSArray<java.lang.String>, com.webobjects.appserver.WOAssociationFactory) throws com.webobjects.appserver.parser.woml.WOMLElementGenerationException;
+  static {};
+}

@@ -1,0 +1,41 @@
+Compiled from "WODeclarationParserTokenManager.java"
+public class com.webobjects.appserver.parser.declaration.WODeclarationParserTokenManager implements com.webobjects.appserver.parser.declaration.WODeclarationParserConstants {
+  boolean inConstant;
+  public java.io.PrintStream debugStream;
+  static final long[] jjbitVec0;
+  static final long[] jjbitVec2;
+  static final long[] jjbitVec3;
+  static final long[] jjbitVec4;
+  static final long[] jjbitVec5;
+  static final long[] jjbitVec6;
+  static final long[] jjbitVec7;
+  static final long[] jjbitVec8;
+  static final int[] jjnextStates;
+  public static final java.lang.String[] jjstrLiteralImages;
+  public static final java.lang.String[] lexStateNames;
+  public static final int[] jjnewLexState;
+  static final long[] jjtoToken;
+  static final long[] jjtoSkip;
+  static final long[] jjtoMore;
+  protected com.webobjects.appserver.parser.declaration.JavaCharStream input_stream;
+  java.lang.StringBuffer image;
+  int jjimageLen;
+  int lengthOfMatch;
+  protected char curChar;
+  int curLexState;
+  int defaultLexState;
+  int jjnewStateCnt;
+  int jjround;
+  int jjmatchedPos;
+  int jjmatchedKind;
+  public void setDebugStream(java.io.PrintStream);
+  public com.webobjects.appserver.parser.declaration.WODeclarationParserTokenManager(com.webobjects.appserver.parser.declaration.JavaCharStream);
+  public com.webobjects.appserver.parser.declaration.WODeclarationParserTokenManager(com.webobjects.appserver.parser.declaration.JavaCharStream, int);
+  public void ReInit(com.webobjects.appserver.parser.declaration.JavaCharStream);
+  public void ReInit(com.webobjects.appserver.parser.declaration.JavaCharStream, int);
+  public void SwitchTo(int);
+  protected com.webobjects.appserver.parser.declaration.Token jjFillToken();
+  public com.webobjects.appserver.parser.declaration.Token getNextToken();
+  void TokenLexicalActions(com.webobjects.appserver.parser.declaration.Token);
+  static {};
+}

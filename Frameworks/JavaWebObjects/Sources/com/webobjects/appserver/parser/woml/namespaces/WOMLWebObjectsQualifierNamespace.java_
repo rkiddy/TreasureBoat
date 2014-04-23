@@ -1,0 +1,8 @@
+Compiled from "WOMLWebObjectsQualifierNamespace.java"
+public class com.webobjects.appserver.parser.woml.namespaces.WOMLWebObjectsQualifierNamespace implements com.webobjects.appserver.parser.woml.WOMLNamespace {
+  public com.webobjects.appserver.parser.woml.namespaces.WOMLWebObjectsQualifierNamespace(java.lang.String);
+  public java.lang.String getNamespaceId();
+  public boolean canGenerateElement(com.webobjects.appserver.parser.woml.WOMLElement);
+  public com.webobjects.appserver.WOElement generateElement(com.webobjects.appserver.parser.woml.WOMLElement, com.webobjects.appserver.WOElement, com.webobjects.appserver._private.WOMutableDeclaration, com.webobjects.foundation.NSArray<java.lang.String>, com.webobjects.appserver.WOAssociationFactory);
+  public void contributeToDeclaration(com.webobjects.appserver.parser.woml.WOMLElement, com.webobjects.appserver.WOElement, com.webobjects.appserver._private.WOMutableDeclaration, com.webobjects.foundation.NSArray<java.lang.String>, com.webobjects.appserver.WOAssociationFactory);
+}

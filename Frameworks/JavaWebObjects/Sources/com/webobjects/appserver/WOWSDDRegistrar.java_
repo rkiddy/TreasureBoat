@@ -1,0 +1,41 @@
+Compiled from "WOWSDDRegistrar.java"
+public class com.webobjects.appserver.WOWSDDRegistrar implements com.webobjects.webservices.support._private.WOWSSupport$Delegate {
+  protected com.webobjects.appserver.WOWSDDRegistrar();
+  public static com.webobjects.appserver.WOWSDDRegistrar getInstance();
+  public static void setDelegate(com.webobjects.appserver.WOWSDDRegistrar$Delegate);
+  public static org.w3c.dom.Document _getEmptyDeployment();
+  public void _addRegisteredServiceName(java.lang.String, org.apache.axis.deployment.wsdd.WSDDService);
+  public void _removeRegisteredServiceName(java.lang.String);
+  public boolean _isServiceRegistered(java.lang.String);
+  public void _addRegisteredTypeMapping(java.lang.Class<?>, org.apache.axis.deployment.wsdd.WSDDTypeMapping);
+  public void _removeRegisteredTypeMapping(java.lang.Class<?>);
+  public boolean _isTypeMappingRegistered(java.lang.Class<?>);
+  public void registerWebService(java.lang.Class<?>, boolean);
+  public void registerWebService(java.lang.String, java.lang.Class<?>, boolean);
+  public void registerWebService(java.lang.String, java.lang.Class<?>, java.lang.String[], boolean);
+  public void registerD2WebServiceWithOperations(java.lang.String, java.lang.String[]);
+  public void unregisterWebService(java.lang.Class<?>);
+  public void unregisterWebService(java.lang.String);
+  protected java.util.List<java.lang.String> getDeclaredMethodsForClass(java.lang.Class<?>);
+  protected java.util.List<java.lang.reflect.Method> getMethodsForNames(java.lang.Class<?>, java.lang.String[]);
+  protected java.util.Collection<java.lang.Class<?>> getMethodsTypes(java.util.Collection<java.lang.reflect.Method>);
+  protected java.lang.String createServiceString(java.lang.String, java.lang.Class<?>, java.lang.String[], boolean, boolean);
+  protected java.lang.String serviceStringDeclaration();
+  protected java.lang.String serviceStringOpenTag(java.lang.String, boolean);
+  protected java.lang.String serviceStringRPCProvider();
+  protected java.lang.String serviceStringMsgProvider();
+  protected java.lang.String serviceStringD2WRPCProvider();
+  protected java.lang.String serviceStringParameterScope();
+  protected java.lang.String serviceStringParameterClassName(java.lang.String);
+  protected java.lang.String serviceStringParameterAllowedMethods(java.lang.String[]);
+  protected java.lang.String serviceStringParameterNamespace();
+  protected java.lang.String serviceStringTypeMappings(org.apache.axis.deployment.wsdd.WSDDTypeMapping);
+  protected java.lang.String serviceStringCloseTag();
+  protected java.lang.String createAllowedMethodsString(java.lang.String[]);
+  public void registerFactoriesForClassWithQName(javax.xml.rpc.encoding.SerializerFactory, javax.xml.rpc.encoding.DeserializerFactory, java.lang.Class<?>, javax.xml.namespace.QName);
+  public void registerTypeMapping(javax.xml.rpc.encoding.SerializerFactory, javax.xml.rpc.encoding.DeserializerFactory, java.lang.Class<?>, javax.xml.namespace.QName);
+  public void registerXSLTForServiceAndOperation(java.net.URL, java.lang.String, java.lang.String);
+  public void setSecurityDelegate(java.lang.Object);
+  public java.lang.String toString();
+  static {};
+}

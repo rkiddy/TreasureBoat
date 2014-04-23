@@ -1,0 +1,19 @@
+Compiled from "WOCaseInsensitiveDictionary.java"
+public class com.webobjects.appserver._private.WOCaseInsensitiveDictionary<K, V> extends com.webobjects.foundation.NSMutableDictionary<K, V> {
+  static final long serialVersionUID;
+  public com.webobjects.appserver._private.WOCaseInsensitiveDictionary();
+  public com.webobjects.appserver._private.WOCaseInsensitiveDictionary(int);
+  public com.webobjects.appserver._private.WOCaseInsensitiveDictionary(com.webobjects.foundation.NSDictionary<K, V>);
+  public java.lang.Object clone();
+  protected V _removeObjectForKey(java.lang.Object);
+  public V removeObjectForKey(java.lang.Object);
+  public java.lang.Object removeObjectForLowercaseString(java.lang.String);
+  protected V _objectForKey(java.lang.Object);
+  public V objectForKey(java.lang.Object);
+  public V objectForLowercaseString(java.lang.String);
+  protected void _setObjectForKey(java.lang.Object, java.lang.Object);
+  public void setObjectForKey(java.lang.Object, java.lang.Object);
+  public void setObjectForLowercaseString(java.lang.Object, java.lang.String);
+  public com.webobjects.foundation.NSArray<K> allKeys();
+  protected java.lang.Object caseInsensitiveWrapper(java.lang.Object);
+}

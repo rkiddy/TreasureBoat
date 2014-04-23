@@ -1,0 +1,4 @@
+Compiled from "WOURLFormatException.java"
+public class com.webobjects.appserver._private.WOURLFormatException extends java.lang.Exception {
+  public com.webobjects.appserver._private.WOURLFormatException(java.lang.String);
+}

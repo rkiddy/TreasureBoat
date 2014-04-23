@@ -1,0 +1,11 @@
+Compiled from "_WOLipsProject.java"
+public class com.webobjects._ideservices._WOLipsProject extends com.webobjects._ideservices._PBProject {
+  public com.webobjects._ideservices._WOLipsProject(java.io.File);
+  public java.io.File contentsFolder();
+  protected void refreshIfNecessary();
+  protected void addResources(java.io.File, java.lang.String);
+  protected void addWebserverResources(java.io.File, java.lang.String);
+  protected void _addRelativeFileKey(java.lang.String, java.lang.String, java.lang.String);
+  public com.webobjects.foundation.NSDictionary<java.lang.String, java.lang.String> localFiles();
+  public com.webobjects.foundation.NSMutableDictionary<java.lang.String, com.webobjects.foundation.NSMutableArray<java.lang.String>> filesTable();
+}

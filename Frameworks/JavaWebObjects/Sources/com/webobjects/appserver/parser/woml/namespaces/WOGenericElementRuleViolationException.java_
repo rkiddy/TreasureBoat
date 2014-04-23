@@ -1,0 +1,7 @@
+Compiled from "WOGenericElementRuleViolationException.java"
+public class com.webobjects.appserver.parser.woml.namespaces.WOGenericElementRuleViolationException extends java.lang.RuntimeException {
+  public com.webobjects.appserver.parser.woml.namespaces.WOGenericElementRuleViolationException();
+  public com.webobjects.appserver.parser.woml.namespaces.WOGenericElementRuleViolationException(java.lang.String, java.lang.Throwable);
+  public com.webobjects.appserver.parser.woml.namespaces.WOGenericElementRuleViolationException(java.lang.String);
+  public com.webobjects.appserver.parser.woml.namespaces.WOGenericElementRuleViolationException(java.lang.Throwable);
+}

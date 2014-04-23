@@ -1,0 +1,14 @@
+Compiled from "WOMLElement.java"
+public class com.webobjects.appserver.parser.woml.WOMLElement extends com.webobjects.appserver.parser.woml.WOMLNamespaced {
+  public com.webobjects.appserver.parser.woml.WOMLElement(java.lang.String, com.webobjects.appserver.parser.woml.WOMLElement, java.util.Map<java.lang.String, java.lang.String>, java.lang.String, java.lang.String, java.lang.String, java.util.List<com.webobjects.appserver.parser.woml.WOMLAttribute>, com.webobjects.appserver.WOAssociationFactory);
+  public java.lang.String getContainerReferenceName();
+  public com.webobjects.appserver.parser.woml.WOMLElement getParent();
+  public boolean hasNamespaces();
+  public boolean hasDynamicAttributes();
+  public com.webobjects.appserver.parser.woml.WOMLAttributeMap getAttributes();
+  public java.util.Map<java.lang.String, java.lang.Object> getProperties();
+  public java.lang.Object getProperty(java.lang.String);
+  public void setProperty(java.lang.String, java.lang.Object);
+  public void removeProperty(java.lang.String);
+  public java.lang.String toString();
+}

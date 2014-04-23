@@ -1,0 +1,7 @@
+Compiled from "WOMLComment.java"
+public class com.webobjects.appserver.parser.woml.WOMLComment extends com.webobjects.appserver.WOElement {
+  public com.webobjects.appserver.parser.woml.WOMLComment(java.lang.String, java.lang.String, java.lang.String);
+  public boolean isStart();
+  public boolean isEnd();
+  public void appendToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+}

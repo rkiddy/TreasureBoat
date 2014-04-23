@@ -1,0 +1,13 @@
+Compiled from "WOWebServiceRegistrar.java"
+public class com.webobjects.appserver.WOWebServiceRegistrar {
+  public static org.w3c.dom.Document _getEmptyDeployment();
+  public static void registerWebService(java.lang.Class<?>, boolean);
+  public static void registerWebService(java.lang.String, java.lang.Class<?>, boolean);
+  public static void registerWebService(java.lang.String, java.lang.Class<?>, java.lang.String[], boolean);
+  public static void registerD2WebServiceWithOperations(java.lang.String, java.lang.String[]);
+  public static void unregisterWebService(java.lang.Class<?>);
+  public static void unregisterWebService(java.lang.String);
+  public static void registerFactoriesForClassWithQName(javax.xml.rpc.encoding.SerializerFactory, javax.xml.rpc.encoding.DeserializerFactory, java.lang.Class<?>, javax.xml.namespace.QName);
+  public static void registerXSLTForServiceAndOperation(java.net.URL, java.lang.String, java.lang.String);
+  public static void setSecurityDelegate(java.lang.Object);
+}

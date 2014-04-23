@@ -1,0 +1,8 @@
+Compiled from "WOMLNodeException.java"
+public class com.webobjects.appserver.parser.woml.WOMLNodeException extends java.lang.RuntimeException {
+  public com.webobjects.appserver.parser.woml.WOMLNodeException(com.webobjects.appserver.parser.woml.WOMLNode);
+  public com.webobjects.appserver.parser.woml.WOMLNodeException(java.lang.String, com.webobjects.appserver.parser.woml.WOMLNode, java.lang.Throwable);
+  public com.webobjects.appserver.parser.woml.WOMLNodeException(java.lang.String, com.webobjects.appserver.parser.woml.WOMLNode);
+  public com.webobjects.appserver.parser.woml.WOMLNodeException(com.webobjects.appserver.parser.woml.WOMLNode, java.lang.Throwable);
+  public com.webobjects.appserver.parser.woml.WOMLNode getNode();
+}

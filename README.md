@@ -1,15 +1,20 @@
 TreasureBoat v.0.1 (MileStone 1)
 ============
 
-Initial source for a WOString replacement and a java agent are here in Sources. These
-class-overriding that we want is not yet working. After this works, the code will be
-moved around into a more extensible arrangement, with multiple frameworks and so on.
+Initial source for a WOString replacement and a WOPageNotFoundException replacement and
+support for building a new JavaWebObjects.framework with the legacy functionality and
+new code and resources added where they exist.
 
-###Important
-* Eclipse 4.3.2
-* Java 8
-* WOLips (under Development)
-* Maven Project (FluffyBunny is Legacy)
+All source code in this repository should, until a proper license is determined, contain
+the following:
+
+/*
+Disclaimer of Warranties. Author(s) disclaim(s) to the fullest extent authorized by law any and all warranties, whether express or implied,
+including, without limitation, any implied warranties of title, non-infringement, enjoyment, integration, merchantability or fitness for any
+particular purpose.
+
+Until we decide on a license, see above. -rrk
+*/
 
 ※ for more Information see [Wiki](https://github.com/rkiddy/TreasureBoat/wiki).
 
@@ -22,11 +27,11 @@ moved around into a more extensible arrangement, with multiple frameworks and so
 * Skype Channel : TresureBoat
 
 ###To Do
-* define Name for JavaWebObjects replacement
-* think about Licenses like CDL v.3 ??
-* create RoadMap MileStone 2
-* create Sample
-* move/create TBLibrary, TBFoundation, TBContentDelivery
-* add WOInjection to TB
-* create Icon’s and Images
-* start delegate work
+* decide on which license to use.
+* write a "Contributor's Agreement" and get signed copies before commits occur.
+* get WOLips to use the frameworks in $TB_PROJECT/dist instead of the legacy frameworks.
+  (For example, this would enable getting rid of the HelloBoatExe script.)
+* finish the classes and the resources in the JavaWebObjects framework and then move on to
+  the frameworks: JavaEOAccess, JavaEOControl, JavaFoundation, JavaJDBCAdaptor, JavaXML (???)
+* would it not be nice to have a smarter way to package auxiliary resources than JavaXML.jar?
+

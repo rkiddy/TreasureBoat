@@ -1,0 +1,34 @@
+Compiled from "WOAction.java"
+public abstract class com.webobjects.appserver.WOAction {
+  public static final java.lang.String actionText;
+  protected final com.webobjects.appserver.WOContext _context;
+  protected static com.webobjects.foundation._NSThreadsafeMutableDictionary<java.lang.Class, com.webobjects.foundation.NSDictionary<java.lang.String, java.lang.reflect.Method>> _actionClasses;
+  public com.webobjects.appserver.WOAction(com.webobjects.appserver.WORequest);
+  public java.lang.reflect.Method _methodForAction(java.lang.String, java.lang.String);
+  public static boolean _isActionOnClass(java.lang.String, java.lang.Class);
+  public static com.webobjects.foundation.NSDictionary<java.lang.String, java.lang.reflect.Method> _preloadAllActionsOnClass(java.lang.Class, java.lang.String);
+  public void initializeRequestSessionIDInContext(com.webobjects.appserver.WOContext);
+  public abstract java.lang.String getSessionIDForRequest(com.webobjects.appserver.WORequest);
+  public com.webobjects.appserver.WOComponent pageWithName(java.lang.String);
+  public abstract com.webobjects.appserver.WOActionResults performActionNamed(java.lang.String);
+  public com.webobjects.appserver.WOSession session();
+  public com.webobjects.appserver.WOContext context();
+  public com.webobjects.appserver.WOSession existingSession();
+  public com.webobjects.appserver.WORequest request();
+  public static void logString(java.lang.String);
+  public static void debugString(java.lang.String);
+  public static boolean canAccessFieldsDirectly();
+  public java.lang.Object valueForKey(java.lang.String);
+  public void takeValueForKey(java.lang.Object, java.lang.String);
+  public java.lang.Object handleQueryWithUnboundKey(java.lang.String);
+  public void handleTakeValueForUnboundKey(java.lang.Object, java.lang.String);
+  public void unableToSetNullForKey(java.lang.String);
+  public java.lang.Object valueForKeyPath(java.lang.String);
+  public void takeValueForKeyPath(java.lang.Object, java.lang.String);
+  public java.lang.Object validateValueForKey(java.lang.Object, java.lang.String) throws com.webobjects.foundation.NSValidation$ValidationException;
+  public java.lang.Object validateTakeValueForKeyPath(java.lang.Object, java.lang.String) throws com.webobjects.foundation.NSValidation$ValidationException;
+  public java.lang.String toString();
+  public void setLanguages(com.webobjects.foundation.NSArray<java.lang.String>);
+  public com.webobjects.foundation.NSArray<java.lang.String> languages();
+  static {};
+}

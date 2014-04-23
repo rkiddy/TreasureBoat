@@ -1,0 +1,8 @@
+Compiled from "WOText.java"
+public class com.webobjects.appserver._private.WOText extends com.webobjects.appserver._private.WOInput {
+  public com.webobjects.appserver._private.WOText(java.lang.String, com.webobjects.foundation.NSDictionary<java.lang.String, com.webobjects.appserver.WOAssociation>, com.webobjects.appserver.WOElement);
+  public void takeValuesFromRequest(com.webobjects.appserver.WORequest, com.webobjects.appserver.WOContext);
+  protected void _appendValueAttributeToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+  public void appendChildrenToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+  protected boolean hasContent();
+}

@@ -1,0 +1,9 @@
+Compiled from "WOGenerationSupport.java"
+public class com.webobjects.appserver._private.WOGenerationSupport {
+  public com.webobjects.appserver._private.WOGenerationSupport();
+  public static void insertInElementsTableWithName(com.webobjects.appserver.WOElement, java.lang.String, com.webobjects.foundation.NSDictionary);
+  public static void initCacheForGeneration();
+  public static void freeCacheForGeneration();
+  public static com.webobjects.foundation.NSDictionary associationsForElement(com.webobjects.appserver.WOElement);
+  public java.lang.String toString();
+}

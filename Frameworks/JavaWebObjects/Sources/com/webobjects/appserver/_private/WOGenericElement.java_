@@ -1,0 +1,20 @@
+Compiled from "WOGenericElement.java"
+public class com.webobjects.appserver._private.WOGenericElement extends com.webobjects.appserver._private.WOHTMLDynamicElement {
+  com.webobjects.appserver.WOAssociation _elementName;
+  com.webobjects.appserver.WOAssociation _name;
+  com.webobjects.appserver.WOAssociation _omitTags;
+  com.webobjects.appserver.WOAssociation _formValue;
+  com.webobjects.appserver.WOAssociation _formValues;
+  com.webobjects.appserver.WOAssociation _invokeAction;
+  public com.webobjects.appserver.WOAssociation _elementId;
+  com.webobjects.appserver.WOAssociation _otherTagString;
+  boolean _hasFormValues;
+  public com.webobjects.appserver._private.WOGenericElement(java.lang.String, com.webobjects.foundation.NSDictionary<java.lang.String, com.webobjects.appserver.WOAssociation>, com.webobjects.appserver.WOElement);
+  public java.lang.String toString();
+  public java.lang.String _elementNameInContext(com.webobjects.appserver.WOContext);
+  public void takeValuesFromRequest(com.webobjects.appserver.WORequest, com.webobjects.appserver.WOContext);
+  public com.webobjects.appserver.WOActionResults invokeAction(com.webobjects.appserver.WORequest, com.webobjects.appserver.WOContext);
+  public void appendAttributesToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+  protected boolean hasContent();
+  public void appendToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+}

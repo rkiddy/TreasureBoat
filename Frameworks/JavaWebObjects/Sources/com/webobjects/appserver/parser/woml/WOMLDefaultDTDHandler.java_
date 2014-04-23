@@ -1,0 +1,6 @@
+Compiled from "WOMLDefaultDTDHandler.java"
+public class com.webobjects.appserver.parser.woml.WOMLDefaultDTDHandler implements org.xml.sax.DTDHandler {
+  public com.webobjects.appserver.parser.woml.WOMLDefaultDTDHandler();
+  public void notationDecl(java.lang.String, java.lang.String, java.lang.String) throws org.xml.sax.SAXException;
+  public void unparsedEntityDecl(java.lang.String, java.lang.String, java.lang.String, java.lang.String) throws org.xml.sax.SAXException;
+}

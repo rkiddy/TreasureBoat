@@ -1,0 +1,6 @@
+Compiled from "WOHTMLBareString.java"
+public class com.webobjects.appserver._private.WOHTMLBareString extends com.webobjects.appserver.WOElement {
+  java.lang.String _string;
+  public com.webobjects.appserver._private.WOHTMLBareString(java.lang.String);
+  public void appendToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+}

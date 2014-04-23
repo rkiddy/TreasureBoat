@@ -1,0 +1,38 @@
+Compiled from "WODeclarationParserConstants.java"
+public interface com.webobjects.appserver.parser.declaration.WODeclarationParserConstants {
+  public static final int EOF;
+  public static final int NAME;
+  public static final int LETTER;
+  public static final int DIGIT;
+  public static final int NAME_CHAR;
+  public static final int ASSOCIATIONS_START;
+  public static final int INTEGER_LITERAL;
+  public static final int FLOATING_POINT_LITERAL;
+  public static final int DEC_DIGITS;
+  public static final int DEC_FLT;
+  public static final int EXPONENT;
+  public static final int DEC_FLT_SUFF;
+  public static final int NULL;
+  public static final int TRUE;
+  public static final int FALSE;
+  public static final int IDENT;
+  public static final int KVC;
+  public static final int ASSOCIATION_KEY;
+  public static final int STRING_LITERAL;
+  public static final int ESCAPE_SEQUENCE;
+  public static final int EQUALS;
+  public static final int SEMI;
+  public static final int SCHEME_NAME_CONST;
+  public static final int SCHEME_NAME;
+  public static final int SCHEME_CDATA_NAME;
+  public static final int ASSOCIATIONS_END;
+  public static final int SCHEME_CDATA_CONTENT;
+  public static final int SCHEME_CONTENT_STRING_LITERAL;
+  public static final int SCHEME_CONTENT;
+  public static final int DEFAULT;
+  public static final int Associations;
+  public static final int SchemeContentCData;
+  public static final int SchemeContent;
+  public static final java.lang.String[] tokenImage;
+  static {};
+}

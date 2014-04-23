@@ -1,0 +1,39 @@
+Compiled from "_IDEProject.java"
+public interface com.webobjects._ideservices._IDEProject {
+  public static final java.lang.String IDE_WebComponentsKey;
+  public static final java.lang.String IDE_WebServerResourcesKey;
+  public static final java.lang.String IDE_PBWO_WOAppResourcesKey;
+  public static final java.lang.String IDE_WOAppResourcesKey;
+  public static final java.lang.String IDE_FrameworksKey;
+  public static final java.lang.String IDE_OtherResourcesKey;
+  public static final java.lang.String IDE_ClassesKey;
+  public static final java.lang.String IDE_EJBServerClassesKey;
+  public static final java.lang.String IDE_EJBClientClassesKey;
+  public static final java.lang.String IDE_EJBCommonClassesKey;
+  public static final java.lang.String IDE_EJBMetaInfoKey;
+  public static final java.lang.String IDE_HeadersKey;
+  public static final java.lang.String IDE_OtherSourcesKey;
+  public static final java.lang.String WBJavaExtension;
+  public static final java.lang.String WBEOModelExtension;
+  public abstract java.lang.String projectDir();
+  public abstract java.lang.String projectDirNotNormalized();
+  public abstract java.lang.String languageDir();
+  public abstract java.lang.String projectName();
+  public abstract java.lang.String projectTypeName();
+  public abstract java.lang.String languageName();
+  public abstract void addComponent(java.lang.String, java.lang.String);
+  public abstract java.lang.String pathToBucket(java.lang.String);
+  public abstract void addFileKey(java.lang.String, java.lang.String);
+  public abstract void openFile(java.lang.String, int, java.lang.String);
+  public abstract java.lang.String pathForFrameworkNamed(java.lang.String);
+  public abstract void setPathForFramework(java.lang.String, java.lang.String);
+  public abstract void extractFilesIntoWOProject(com.webobjects._ideservices._WOProject);
+  public abstract java.lang.String ideApplicationName();
+  public abstract java.lang.String ideProjectPath();
+  public abstract com.webobjects.foundation.NSArray frameworkBundlePaths();
+  public abstract com.webobjects.foundation.NSArray frameworkBundlePathURLs();
+  public abstract void addFilenameExtensionToListOfKnowns(java.lang.String);
+  public abstract void refreshUnderlyingProjectCache();
+  public abstract java.lang.String bundlePath();
+  public abstract java.net.URL bundlePathURL();
+}

@@ -1,0 +1,6 @@
+Compiled from "WOBody.java"
+public class com.webobjects.appserver._private.WOBody extends com.webobjects.appserver._private.WOHTMLURLValuedElement {
+  public com.webobjects.appserver._private.WOBody(java.lang.String, com.webobjects.foundation.NSDictionary<java.lang.String, com.webobjects.appserver.WOAssociation>, com.webobjects.appserver.WOElement);
+  protected java.lang.String urlAttributeName();
+  protected java.lang.String valueAttributeName();
+}

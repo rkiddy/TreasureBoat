@@ -1,0 +1,4 @@
+
+hello : WOString {
+	value = hello;
+}

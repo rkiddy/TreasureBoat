@@ -1,0 +1,8 @@
+Compiled from "WOElement.java"
+public abstract class com.webobjects.appserver.WOElement {
+  protected com.webobjects.appserver.WOElement();
+  public void takeValuesFromRequest(com.webobjects.appserver.WORequest, com.webobjects.appserver.WOContext);
+  public com.webobjects.appserver.WOActionResults invokeAction(com.webobjects.appserver.WORequest, com.webobjects.appserver.WOContext);
+  public void appendToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+  public java.lang.String toString();
+}

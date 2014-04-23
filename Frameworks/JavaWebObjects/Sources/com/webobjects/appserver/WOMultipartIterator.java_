@@ -1,0 +1,28 @@
+Compiled from "WOMultipartIterator.java"
+public class com.webobjects.appserver.WOMultipartIterator {
+  int _formDataIndex;
+  boolean _closed;
+  boolean _isFirstFormData;
+  boolean _prematureTermination;
+  protected java.lang.String _boundary;
+  byte[] _separator;
+  protected com.webobjects.appserver.WORequest _request;
+  com.webobjects.appserver._private.WONoCopyPushbackInputStream _bis;
+  static byte[] dashDash;
+  static byte[] CRLF;
+  public com.webobjects.appserver.WOMultipartIterator(com.webobjects.appserver.WORequest);
+  protected com.webobjects.appserver.WOMultipartIterator();
+  public java.lang.String boundary();
+  public com.webobjects.foundation.NSDictionary multipartHeaders();
+  protected void _initSeparator();
+  public boolean didContentTerminatePrematurely();
+  public int contentLengthRemaining();
+  public int _estimatedContentLength(int, int);
+  public com.webobjects.appserver.WOMultipartIterator$WOFormData nextFormData();
+  protected void _invalidateFormData(com.webobjects.appserver.WOMultipartIterator$WOFormData);
+  protected com.webobjects.appserver.WOMultipartIterator$WOFormData _currentFormData();
+  protected com.webobjects.appserver.WOMultipartIterator$WOFormData _nextFormData();
+  protected void _pushFormData(com.webobjects.appserver.WOMultipartIterator$WOFormData);
+  protected void _addFormData(com.webobjects.appserver.WOMultipartIterator$WOFormData);
+  static {};
+}

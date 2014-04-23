@@ -1,0 +1,9 @@
+Compiled from "WORedirect.java"
+public class com.webobjects.appserver.WORedirect extends com.webobjects.appserver.WOComponent {
+  static final long serialVersionUID;
+  public com.webobjects.appserver.WORedirect(com.webobjects.appserver.WOContext);
+  public java.lang.String url();
+  public void setUrl(java.lang.String);
+  public void setURL(java.lang.String);
+  public void appendToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+}

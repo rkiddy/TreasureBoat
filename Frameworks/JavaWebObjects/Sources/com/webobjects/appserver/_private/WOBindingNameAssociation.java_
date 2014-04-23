@@ -1,0 +1,18 @@
+Compiled from "WOBindingNameAssociation.java"
+public class com.webobjects.appserver._private.WOBindingNameAssociation extends com.webobjects.appserver.WOAssociation implements java.lang.Cloneable {
+  public java.lang.String _parentBindingName;
+  public java.lang.Object clone();
+  public java.lang.String toString();
+  protected boolean _hasBindingInParent(com.webobjects.appserver.WOComponent);
+  public java.lang.Object valueInComponent(com.webobjects.appserver.WOComponent);
+  public void setValue(java.lang.Object, com.webobjects.appserver.WOComponent);
+  public void _setValueNoValidation(java.lang.Object, com.webobjects.appserver.WOComponent);
+  public com.webobjects.appserver._private.WOBindingNameAssociation(java.lang.String);
+  public boolean isValueSettable();
+  public boolean isValueConstant();
+  public boolean isValueSettableInComponent(com.webobjects.appserver.WOComponent);
+  public boolean isValueConstantInComponent(com.webobjects.appserver.WOComponent);
+  public boolean _isImplementedForComponent(com.webobjects.appserver.WOComponent);
+  public java.lang.String keyPath();
+  public java.lang.String bindingInComponent(com.webobjects.appserver.WOComponent);
+}

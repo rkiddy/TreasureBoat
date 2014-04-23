@@ -1,0 +1,15 @@
+Compiled from "WOObjectPool.java"
+public abstract class com.webobjects.appserver._private.WOObjectPool {
+  public com.webobjects.appserver._private.WOObjectPool(int);
+  public abstract com.webobjects.foundation.NSDisposable newInstance();
+  public abstract java.lang.String highWaterMarkPropertyKey();
+  public int highWaterMarkSize();
+  public void resize();
+  public void dispose();
+  public com.webobjects.foundation.NSDisposable nextInstance();
+  public void freeInstance(java.lang.Object);
+  public void freeLastInstance();
+  public void freeInstances(com.webobjects.foundation.NSArray);
+  public int instancesCount();
+  public java.lang.String toString();
+}

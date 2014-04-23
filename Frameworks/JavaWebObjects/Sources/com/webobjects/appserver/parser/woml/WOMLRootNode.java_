@@ -1,0 +1,5 @@
+Compiled from "WOMLRootNode.java"
+public class com.webobjects.appserver.parser.woml.WOMLRootNode extends com.webobjects.appserver.parser.woml.WOMLParentNode {
+  public com.webobjects.appserver.parser.woml.WOMLRootNode(com.webobjects.appserver.parser.woml.WOMLPosition);
+  public java.lang.String toString();
+}

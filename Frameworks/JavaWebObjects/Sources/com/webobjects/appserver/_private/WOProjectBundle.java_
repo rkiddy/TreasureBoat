@@ -1,0 +1,28 @@
+Compiled from "WOProjectBundle.java"
+public class com.webobjects.appserver._private.WOProjectBundle extends com.webobjects.appserver._private.WODeployedBundle {
+  protected static com.webobjects.foundation.NSMutableArray TheProjectsArrayArray;
+  public com.webobjects.appserver._private.WOProjectBundle(java.lang.String, com.webobjects.appserver._private.WODeployedBundle);
+  public java.lang.String toString();
+  public com.webobjects._ideservices._WOProject _woProject();
+  protected java.lang.String _initBundlePath(java.lang.String);
+  protected java.lang.String _initProjectName(java.lang.String);
+  public java.lang.String projectName();
+  public java.lang.String projectPath();
+  public com.webobjects.appserver._private.WOProjectBundle projectBundle();
+  public java.net.URL pathURLForResourceNamed(java.lang.String, java.lang.String, boolean);
+  public java.net.URL pathURLForResourceNamed(java.lang.String, java.lang.String);
+  public java.net.URL pathURLForResourceNamed(java.lang.String, com.webobjects.foundation.NSArray);
+  public java.lang.String _absolutePathForResource(java.lang.String, com.webobjects.foundation.NSArray);
+  public java.lang.String _absolutePathForResource(java.lang.String, java.lang.String);
+  public java.lang.String _absolutePathForResource(java.lang.String, java.lang.String, boolean);
+  public java.lang.String relativePathForResource(java.lang.String, java.lang.String);
+  public java.lang.String relativePathForResource(java.lang.String, com.webobjects.foundation.NSArray);
+  protected static boolean _isProjectBundlePath(java.lang.String);
+  public static synchronized com.webobjects.appserver._private.WODeployedBundle bundleWithPath(java.lang.String);
+  protected static com.webobjects.foundation.NSMutableArray _projectsInDirectory(java.lang.String);
+  static synchronized com.webobjects.foundation.NSMutableArray _WOAllProjects();
+  public static com.webobjects.appserver._private.WOProjectBundle projectBundleForProject(java.lang.String, boolean);
+  public static boolean refreshProjectBundlesOnCacheMiss();
+  public static void setRefreshProjectBundlesOnCacheMiss(boolean);
+  static {};
+}

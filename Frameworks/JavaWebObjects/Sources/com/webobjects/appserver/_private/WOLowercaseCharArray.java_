@@ -1,0 +1,13 @@
+Compiled from "WOLowercaseCharArray.java"
+public final class com.webobjects.appserver._private.WOLowercaseCharArray {
+  public com.webobjects.appserver._private.WOLowercaseCharArray();
+  public com.webobjects.appserver._private.WOLowercaseCharArray(java.lang.String, boolean);
+  public com.webobjects.appserver._private.WOLowercaseCharArray(java.lang.String);
+  public void setKey(com.webobjects.appserver._private.WOLowercaseCharArray, boolean);
+  public void setKeyFromBuffer(byte[], int, int);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+  public char[] toCharArray();
+  public boolean _equals(char[], char[]);
+}

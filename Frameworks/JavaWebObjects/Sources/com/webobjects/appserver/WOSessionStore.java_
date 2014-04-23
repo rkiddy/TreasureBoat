@@ -1,0 +1,13 @@
+Compiled from "WOSessionStore.java"
+public abstract class com.webobjects.appserver.WOSessionStore {
+  final com.webobjects.foundation._NSThreadsafeMutableDictionary<java.lang.String, com.webobjects.appserver.WOSessionStore$TimeoutEntry> _timeoutEntries;
+  protected final com.webobjects.appserver.WOSessionStore$_SessionTimeoutManager _timeoutManager;
+  public com.webobjects.appserver.WOSessionStore();
+  public void finalize() throws java.lang.Throwable;
+  public final com.webobjects.appserver.WOSession checkOutSessionWithID(java.lang.String, com.webobjects.appserver.WORequest);
+  public final void checkInSessionForContext(com.webobjects.appserver.WOContext);
+  public abstract com.webobjects.appserver.WOSession removeSessionWithID(java.lang.String);
+  public abstract com.webobjects.appserver.WOSession restoreSessionWithID(java.lang.String, com.webobjects.appserver.WORequest);
+  public abstract void saveSessionForContext(com.webobjects.appserver.WOContext);
+  public static com.webobjects.appserver.WOSessionStore serverSessionStore();
+}

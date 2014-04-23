@@ -1,0 +1,7 @@
+Compiled from "WOResourceRequestHandler.java"
+public class com.webobjects.appserver._private.WOResourceRequestHandler extends com.webobjects.appserver.WORequestHandler {
+  public com.webobjects.appserver._private.WOResourceRequestHandler();
+  com.webobjects.appserver.WOResponse _generateResponseForInputStream(java.io.InputStream, long, java.lang.String);
+  public com.webobjects.appserver.WOResponse handleRequest(com.webobjects.appserver.WORequest);
+  static {};
+}

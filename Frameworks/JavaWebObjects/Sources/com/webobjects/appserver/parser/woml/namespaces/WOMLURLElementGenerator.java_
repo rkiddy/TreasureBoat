@@ -1,0 +1,5 @@
+Compiled from "WOMLURLElementGenerator.java"
+public class com.webobjects.appserver.parser.woml.namespaces.WOMLURLElementGenerator extends com.webobjects.appserver.parser.woml.namespaces.WOMLGenericElementGenerator {
+  public com.webobjects.appserver.parser.woml.namespaces.WOMLURLElementGenerator();
+  public void contributeToDeclaration(com.webobjects.appserver.parser.woml.namespaces.WOMLAbstractNamespace, com.webobjects.appserver.parser.woml.WOMLElement, com.webobjects.appserver._private.WOMutableDeclaration, com.webobjects.foundation.NSArray<java.lang.String>, com.webobjects.appserver.WOAssociationFactory) throws com.webobjects.appserver.parser.woml.WOMLElementGenerationException;
+}

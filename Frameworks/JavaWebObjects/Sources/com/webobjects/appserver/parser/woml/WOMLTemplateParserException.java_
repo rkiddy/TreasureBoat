@@ -1,0 +1,7 @@
+Compiled from "WOMLTemplateParserException.java"
+public class com.webobjects.appserver.parser.woml.WOMLTemplateParserException extends com.webobjects.appserver.parser.WOParserException {
+  public com.webobjects.appserver.parser.woml.WOMLTemplateParserException(java.lang.String, com.webobjects.appserver.parser.woml.WOMLPosition, java.lang.Throwable);
+  public com.webobjects.appserver.parser.woml.WOMLTemplateParserException(java.lang.String, com.webobjects.appserver.parser.woml.WOMLPosition, java.lang.String, java.lang.Throwable);
+  public com.webobjects.appserver.parser.woml.WOMLTemplateParserException(java.lang.String, com.webobjects.appserver.parser.woml.WOMLPosition);
+  public com.webobjects.appserver.parser.woml.WOMLTemplateParserException(java.lang.String, com.webobjects.appserver.parser.woml.WOMLPosition, java.lang.String);
+}

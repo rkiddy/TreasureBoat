@@ -1,0 +1,8 @@
+Compiled from "WOGenericContainer.java"
+public class com.webobjects.appserver._private.WOGenericContainer extends com.webobjects.appserver._private.WOGenericElement {
+  public com.webobjects.appserver._private.WOGenericContainer(java.lang.String, com.webobjects.foundation.NSDictionary<java.lang.String, com.webobjects.appserver.WOAssociation>, com.webobjects.appserver.WOElement);
+  public void takeValuesFromRequest(com.webobjects.appserver.WORequest, com.webobjects.appserver.WOContext);
+  public com.webobjects.appserver.WOActionResults invokeAction(com.webobjects.appserver.WORequest, com.webobjects.appserver.WOContext);
+  protected boolean hasContent();
+  public void appendToResponse(com.webobjects.appserver.WOResponse, com.webobjects.appserver.WOContext);
+}

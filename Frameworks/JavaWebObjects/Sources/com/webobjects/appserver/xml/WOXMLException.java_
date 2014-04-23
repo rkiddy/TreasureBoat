@@ -1,0 +1,8 @@
+Compiled from "WOXMLException.java"
+public class com.webobjects.appserver.xml.WOXMLException extends com.webobjects.foundation.NSForwardException {
+  public com.webobjects.appserver.xml.WOXMLException(java.lang.Throwable, java.lang.String);
+  public com.webobjects.appserver.xml.WOXMLException(java.lang.Throwable);
+  public com.webobjects.appserver.xml.WOXMLException(java.lang.String);
+  public java.lang.String getMessage();
+  public java.lang.String toString();
+}

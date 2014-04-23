@@ -1,0 +1,10 @@
+Compiled from "WODeclarationFormatException.java"
+public class com.webobjects.appserver.parser.declaration.WODeclarationFormatException extends com.webobjects.appserver.parser.WOParserException {
+  public com.webobjects.appserver.parser.declaration.WODeclarationFormatException(java.lang.String);
+  public com.webobjects.appserver.parser.declaration.WODeclarationFormatException(java.lang.Throwable);
+  public com.webobjects.appserver.parser.declaration.WODeclarationFormatException(java.lang.String, java.lang.Throwable);
+  public com.webobjects.appserver.parser.declaration.WODeclarationFormatException(java.lang.String, com.webobjects.appserver.parser.woml.WOMLPosition, java.lang.String, java.lang.Throwable);
+  public com.webobjects.appserver.parser.declaration.WODeclarationFormatException(java.lang.String, com.webobjects.appserver.parser.woml.WOMLPosition, java.lang.String);
+  public com.webobjects.appserver.parser.declaration.WODeclarationFormatException(java.lang.String, com.webobjects.appserver.parser.woml.WOMLPosition, java.lang.Throwable);
+  public com.webobjects.appserver.parser.declaration.WODeclarationFormatException(java.lang.String, com.webobjects.appserver.parser.woml.WOMLPosition);
+}
